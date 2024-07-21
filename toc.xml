@@ -72,7 +72,7 @@
       <topic label="stsafea_generate_wrap_unwrap_key" href="de/d87/a00456.html#gad134587e7c67639c7ef4319b7c98c7d4"/>
       <topic label="stsafea_erase_symmetric_key_slot" href="de/d87/a00456.html#ga5243e5bc149e6a3ccfa0e0ef4662262a"/>
     </topic>
-    <topic label="STSE Certificate" href="da/d65/a00458.html">
+    <topic label="STSE Certificate parser" href="da/d65/a00458.html">
       <topic label="STSE Certificate parser" href="d9/dd5/a00432.html">
         <topic label="IS_VALID_TAG" href="d9/dd5/a00432.html#gab85a3ea3da476a0ddfe7e9c22f00db95"/>
         <topic label="stse_cert_attribute_t" href="d9/dd5/a00432.html#ga867519c680ddb94407b7db75df132d86"/>

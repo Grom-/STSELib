@@ -1,7 +1,7 @@
-<map id="STSE Certificate" name="STSE Certificate">
-<area shape="rect" id="node1" href="$d0/dc5/a00435.html" title="STSE Certificate subparsing routines." alt="" coords="186,5,386,45"/>
-<area shape="rect" id="node2" href="$dd/d07/a00433.html" title="STSE Certificate cryptography functions." alt="" coords="179,70,393,95"/>
-<area shape="rect" id="node3" href="$d9/dd5/a00432.html" title="STSE Certificate parser." alt="" coords="201,119,371,145"/>
-<area shape="rect" id="node4" title="STSELib Certificate parser." alt="" coords="5,95,131,121"/>
-<area shape="rect" id="node5" href="$d1/d7e/a00434.html" title="STSE Certificate prints functions." alt="" coords="203,169,369,209"/>
+<map id="STSE Certificate parser" name="STSE Certificate parser">
+<area shape="rect" id="node1" href="$d0/dc5/a00435.html" title="STSE Certificate subparsing routines." alt="" coords="231,5,431,45"/>
+<area shape="rect" id="node2" href="$dd/d07/a00433.html" title="STSE Certificate cryptography functions." alt="" coords="224,70,439,95"/>
+<area shape="rect" id="node3" href="$d9/dd5/a00432.html" title="STSE Certificate parser." alt="" coords="246,119,417,145"/>
+<area shape="rect" id="node4" title="STSELib Certificate parser." alt="" coords="5,95,176,121"/>
+<area shape="rect" id="node5" href="$d1/d7e/a00434.html" title="STSE Certificate prints functions." alt="" coords="248,169,415,209"/>
 </map>
