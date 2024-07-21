@@ -30,11 +30,11 @@
 #include "services/stsafea/stsafea_put_query.h"
 
 /*
- *  \defgroup 	stsafea_asymmetric_key_crypto STSAFE-A Asymmetric key slots management
- *  \ingroup 	stsafea_services
- *  \brief		STSAFEA Asymmetric key cryptography services
- *  \details  	The STSELib services layer provide set of functions that format all commands supported \n
- *  			by the targeted secure element and reports response to higher layers API/Application
+ *  \defgroup stsafea_asymmetric_key_crypto STSAFE-A Asymmetric key slots management
+ *  \ingroup stsafea_services
+ *  \brief STSAFEA Asymmetric key cryptography services
+ *  \details The STSELib services layer provide set of functions that format all commands supported \n
+ *  	by the targeted secure element and reports response to higher layers API/Application
  *  @{
  */
 

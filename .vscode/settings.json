@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "stsafea_asymmetric_key_slots.h": "c",
+        "stsafea_symmetric_key_slots.h": "c"
+    }
+}

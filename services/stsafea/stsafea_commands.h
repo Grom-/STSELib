@@ -20,13 +20,13 @@
 #ifndef STSAFE_COMMANDS_H
 #define STSAFE_COMMANDS_H
 
-/*! \defgroup stsafea_services STSAFE-Axxx
+/*! \defgroup stsafea_services STSAFE-A
 *  \ingroup stse_services
  *  @{
  */
 
 
-/*! \defgroup stsafea_cmd_set STSAFEA commands codes
+/*! \defgroup stsafea_cmd_set STSAFE-A commands codes
 *  \ingroup stsafea_services
  *  @{
  */
