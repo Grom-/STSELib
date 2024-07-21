@@ -16,7 +16,7 @@
  ******************************************************************************
  */
 
-#include <services/stsafea/stsafea_data_partition.h>
+#include "services/stsafea/stsafea_data_partition.h"
 
 #define STSAFEA_ZONE_INDEX_SIZE				1U
 #define STSAFEA_ZONE_OFFSET_SIZE			2U

@@ -16,7 +16,7 @@
  ******************************************************************************
  */
 
-#include <services/stsafea/stsafea_hash.h>
+#include "services/stsafea/stsafea_hash.h"
 
 const stsafea_hash_info_t stsafea_hash_info_table[] = {
 	{

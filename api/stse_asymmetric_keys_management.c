@@ -17,7 +17,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 
-#include <api/stse_asymmetric_keys_management.h>
+#include "api/stse_asymmetric_keys_management.h"
 
 /* Static functions declaration ----------------------------------------------*/
 

@@ -16,7 +16,7 @@
  ******************************************************************************
  */
 
-#include <services/stsafea/stsafea_patch.h>
+#include "services/stsafea/stsafea_patch.h"
 
 stse_ReturnCode_t stsafe_get_patch_update_command_counter(
 		stse_Handler_t * pSTSAFE,

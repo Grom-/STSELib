@@ -17,7 +17,7 @@
  */
 
 
-#include <services/stsafea/stsafea_password.h>
+#include "services/stsafea/stsafea_password.h"
 
 stse_ReturnCode_t stsafea_verify_password(
 		stse_Handler_t * pSTSE,

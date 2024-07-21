@@ -17,7 +17,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 
-#include <services/stsafea/stsafea_host_key_slot.h>
+#include "services/stsafea/stsafea_host_key_slot.h"
 
 /* Exported functions --------------------------------------------------------*/
 

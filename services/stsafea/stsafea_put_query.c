@@ -16,7 +16,7 @@
  ******************************************************************************
  */
 
-#include <services/stsafea/stsafea_put_query.h>
+#include "services/stsafea/stsafea_put_query.h"
 
 stse_ReturnCode_t stsafea_put_life_cyle_state(
 		stse_Handler_t * pSTSAFE,

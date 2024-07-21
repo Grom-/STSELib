@@ -16,8 +16,8 @@
  ******************************************************************************
  */
 
-#include <services/stsafea/stsafea_echo.h>
-#include <services/stsafea/stsafea_timings.h>
+#include "services/stsafea/stsafea_echo.h"
+#include "services/stsafea/stsafea_timings.h"
 
 
 stse_ReturnCode_t stsafea_echo( stse_Handler_t * pSTSE ,

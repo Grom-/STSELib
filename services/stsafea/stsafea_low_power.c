@@ -17,7 +17,7 @@
  */
 
 
-#include <services/stsafea/stsafea_low_power.h>
+#include "services/stsafea/stsafea_low_power.h"
 
 stse_ReturnCode_t stsafea_hibernate(stse_Handler_t *pSTSE,
 									 stsafea_hibernate_wake_up_mode_t wake_up_mode)

@@ -17,7 +17,7 @@
  */
 
 
-#include <services/stsafea/stsafea_random.h>
+#include "services/stsafea/stsafea_random.h"
 
 
 stse_ReturnCode_t stsafea_generate_random(

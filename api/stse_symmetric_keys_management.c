@@ -17,7 +17,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 
-#include <api/stse_symmetric_keys_management.h>
+#include "api/stse_symmetric_keys_management.h"
 
 #define STSAFEA_HOST_KEY_WRAPPING_AUTHENTICATION_TAG_LENGTH STSE_KEK_ENVELOPE_MAC_SIZE
 #define STSE_HOST_KEY_ENVELOPE_FRONT_PADDING_LENGTH 	3U

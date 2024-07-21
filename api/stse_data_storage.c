@@ -18,7 +18,7 @@
 /* Includes ------------------------------------------------------------------*/
 
 #include <string.h>
-#include <api/stse_data_storage.h>
+#include "api/stse_data_storage.h"
 
 stse_ReturnCode_t stse_data_storage_get_total_partition_count(
 		stse_Handler_t* pSTSE,
