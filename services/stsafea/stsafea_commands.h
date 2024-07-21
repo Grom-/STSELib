@@ -26,7 +26,7 @@
  */
 
 
-/*! \defgroup stsafe_core_cmd_set Command Codes
+/*! \defgroup stsafea_cmd_set STSAFEA commands codes
 *  \ingroup stsafea_services
  *  @{
  */

@@ -19,10 +19,10 @@
 #define STSAFEA_ASYMMETRIC_KEY_SLOTS_H
 
 /*
- *  \defgroup 	stsafe_asymmetric_key_crypto Asymmetric key slots management
+ *  \defgroup 	stsafea_asymmetric_key_crypto STSAFE-A asymmetric key slots management
  *  \ingroup 	stsafea_services
- *  \brief		STSAFE Middleware Asymmetric key cryptography  services
- *  \details  	The Services layer provide set of functions that format all commands supported \n
+ *  \brief		STSAFEA Asymmetric key cryptography services
+ *  \details  	The STSELib services layer provide set of functions that format all commands supported \n
  *  			by the targeted secure element and reports response to higher layers API/Application
  *  @{
  */
@@ -39,7 +39,7 @@
 #include "services/stsafea/stsafea_hash.h"
 #include "services/stsafea/stsafea_put_query.h"
 
-/*! \defgroup stsafea_asymmetric_key_slots  Asymmetric key slots
+/*! \defgroup stsafea_asymmetric_key_slots  STSAFE-A asymmetric key slots
  *  \ingroup stsafea_services
  *  @{
  */

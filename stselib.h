@@ -18,29 +18,22 @@
 #define STSELIB_H
 
 
- /*! \defgroup 	STSELib STSecureElement Library
- *  \brief 		STMicroelectronics Secure Element host library
- *  \details	\include{doc} STSELib.dox
- *
+ /*! 
  *  \defgroup 	stse_certificate STSE Certificate
- *  \ingroup 	STSELib
  *  \brief		STSELib Certificate parser
  *  \details  	The STSE Certificate parser is the entry point for the upper system application layer. \n
  *  			It provides high level certificate parsing functions to the application layer.
  *
  *  \defgroup 	stse_api API layer
- *  \ingroup 	STSELib
  *  \brief		STSELib API Layer
  *  \details  	STSELib API Layer
  *
  *  \defgroup 	stse_services Services layer
- *  \ingroup 	STSELib
  *  \brief		STSELib service Layer
  *  \details  	The Services layer provide set of functions that format all commands supported \n
  *  			by the targeted secure element and reports response to higher layers API/Application
  *
  *  \defgroup 	stse_core Core layer
- *  \ingroup 	STSELib
  *  \brief		STSELib core Layer
  *  \details  	STSELib core Layer
  */
