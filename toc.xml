@@ -183,7 +183,7 @@
         <topic label="stse_certificate_get_small_integer" href="d0/dc5/a00435.html#gad5a08fb4e091c3316e6f030af2838c1b"/>
       </topic>
     </topic>
-    <topic label="API layer" href="d2/d91/a00459.html">
+    <topic label="Application Programming Interface (API) layer" href="d2/d91/a00459.html">
       <topic label="STSE AES cryptography" href="db/d43/a00422.html">
         <topic label="stse_aes_ecb_encrypt" href="db/d43/a00422.html#ga667334655eca69909683ab6884a95824"/>
         <topic label="stse_aes_ecb_decrypt" href="db/d43/a00422.html#ga858bd21e92c3afe1bcc7753cafa1e7f0"/>
@@ -267,7 +267,7 @@
       </topic>
     </topic>
     <topic label="Services layer" href="db/db1/a00460.html">
-      <topic label="STSAFE-Axxx" href="db/d34/a00442.html">
+      <topic label="STSAFE-A" href="db/d34/a00442.html">
         <topic label="STSAFE AES services" href="d6/d66/a00441.html">
           <topic label="stsafea_aes_ecb_encrypt" href="d6/d66/a00441.html#ga877531a10a30a58a9a947bb8b30d5cf8"/>
           <topic label="stsafea_aes_ecb_decrypt" href="d6/d66/a00441.html#gaea25d6971618311ff5ae66fccd0f74b6"/>
@@ -276,7 +276,7 @@
           <topic label="stsafea_aes_gcm_encrypt" href="d6/d66/a00441.html#ga7d5bab263e5b44411ac0f95ad826d40a"/>
           <topic label="stsafea_aes_gcm_decrypt" href="d6/d66/a00441.html#gabb002a2e1be2750109ae2ed2a9e3a241"/>
         </topic>
-        <topic label="STSAFEA commands codes" href="d0/dc4/a00443.html">
+        <topic label="STSAFE-A commands codes" href="d0/dc4/a00443.html">
           <topic label="STSAFEA_PROT_Pos" href="d0/dc4/a00443.html#ga9b45aac6ea2d912d87c2ee75a62caa4f"/>
           <topic label="STSAFEA_PROT_Msk" href="d0/dc4/a00443.html#ga32140548c863a0f650855de6510be1dc"/>
           <topic label="STSAFEA_PROT_CMD_Msk" href="d0/dc4/a00443.html#gaefdcdf839c24ae86a460bb6d3d51831e"/>

@@ -1,7 +1,7 @@
 var a00442 =
 [
     [ "STSAFE AES services", "d6/d66/a00441.html", "d6/d66/a00441" ],
-    [ "STSAFEA commands codes", "d0/dc4/a00443.html", "d0/dc4/a00443" ],
+    [ "STSAFE-A commands codes", "d0/dc4/a00443.html", "d0/dc4/a00443" ],
     [ "STSAFE-A Data partition management", "d3/dea/a00444.html", "d3/dea/a00444" ],
     [ "STSAFE-A Elliptic Curve Cryptography (ECC)", "dd/d47/a00445.html", "dd/d47/a00445" ],
     [ "STSAFE-A Echo", "d3/def/a00446.html", "d3/def/a00446" ],

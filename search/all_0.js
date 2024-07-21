@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['api_20layer_0',['API layer',['../d2/d91/a00459.html',1,'']]],
+  ['application_20programming_20interface_20_28api_29_20layer_0',['Application Programming Interface (API) layer',['../d2/d91/a00459.html',1,'']]],
   ['atomicity_1',['atomicity',['../d3/dea/a00444.html#a28266f7ca6378c8066256614845a95b4',1,'stsafea_update_option_t']]],
   ['attr_5fc_2',['ATTR_C',['../d9/dd5/a00432.html#ggab84850593c73fe703cb00bee06034bb8a88930a07728dccf7e0656f3e640c05da',1,'stse_certificate_types.h']]],
   ['attr_5fcn_3',['ATTR_CN',['../d9/dd5/a00432.html#ggab84850593c73fe703cb00bee06034bb8a564c90d99ab269b2e04644d1fcd0f393',1,'stse_certificate_types.h']]],

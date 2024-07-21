@@ -861,7 +861,7 @@
           </Subnodes>
          </Node>
          <Node>
-          <Name>API layer</Name>
+          <Name>Application Programming Interface (API) layer</Name>
           <Path>d2/d91/a00459.html</Path>
           <Subnodes>
            <Node>
@@ -1236,7 +1236,7 @@
           <Path>db/db1/a00460.html</Path>
           <Subnodes>
            <Node>
-            <Name>STSAFE-Axxx</Name>
+            <Name>STSAFE-A</Name>
             <Path>db/d34/a00442.html</Path>
             <Subnodes>
              <Node>
@@ -1276,7 +1276,7 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>STSAFEA commands codes</Name>
+              <Name>STSAFE-A commands codes</Name>
               <Path>d0/dc4/a00443.html</Path>
               <Subnodes>
                <Node>
