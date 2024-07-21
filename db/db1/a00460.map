@@ -1,9 +1,13 @@
-<map id="Core layer" name="Core layer">
-<area shape="rect" id="node1" href="$d4/da8/a00437.html" title=" " alt="" coords="376,5,551,31"/>
-<area shape="rect" id="node2" href="$d0/dc5/a00435.html" title=" " alt="" coords="379,55,548,80"/>
-<area shape="rect" id="node3" title="STSELib core Layer." alt="" coords="239,104,328,129"/>
-<area shape="rect" id="node4" href="$dd/d07/a00433.html" title=" " alt="" coords="384,104,543,129"/>
-<area shape="rect" id="node5" href="$d1/d7e/a00434.html" title=" " alt="" coords="387,153,540,179"/>
-<area shape="rect" id="node7" href="$d4/d82/a00436.html" title="STSAFE Middleware Platform Abstraction Layer." alt="" coords="385,203,541,243"/>
-<area shape="rect" id="node6" href="$de/d87/a00456.html" title="STMicroelectronics Secure Element host library." alt="" coords="5,104,191,129"/>
+<map id="API layer" name="API layer">
+<area shape="rect" id="node1" title="STSELib API Layer." alt="" coords="5,244,85,269"/>
+<area shape="rect" id="node2" href="$da/db6/a00427.html" title="STSE Elliptic Curve Cryptography API set." alt="" coords="188,5,272,31"/>
+<area shape="rect" id="node3" href="$db/d43/a00422.html" title="STSE data storage API set." alt="" coords="143,55,317,80"/>
+<area shape="rect" id="node4" href="$dc/d0c/a00430.html" title="STSE Random API set." alt="" coords="149,104,311,129"/>
+<area shape="rect" id="node5" href="$d1/d05/a00423.html" title="STSecureElement asymmetric cryptography API." alt="" coords="148,154,312,194"/>
+<area shape="rect" id="node6" href="$d7/db9/a00426.html" title="STSecureElement middleware device Management API." alt="" coords="133,219,327,244"/>
+<area shape="rect" id="node7" href="$d4/d53/a00429.html" title="STSE Message Authentication Code (MAC) API set." alt="" coords="141,268,319,293"/>
+<area shape="rect" id="node8" href="$d4/dd3/a00428.html" title="STSE Hash (SHA2/SHA3) API set." alt="" coords="185,317,275,343"/>
+<area shape="rect" id="node9" href="$df/d70/a00431.html" title="STSecureElement symmetric cryptography API." alt="" coords="152,367,308,407"/>
+<area shape="rect" id="node10" href="$dc/df3/a00424.html" title="STSE data storage API set." alt="" coords="159,432,301,457"/>
+<area shape="rect" id="node11" href="$dc/d2f/a00425.html" title="STSE Middleware Authentication API." alt="" coords="153,481,307,507"/>
 </map>

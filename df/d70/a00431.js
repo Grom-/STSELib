@@ -1,13 +1,15 @@
 var a00431 =
 [
-    [ "stse_certificate_print_attribute", "df/d70/a00431.html#ga063c1612681ac7f214d9a071e613f612", null ],
-    [ "stse_certificate_print_signature_algorithm", "df/d70/a00431.html#ga86003d070297a2bfc09af0aaa88f7be8", null ],
-    [ "stse_certificate_print_tag", "df/d70/a00431.html#ga2979adebb2684d9c0886e5199d87523d", null ],
-    [ "stse_certificate_print_elliptic_curve", "df/d70/a00431.html#ga4f7d62988d0298478547a862bd480a3b", null ],
-    [ "stse_certificate_print_integer", "df/d70/a00431.html#gae2e0fa9cb026866430d8ef362bb2f56b", null ],
-    [ "stse_certificate_print_bit_string", "df/d70/a00431.html#ga9b2dd8468f24aad0042573e1ef8e919b", null ],
-    [ "stse_certificate_print_parsed_cert", "df/d70/a00431.html#gacd768ea2f58f9a6653f0e35f52f988b2", null ],
-    [ "stse_certificate_print_name", "df/d70/a00431.html#ga1aafadc17cb6d538d8ee919117d5e40b", null ],
-    [ "stse_certificate_print_validity", "df/d70/a00431.html#gadbb6b32cc999a74b61240ff620ac2e32", null ],
-    [ "stse_certificate_simple_parse_attribute", "df/d70/a00431.html#ga4b0afc203293acf01fbd8498fc3ab0d5", null ]
+    [ "stse_host_key_provisioning", "df/d70/a00431.html#gaf3f84f1e0e225d74c62d4b40531f42df", null ],
+    [ "stse_host_key_provisioning_wrapped", "df/d70/a00431.html#ga369e57fc934178731b5c06f1b1739600", null ],
+    [ "stse_host_key_provisioning_wrapped_authenticated", "df/d70/a00431.html#ga5bc07a31d68cd5f362f4f4e1fd4acc2b", null ],
+    [ "stse_get_symmetric_key_slots_count", "df/d70/a00431.html#ga245130095fc158f0257d33095ec589e5", null ],
+    [ "stse_get_symmetric_key_slot_info", "df/d70/a00431.html#ga01df1cce9465a001539351ae45b211a5", null ],
+    [ "stse_get_symmetric_key_table_info", "df/d70/a00431.html#ga1055b154eeffd3537fce07d21008b740", null ],
+    [ "stse_get_symmetric_key_slot_provisioning_ctrl_fields", "df/d70/a00431.html#ga28310619dbf1a43f5e1180c8135d084e", null ],
+    [ "stse_write_symmetric_key_plaintext", "df/d70/a00431.html#gae96ac46a71d83ded4c06f51c739deb6f", null ],
+    [ "stse_write_symmetric_key_wrapped", "df/d70/a00431.html#ga1c6197973018de4714ea3f37ee61950e", null ],
+    [ "stse_write_symmetric_key_wrapped_authenticated", "df/d70/a00431.html#gab59b1a458c14fd2eafe83eaeb6ef47c2", null ],
+    [ "stse_establish_symmetric_key", "df/d70/a00431.html#ga7d06e9ed7fb8366561f6673a4790f9c3", null ],
+    [ "stse_establish_symmetric_key_authenticated", "df/d70/a00431.html#ga25a22f91e014f84316289fcb2f109d56", null ]
 ];

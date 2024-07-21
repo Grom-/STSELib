@@ -1,7 +1,8 @@
 var a00450 =
 [
-    [ "stsafea_get_patch_update_command_counter", "de/df4/a00450.html#gabd0d3bbd8b571db04aa5139a134fb056", null ],
-    [ "stsafea_patch_start", "de/df4/a00450.html#ga32fccfa7e4bcc8b361907911219b20b0", null ],
-    [ "stsafea_patch_update", "de/df4/a00450.html#ga7d9d8750f341aa4504336fde7ac0be3b", null ],
-    [ "stsafea_patch_finalize", "de/df4/a00450.html#gacb849f3ebfaa21a390b2bf5a846ba3f5", null ]
+    [ "stsafea_hibernate_wake_up_mode_t", "de/df4/a00450.html#ga40c19d723738a1a89548931046626443", [
+      [ "STSAFEA_HIBERNATE_WAKEUP_I2C_OR_RESET", "de/df4/a00450.html#gga40c19d723738a1a89548931046626443a003e474d7248ccebd5b4a93dbfbbf858", null ],
+      [ "STSAFEA_HIBERNATE_WAKEUP_RESET_ONLY", "de/df4/a00450.html#gga40c19d723738a1a89548931046626443a520b1b35e119539601f8e0a60cb7eac0", null ]
+    ] ],
+    [ "stsafea_hibernate", "de/df4/a00450.html#gac4a1fd6365d0999f280c5e433f8b0de3", null ]
 ];

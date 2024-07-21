@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STMicroelectronics Secure Element Library: Hash</title>
+<title>STMicroelectronics Secure Element Library: STSAFE-A Data partition management</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -96,262 +96,366 @@ $(document).ready(function(){initNavTree('dd/d47/a00445.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Hash<div class="ingroups"><a class="el" href="../../de/d87/a00456.html">STSecureElement Library</a> &raquo; <a class="el" href="../../d2/d91/a00459.html">Services layer</a> &raquo; <a class="el" href="../../de/df8/a00440.html">STSAFE-Axxx</a></div></div>  </div>
+<div class="title">STSAFE-A Data partition management<div class="ingroups"><a class="el" href="../../d5/d5f/a00461.html">Services layer</a> &raquo; <a class="el" href="../../d0/dc4/a00443.html">STSAFE-Axxx</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for Hash:</div>
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for STSAFE-A Data partition management:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../dd/d47/a00445.png" border="0" usemap="#add_2d47_2a00445" alt=""/></div>
 <map name="add_2d47_2a00445" id="add_2d47_2a00445">
-<area shape="rect" title=" " alt="" coords="164,5,219,31"/>
-<area shape="rect" href="../../de/df8/a00440.html" title=" " alt="" coords="5,5,116,31"/>
+<area shape="rect" href="../../d0/dc4/a00443.html" title=" " alt="" coords="5,13,116,38"/>
+<area shape="rect" title=" " alt="" coords="164,5,344,45"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:d8/d2e/a00588"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#d8/d2e/a00588">stsafea_hash_algorithm_identifier_t</a></td></tr>
-<tr class="separator:d8/d2e/a00588"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d0/dec/a00592"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#d0/dec/a00592">stsafea_hash_info_t</a></td></tr>
-<tr class="separator:d0/dec/a00592"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ga91eedf22a40ee1006ee766392a235a97"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#ga91eedf22a40ee1006ee766392a235a97">STSAFEA_SHA_1_HASH_SIZE</a>&#160;&#160;&#160;20U</td></tr>
-<tr class="separator:ga91eedf22a40ee1006ee766392a235a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadfd66db524e4c8e6de8a31e080c661f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#gadfd66db524e4c8e6de8a31e080c661f8">STSAFEA_SHA_224_HASH_SIZE</a>&#160;&#160;&#160;28U</td></tr>
-<tr class="separator:gadfd66db524e4c8e6de8a31e080c661f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2a52300d461530f2484b5a4220789576"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>&#160;&#160;&#160;32U</td></tr>
-<tr class="separator:ga2a52300d461530f2484b5a4220789576"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf823826f959f73f2d4dcda4a74a567f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#gaf823826f959f73f2d4dcda4a74a567f8">STSAFEA_SHA_384_HASH_SIZE</a>&#160;&#160;&#160;48U</td></tr>
-<tr class="separator:gaf823826f959f73f2d4dcda4a74a567f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2e5f27b13ec0f7fc2f0c26c0288803a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#ga2e5f27b13ec0f7fc2f0c26c0288803a7">STSAFEA_SHA_512_HASH_SIZE</a>&#160;&#160;&#160;64U</td></tr>
-<tr class="separator:ga2e5f27b13ec0f7fc2f0c26c0288803a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd147b63e2f22dcbb3cdca60a2407be4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#gabd147b63e2f22dcbb3cdca60a2407be4">STSAFEA_HASH_ALGO_ID_VALUE_SIZE</a>&#160;&#160;&#160;9U</td></tr>
-<tr class="separator:gabd147b63e2f22dcbb3cdca60a2407be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8f348978565e0ef6a0cc373bcf4dfd65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#ga8f348978565e0ef6a0cc373bcf4dfd65">STSAFEA_HASH_ALGO_ID_LENGTH_SIZE</a>&#160;&#160;&#160;2U</td></tr>
-<tr class="separator:ga8f348978565e0ef6a0cc373bcf4dfd65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d0/d3e/a00566"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#d0/d3e/a00566">stsafea_read_option_t</a></td></tr>
+<tr class="separator:d0/d3e/a00566"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d8/da5/a00570"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#d8/da5/a00570">stsafea_update_option_t</a></td></tr>
+<tr class="separator:d8/da5/a00570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/dbe/a00574"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#d4/dbe/a00574">stsafea_decrement_option_t</a></td></tr>
+<tr class="separator:d4/dbe/a00574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/d5c/a00578"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#dd/d5c/a00578">stsafea_data_partition_record_t</a></td></tr>
+<tr class="separator:dd/d5c/a00578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gac3505ae6f5b4709d7ee8ffd44cf03914"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#gac3505ae6f5b4709d7ee8ffd44cf03914">stsafea_start_hash</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, <a class="el" href="../../d0/dc5/a00435.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a> sha_algorithm, PLAT_UI8 *pMessage, PLAT_UI16 message_size)</td></tr>
-<tr class="separator:gac3505ae6f5b4709d7ee8ffd44cf03914"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae0509bd520501b8c1bf234c45884a9d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#gae0509bd520501b8c1bf234c45884a9d2">stsafea_process_hash</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, PLAT_UI8 *pMessage, PLAT_UI16 message_size)</td></tr>
-<tr class="separator:gae0509bd520501b8c1bf234c45884a9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga88b1eda6150d16cc4ce0f9ddcb0ea001"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#ga88b1eda6150d16cc4ce0f9ddcb0ea001">stsafea_finish_hash</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, <a class="el" href="../../d0/dc5/a00435.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a> sha_algorithm, PLAT_UI8 *pMessage, PLAT_UI16 message_size, PLAT_UI8 *pDigest, PLAT_UI16 *pDigest_size)</td></tr>
-<tr class="separator:ga88b1eda6150d16cc4ce0f9ddcb0ea001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga118abd5d0b3c5b830f8d0bf8966ec7e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#ga118abd5d0b3c5b830f8d0bf8966ec7e7">stsafea_get_total_partition_count</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, PLAT_UI8 *total_partition_count)</td></tr>
+<tr class="separator:ga118abd5d0b3c5b830f8d0bf8966ec7e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa944fab8627716fb4128f1b3650dbe91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/a00445.html#gaa944fab8627716fb4128f1b3650dbe91">stsafea_get_data_partitions_configuration</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, PLAT_UI8 total_partitions_count, <a class="el" href="../../dd/d47/a00445.html#dd/d5c/a00578">stsafea_data_partition_record_t</a> *pRecord_table, PLAT_UI16 record_table_length)</td></tr>
+<tr class="separator:gaa944fab8627716fb4128f1b3650dbe91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
-<a name="d8/d2e/a00588" id="d8/d2e/a00588"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d8/d2e/a00588">&#9670;&nbsp;</a></span>stsafea_hash_algorithm_identifier_t</h2>
+<a name="d0/d3e/a00566" id="d0/d3e/a00566"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d0/d3e/a00566">&#9670;&nbsp;</a></span>stsafea_read_option_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct stsafea_hash_algorithm_identifier_t</td>
+          <td class="memname">struct stsafea_read_option_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00069">69</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d23/a00326_source.html#l00093">93</a> of file <a class="el" href="../../d8/d23/a00326_source.html">stsafea_data_partition.h</a>.</p>
 </div><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for stsafea_hash_algorithm_identifier_t:</div>
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for stsafea_read_option_t:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d6/d92/a00586.png" border="0" usemap="#astsafea__hash__algorithm__identifier__t_coll__map" alt="Collaboration graph"/></div>
-<map name="astsafea__hash__algorithm__identifier__t_coll__map" id="astsafea__hash__algorithm__identifier__t_coll__map">
-<area shape="rect" title="STSAFEA Hash identifier structure." alt="" coords="5,5,184,112"/>
+<div class="center"><img src="../../d0/dc2/a00564.png" border="0" usemap="#astsafea__read__option__t_coll__map" alt="Collaboration graph"/></div>
+<map name="astsafea__read__option__t_coll__map" id="astsafea__read__option__t_coll__map">
+<area shape="rect" title="STSAFE Read service options." alt="" coords="5,5,181,141"/>
 </map>
 </div>
+<table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a990ecd64be66e0a02f3dc97afd997b42"></a><a class="el" href="../../dd/d47/a00445.html#ga5280a54d31070a1813a3248bd29c0248">stsafea_ac_t</a></td>
+<td class="fieldname">
+new_read_ac:STSE_3BIT_LEN</td>
+<td class="fielddoc">
+<p>Access condition </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a3fbb59be4e1113ac4856dcca4a5d2172"></a><a class="el" href="../../dd/d47/a00445.html#ga087c61de64f4953e40782d5a24522365">stsafea_ac_change_right_t</a></td>
+<td class="fieldname">
+new_read_ac_change_right:STSE_1BIT_LEN</td>
+<td class="fielddoc">
+<p>Access condition change right </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a3beb2767e821ef19ad4b4270716ae3cd"></a><a class="el" href="../../dd/d47/a00445.html#gad11b4246b350193d3d6f70a4b9fbe697">stsafea_zone_ac_change_indicator_t</a></td>
+<td class="fieldname">
+change_ac_indicator:STSE_1BIT_LEN</td>
+<td class="fielddoc">
+<p>Access condition change indicator </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a7f02f7ec7571bc8e10cde1df43c9ef1a"></a>PLAT_UI8</td>
+<td class="fieldname">
+filler:STSE_3BIT_LEN</td>
+<td class="fielddoc">
+<p>Must be 0b0 </p>
+</td></tr>
+</table>
 
 </div>
 </div>
-<a name="d0/dec/a00592" id="d0/dec/a00592"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d0/dec/a00592">&#9670;&nbsp;</a></span>stsafea_hash_info_t</h2>
+<a name="d8/da5/a00570" id="d8/da5/a00570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d8/da5/a00570">&#9670;&nbsp;</a></span>stsafea_update_option_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct stsafea_hash_info_t</td>
+          <td class="memname">struct stsafea_update_option_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00078">78</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d23/a00326_source.html#l00104">104</a> of file <a class="el" href="../../d8/d23/a00326_source.html">stsafea_data_partition.h</a>.</p>
 </div><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for stsafea_hash_info_t:</div>
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for stsafea_update_option_t:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d7/db1/a00590.png" border="0" usemap="#astsafea__hash__info__t_coll__map" alt="Collaboration graph"/></div>
-<map name="astsafea__hash__info__t_coll__map" id="astsafea__hash__info__t_coll__map">
-<area shape="rect" title="STSAFEA Hash informations structure." alt="" coords="19,175,171,252"/>
-<area shape="rect" href="../../dd/d47/a00445.html#d8/d2e/a00588" title="STSAFEA Hash identifier structure." alt="" coords="5,5,184,112"/>
+<div class="center"><img src="../../dc/d40/a00568.png" border="0" usemap="#astsafea__update__option__t_coll__map" alt="Collaboration graph"/></div>
+<map name="astsafea__update__option__t_coll__map" id="astsafea__update__option__t_coll__map">
+<area shape="rect" title="STSAFE Update service options." alt="" coords="5,5,197,156"/>
+</map>
+</div>
+<table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ad888840ad0bae8f5a9d8f753cdfb25cf"></a><a class="el" href="../../dd/d47/a00445.html#ga5280a54d31070a1813a3248bd29c0248">stsafea_ac_t</a></td>
+<td class="fieldname">
+new_update_ac:STSE_3BIT_LEN</td>
+<td class="fielddoc">
+<p>Access condition </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac65af5f6b0f4674de32ae40bcaf03891"></a><a class="el" href="../../dd/d47/a00445.html#ga087c61de64f4953e40782d5a24522365">stsafea_ac_change_right_t</a></td>
+<td class="fieldname">
+new_update_ac_change_right:STSE_1BIT_LEN</td>
+<td class="fielddoc">
+<p>Access condition change right </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a10ef86ac6f5402dcf1fffcb8a0762a36"></a><a class="el" href="../../dd/d47/a00445.html#gad11b4246b350193d3d6f70a4b9fbe697">stsafea_zone_ac_change_indicator_t</a></td>
+<td class="fieldname">
+change_ac_indicator:STSE_1BIT_LEN</td>
+<td class="fielddoc">
+<p>Access condition change indicator </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab502041515f6c5552f161893d29a66f6"></a>PLAT_UI8</td>
+<td class="fieldname">
+filler:STSE_2BIT_LEN</td>
+<td class="fielddoc">
+<p>Must be 0b0 </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a28266f7ca6378c8066256614845a95b4"></a><a class="el" href="../../dd/d47/a00445.html#ga96053c8fd1ab8baaa7835b3e72a66c64">stsafea_atomicity_t</a></td>
+<td class="fieldname">
+atomicity:STSE_1BIT_LEN</td>
+<td class="fielddoc">
+<p>Atomicity </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d4/dbe/a00574" id="d4/dbe/a00574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d4/dbe/a00574">&#9670;&nbsp;</a></span>stsafea_decrement_option_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct stsafea_decrement_option_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/d23/a00326_source.html#l00116">116</a> of file <a class="el" href="../../d8/d23/a00326_source.html">stsafea_data_partition.h</a>.</p>
+</div><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for stsafea_decrement_option_t:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d6/d06/a00572.png" border="0" usemap="#astsafea__decrement__option__t_coll__map" alt="Collaboration graph"/></div>
+<map name="astsafea__decrement__option__t_coll__map" id="astsafea__decrement__option__t_coll__map">
+<area shape="rect" title="STSAFE decrement service options." alt="" coords="5,5,223,141"/>
+</map>
+</div>
+<table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a5feff4cbf64b16a97b8fbf3ff0e64fe4"></a><a class="el" href="../../dd/d47/a00445.html#ga5280a54d31070a1813a3248bd29c0248">stsafea_ac_t</a></td>
+<td class="fieldname">
+new_decrement_ac:STSE_3BIT_LEN</td>
+<td class="fielddoc">
+<p>Access condition </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aebf4667fb58d6b68fb8ff7eea9bbdb64"></a><a class="el" href="../../dd/d47/a00445.html#ga087c61de64f4953e40782d5a24522365">stsafea_ac_change_right_t</a></td>
+<td class="fieldname">
+new_decrement_ac_change_right:STSE_1BIT_LEN</td>
+<td class="fielddoc">
+<p>Access condition change right </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a7d39e7f8c4bc1a89f4681b2042ce9ad1"></a><a class="el" href="../../dd/d47/a00445.html#gad11b4246b350193d3d6f70a4b9fbe697">stsafea_zone_ac_change_indicator_t</a></td>
+<td class="fieldname">
+change_ac_indicator:STSE_1BIT_LEN</td>
+<td class="fielddoc">
+<p>Access condition change indicator </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a0bdbed6adc6f76ed128c719e216a5d30"></a>PLAT_UI8</td>
+<td class="fieldname">
+filler:STSE_3BIT_LEN</td>
+<td class="fielddoc">
+<p>Must be 0b0 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dd/d5c/a00578" id="dd/d5c/a00578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/d5c/a00578">&#9670;&nbsp;</a></span>stsafea_data_partition_record_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct stsafea_data_partition_record_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/d23/a00326_source.html#l00127">127</a> of file <a class="el" href="../../d8/d23/a00326_source.html">stsafea_data_partition.h</a>.</p>
+</div><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for stsafea_data_partition_record_t:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../de/d7c/a00576.png" border="0" usemap="#astsafea__data__partition__record__t_coll__map" alt="Collaboration graph"/></div>
+<map name="astsafea__data__partition__record__t_coll__map" id="astsafea__data__partition__record__t_coll__map">
+<area shape="rect" title="STSAFE data partition record typedef." alt="" coords="5,5,184,200"/>
 </map>
 </div>
 
 </div>
 </div>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ga91eedf22a40ee1006ee766392a235a97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga91eedf22a40ee1006ee766392a235a97">&#9670;&nbsp;</a></span>STSAFEA_SHA_1_HASH_SIZE</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga96053c8fd1ab8baaa7835b3e72a66c64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga96053c8fd1ab8baaa7835b3e72a66c64">&#9670;&nbsp;</a></span>stsafea_atomicity_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define STSAFEA_SHA_1_HASH_SIZE&#160;&#160;&#160;20U</td>
+          <td class="memname">enum <a class="el" href="../../dd/d47/a00445.html#ga96053c8fd1ab8baaa7835b3e72a66c64">stsafea_atomicity_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size in bytes of a SHA1 digest </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00043">43</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.h</a>.</p>
+<p>STSAFE Update service atomicity enumeration. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga96053c8fd1ab8baaa7835b3e72a66c64a8dbef28f142b3c5afe38d4fc570942f4"></a>STSAFEA_NON_ATOMIC_ACCESS&#160;</td><td class="fielddoc"><p>Non Atomic Access </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga96053c8fd1ab8baaa7835b3e72a66c64a21d345c749163277a6d44b5474796a92"></a>STSAFEA_ATOMIC_ACCESS&#160;</td><td class="fielddoc"><p>Atomic Access </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d23/a00326_source.html#l00055">55</a> of file <a class="el" href="../../d8/d23/a00326_source.html">stsafea_data_partition.h</a>.</p>
 
 </div>
 </div>
-<a id="gadfd66db524e4c8e6de8a31e080c661f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadfd66db524e4c8e6de8a31e080c661f8">&#9670;&nbsp;</a></span>STSAFEA_SHA_224_HASH_SIZE</h2>
+<a id="ga5280a54d31070a1813a3248bd29c0248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5280a54d31070a1813a3248bd29c0248">&#9670;&nbsp;</a></span>stsafea_ac_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define STSAFEA_SHA_224_HASH_SIZE&#160;&#160;&#160;28U</td>
+          <td class="memname">enum <a class="el" href="../../dd/d47/a00445.html#ga5280a54d31070a1813a3248bd29c0248">stsafea_ac_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size in bytes of a SHA224 digest </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00044">44</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.h</a>.</p>
+<p>STSAFE data storage access condition enumeration. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga5280a54d31070a1813a3248bd29c0248af63d91d59a54fc8ae831f2c0aad171bc"></a>STSAFEA_AC_ALWAYS&#160;</td><td class="fielddoc"><p>Zone/counter access always granted </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga5280a54d31070a1813a3248bd29c0248aa7732521604e20c43f252f1e41b5dd6d"></a>STSAFEA_AC_HOST&#160;</td><td class="fielddoc"><p>Zone/counter access granted on Host C-MAC validation </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga5280a54d31070a1813a3248bd29c0248a83c8e858f1196bc5a71469faa53869ca"></a>STSAFEA_AC_AUTH&#160;</td><td class="fielddoc"><p>Zone/counter access granted on Auth C-MAC validation </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga5280a54d31070a1813a3248bd29c0248a16b759d45b74744baf005816358d921b"></a>STSAFEA_AC_NEVER&#160;</td><td class="fielddoc"><p>Zone/counter access never granted </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d23/a00326_source.html#l00064">64</a> of file <a class="el" href="../../d8/d23/a00326_source.html">stsafea_data_partition.h</a>.</p>
 
 </div>
 </div>
-<a id="ga2a52300d461530f2484b5a4220789576"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2a52300d461530f2484b5a4220789576">&#9670;&nbsp;</a></span>STSAFEA_SHA_256_HASH_SIZE</h2>
+<a id="gad11b4246b350193d3d6f70a4b9fbe697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad11b4246b350193d3d6f70a4b9fbe697">&#9670;&nbsp;</a></span>stsafea_zone_ac_change_indicator_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define STSAFEA_SHA_256_HASH_SIZE&#160;&#160;&#160;32U</td>
+          <td class="memname">enum <a class="el" href="../../dd/d47/a00445.html#gad11b4246b350193d3d6f70a4b9fbe697">stsafea_zone_ac_change_indicator_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size in bytes of a SHA256 digest </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00045">45</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.h</a>.</p>
+<p>STSAFE data storage access condition change indicator. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggad11b4246b350193d3d6f70a4b9fbe697a2a114b40b4f35323efa986ee633f52da"></a>STSAFEA_AC_CHANGE&#160;</td><td class="fielddoc"><p>request access condition change </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggad11b4246b350193d3d6f70a4b9fbe697a22509491dabcd6c2fc7e153733334dfa"></a>STSAFEA_AC_IGNORE&#160;</td><td class="fielddoc"><p>ignore access condition change </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d23/a00326_source.html#l00075">75</a> of file <a class="el" href="../../d8/d23/a00326_source.html">stsafea_data_partition.h</a>.</p>
 
 </div>
 </div>
-<a id="gaf823826f959f73f2d4dcda4a74a567f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf823826f959f73f2d4dcda4a74a567f8">&#9670;&nbsp;</a></span>STSAFEA_SHA_384_HASH_SIZE</h2>
+<a id="ga087c61de64f4953e40782d5a24522365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga087c61de64f4953e40782d5a24522365">&#9670;&nbsp;</a></span>stsafea_ac_change_right_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define STSAFEA_SHA_384_HASH_SIZE&#160;&#160;&#160;48U</td>
+          <td class="memname">enum <a class="el" href="../../dd/d47/a00445.html#ga087c61de64f4953e40782d5a24522365">stsafea_ac_change_right_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size in bytes of a SHA384 digest </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00046">46</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.h</a>.</p>
+<p>STSAFE data storage access condition change right enumeration. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga087c61de64f4953e40782d5a24522365aff8c658445fae1b59f550a9ebfcd1a17"></a>STSAFE_ACCR_DISABLED&#160;</td><td class="fielddoc"><p>accessible under pairing session </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga087c61de64f4953e40782d5a24522365aecf6db95616c3974b8def84b9d3b76f0"></a>STSAFE_ACCR_ENABLE&#160;</td><td class="fielddoc"><p>Always accessible </p>
+</td></tr>
+</table>
 
-</div>
-</div>
-<a id="ga2e5f27b13ec0f7fc2f0c26c0288803a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2e5f27b13ec0f7fc2f0c26c0288803a7">&#9670;&nbsp;</a></span>STSAFEA_SHA_512_HASH_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STSAFEA_SHA_512_HASH_SIZE&#160;&#160;&#160;64U</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Size in bytes of a SHA512 digest </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00047">47</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.h</a>.</p>
-
-</div>
-</div>
-<a id="gabd147b63e2f22dcbb3cdca60a2407be4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabd147b63e2f22dcbb3cdca60a2407be4">&#9670;&nbsp;</a></span>STSAFEA_HASH_ALGO_ID_VALUE_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STSAFEA_HASH_ALGO_ID_VALUE_SIZE&#160;&#160;&#160;9U</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Max size in bytes of a hash algo ID </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00049">49</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.h</a>.</p>
-
-</div>
-</div>
-<a id="ga8f348978565e0ef6a0cc373bcf4dfd65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8f348978565e0ef6a0cc373bcf4dfd65">&#9670;&nbsp;</a></span>STSAFEA_HASH_ALGO_ID_LENGTH_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STSAFEA_HASH_ALGO_ID_LENGTH_SIZE&#160;&#160;&#160;2U</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Size in bytes of a hash algo ID length field </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00050">50</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d23/a00326_source.html#l00084">84</a> of file <a class="el" href="../../d8/d23/a00326_source.html">stsafea_data_partition.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gac3505ae6f5b4709d7ee8ffd44cf03914"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac3505ae6f5b4709d7ee8ffd44cf03914">&#9670;&nbsp;</a></span>stsafea_start_hash()</h2>
+<a id="ga118abd5d0b3c5b830f8d0bf8966ec7e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga118abd5d0b3c5b830f8d0bf8966ec7e7">&#9670;&nbsp;</a></span>stsafea_get_total_partition_count()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_start_hash </td>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_get_total_partition_count </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
           <td class="paramname"><em>pSTSE</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dc5/a00435.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a>&#160;</td>
-          <td class="paramname"><em>sha_algorithm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pMessage</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_size</em>&#160;</td>
+          <td class="paramname"><em>total_partition_count</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -361,45 +465,53 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>STSAFEA start hash service. </p>
+<p>STSAFEA get total partition count service. </p>
 <p>This service format and send/receive STSAFE-Axxx start hash command/response </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to target SE handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">sha_algorithm</td><td><a class="el" href="../../d0/dc5/a00435.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a> SHA algorithm </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pMessage</td><td>Pointer to message buffer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_size</td><td>Input message length in bytes </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">total_partition_count</td><td>total partition count in bytes </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSAFE_OK on success ; error code otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d84/a00338_source.html#l00058">58</a> of file <a class="el" href="../../dc/d84/a00338_source.html">stsafea_hash.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d55/a00323_source.html#l00028">28</a> of file <a class="el" href="../../de/d55/a00323_source.html">stsafea_data_partition.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/de2/a00320_source.html#l00087">STSAFEA_CMD_QUERY</a>, <a class="el" href="../../d8/ddd/a00380_source.html#l00052">STSAFEA_SUBJECT_TAG_DATA_PARTITION_CONFIGURATION</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/db1/a00197_source.html#l00023">stse_data_storage_get_total_partition_count()</a>.</p>
 
 </div>
 </div>
-<a id="gae0509bd520501b8c1bf234c45884a9d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae0509bd520501b8c1bf234c45884a9d2">&#9670;&nbsp;</a></span>stsafea_process_hash()</h2>
+<a id="gaa944fab8627716fb4128f1b3650dbe91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa944fab8627716fb4128f1b3650dbe91">&#9670;&nbsp;</a></span>stsafea_get_data_partitions_configuration()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_process_hash </td>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_get_data_partitions_configuration </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
           <td class="paramname"><em>pSTSE</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pMessage</em>, </td>
+          <td class="paramtype">PLAT_UI8&#160;</td>
+          <td class="paramname"><em>total_partitions_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/d47/a00445.html#dd/d5c/a00578">stsafea_data_partition_record_t</a> *&#160;</td>
+          <td class="paramname"><em>pRecord_table</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_size</em>&#160;</td>
+          <td class="paramname"><em>record_table_length</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -409,86 +521,23 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>STSAFEA process hash service. </p>
-<p>This service format and send/receive STSAFE-Axxx process hash command/response </p><dl class="params"><dt>Parameters</dt><dd>
+<p>STSAFEA get data partition configuration service. </p>
+<p>This service format and send/receive STSAFE-Axxx start hash command/response </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to target SE handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pMessage</td><td>Pointer to message buffer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_size</td><td>Input message length in bytes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">total_partitions_count</td><td>Total partition count in bytes </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pRecord_table</td><td>Pointer to applicative partition record table </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">record_table_length</td><td>Applicative record table length </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d84/a00338_source.html#l00095">95</a> of file <a class="el" href="../../dc/d84/a00338_source.html">stsafea_hash.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d55/a00323_source.html#l00061">61</a> of file <a class="el" href="../../de/d55/a00323_source.html">stsafea_data_partition.c</a>.</p>
 
-</div>
-</div>
-<a id="ga88b1eda6150d16cc4ce0f9ddcb0ea001"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga88b1eda6150d16cc4ce0f9ddcb0ea001">&#9670;&nbsp;</a></span>stsafea_finish_hash()</h2>
+<p class="reference">References <a class="el" href="../../dd/de2/a00320_source.html#l00087">STSAFEA_CMD_QUERY</a>, <a class="el" href="../../d8/ddd/a00380_source.html#l00052">STSAFEA_SUBJECT_TAG_DATA_PARTITION_CONFIGURATION</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_finish_hash </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
-          <td class="paramname"><em>pSTSE</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dc5/a00435.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a>&#160;</td>
-          <td class="paramname"><em>sha_algorithm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pMessage</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pDigest</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16 *&#160;</td>
-          <td class="paramname"><em>pDigest_size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>STSAFEA start hash service. </p>
-<p>This service format and send/receive STSAFE-Axxx process hash command/response </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to target SE handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">sha_algorithm</td><td><a class="el" href="../../d0/dc5/a00435.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a> sha_algorithm </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pMessage</td><td>Pointer to message buffer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_size</td><td>Input message length in bytes </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pDigest</td><td>Pointer to digest buffer </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pDigest_size</td><td>Digest buffer length in bytes </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dc/d84/a00338_source.html#l00129">129</a> of file <a class="el" href="../../dc/d84/a00338_source.html">stsafea_hash.c</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/db1/a00197_source.html#l00032">stse_data_storage_get_partitioning_table()</a>.</p>
 
 </div>
 </div>

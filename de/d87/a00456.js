@@ -1,7 +1,4 @@
 var a00456 =
 [
-    [ "STSE Certificate", "d1/dbd/a00457.html", "d1/dbd/a00457" ],
-    [ "API layer", "da/d65/a00458.html", "da/d65/a00458" ],
-    [ "Services layer", "d2/d91/a00459.html", "d2/d91/a00459" ],
-    [ "Core layer", "db/db1/a00460.html", "db/db1/a00460" ]
+    [ "stsafea_reset", "de/d87/a00456.html#gaec5ab6bc6b4c5e0e49e24df4f85e59b2", null ]
 ];

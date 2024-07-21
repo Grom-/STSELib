@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STMicroelectronics Secure Element Library: Frame Management</title>
+<title>STMicroelectronics Secure Element Library: STSE Certificate prints functions</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -97,71 +97,183 @@ $(document).ready(function(){initNavTree('d1/d7e/a00434.html','../../'); initRes
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Frame Management<div class="ingroups"><a class="el" href="../../de/d87/a00456.html">STSecureElement Library</a> &raquo; <a class="el" href="../../db/db1/a00460.html">Core layer</a></div></div>  </div>
+<div class="title">STSE Certificate prints functions<div class="ingroups"><a class="el" href="../../d2/d91/a00459.html">STSE Certificate</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for Frame Management:</div>
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for STSE Certificate prints functions:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../d1/d7e/a00434.png" border="0" usemap="#ad1_2d7e_2a00434" alt=""/></div>
 <map name="ad1_2d7e_2a00434" id="ad1_2d7e_2a00434">
-<area shape="rect" href="../../db/db1/a00460.html" title="STSELib core Layer." alt="" coords="5,5,95,31"/>
-<area shape="rect" title=" " alt="" coords="143,5,296,31"/>
+<area shape="rect" href="../../d2/d91/a00459.html" title="STSELib Certificate parser." alt="" coords="5,13,131,38"/>
+<area shape="rect" title="STSE Certificate prints functions." alt="" coords="179,5,345,45"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaf1968892eef33e9ee695c234c4d2d4f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#gaf1968892eef33e9ee695c234c4d2d4f3">stse_frame_insert_strap</a> (stse_frame_element_t *pStrap, stse_frame_element_t *pElement_1, stse_frame_element_t *pElement_2)</td></tr>
-<tr class="separator:gaf1968892eef33e9ee695c234c4d2d4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab022f583b07d463589daabc983621e6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#gab022f583b07d463589daabc983621e6b">stse_frame_unstrap</a> (stse_frame_t *pFrame)</td></tr>
-<tr class="separator:gab022f583b07d463589daabc983621e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6587494fbc6e1facc1f6ad688c35443f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga6587494fbc6e1facc1f6ad688c35443f">stse_frame_update</a> (stse_frame_t *pFrame)</td></tr>
-<tr class="separator:ga6587494fbc6e1facc1f6ad688c35443f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga06639c197228334d7ed6f673b61fea6f"><td class="memItemLeft" align="right" valign="top">PLAT_UI16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga06639c197228334d7ed6f673b61fea6f">stse_frame_crc16_compute</a> (stse_frame_t *pFrame)</td></tr>
-<tr class="separator:ga06639c197228334d7ed6f673b61fea6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga36a4479502f1f5163bf708cb1fb67ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga36a4479502f1f5163bf708cb1fb67ed1">stse_frame_element_swap_byte_order</a> (stse_frame_element_t *pElement)</td></tr>
-<tr class="separator:ga36a4479502f1f5163bf708cb1fb67ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga18ceec7a1494016e02b4e829a02e360a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga18ceec7a1494016e02b4e829a02e360a">stse_frame_push_element</a> (stse_frame_t *pFrame, stse_frame_element_t *pElement)</td></tr>
-<tr class="separator:ga18ceec7a1494016e02b4e829a02e360a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabad690bb87cf672ee1409ff1b210d44d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#gabad690bb87cf672ee1409ff1b210d44d">stse_frame_pop_element</a> (stse_frame_t *pFrame)</td></tr>
-<tr class="separator:gabad690bb87cf672ee1409ff1b210d44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa44ca8c74a10c80310a9944b6bcb7e8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#gaa44ca8c74a10c80310a9944b6bcb7e8c">stse_frame_debug_print</a> (stse_frame_t *pFrame)</td></tr>
-<tr class="separator:gaa44ca8c74a10c80310a9944b6bcb7e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga37f6cfe467207b3ec2592c9c012b2191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga37f6cfe467207b3ec2592c9c012b2191">stse_frame_transmit</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, stse_frame_t *pFrame)</td></tr>
-<tr class="separator:ga37f6cfe467207b3ec2592c9c012b2191"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28ff0bbacec0a46eebd3d8ffb8d2211a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga28ff0bbacec0a46eebd3d8ffb8d2211a">stse_frame_receive</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, stse_frame_t *pFrame)</td></tr>
-<tr class="separator:ga28ff0bbacec0a46eebd3d8ffb8d2211a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa5cd7a355c4455a473f7c5ba33134454"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#gaa5cd7a355c4455a473f7c5ba33134454">stse_frame_transfer</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, stse_frame_t *pCmdFrame, stse_frame_t *pRspFrame, PLAT_UI16 inter_frame_delay)</td></tr>
-<tr class="separator:gaa5cd7a355c4455a473f7c5ba33134454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga063c1612681ac7f214d9a071e613f612"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga063c1612681ac7f214d9a071e613f612">stse_certificate_print_attribute</a> (PLAT_I32 type)</td></tr>
+<tr class="separator:ga063c1612681ac7f214d9a071e613f612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga86003d070297a2bfc09af0aaa88f7be8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga86003d070297a2bfc09af0aaa88f7be8">stse_certificate_print_signature_algorithm</a> (PLAT_I32 type)</td></tr>
+<tr class="separator:ga86003d070297a2bfc09af0aaa88f7be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2979adebb2684d9c0886e5199d87523d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga2979adebb2684d9c0886e5199d87523d">stse_certificate_print_tag</a> (PLAT_I32 tag)</td></tr>
+<tr class="separator:ga2979adebb2684d9c0886e5199d87523d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f7d62988d0298478547a862bd480a3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga4f7d62988d0298478547a862bd480a3b">stse_certificate_print_elliptic_curve</a> (PLAT_I32 type)</td></tr>
+<tr class="separator:ga4f7d62988d0298478547a862bd480a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2e0fa9cb026866430d8ef362bb2f56b"><td class="memItemLeft" align="right" valign="top">PLAT_I32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#gae2e0fa9cb026866430d8ef362bb2f56b">stse_certificate_print_integer</a> (const PLAT_UI8 *value, PLAT_I32 size)</td></tr>
+<tr class="separator:gae2e0fa9cb026866430d8ef362bb2f56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9b2dd8468f24aad0042573e1ef8e919b"><td class="memItemLeft" align="right" valign="top">PLAT_I32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga9b2dd8468f24aad0042573e1ef8e919b">stse_certificate_print_bit_string</a> (const PLAT_UI8 *value, PLAT_I32 size)</td></tr>
+<tr class="separator:ga9b2dd8468f24aad0042573e1ef8e919b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b0afc203293acf01fbd8498fc3ab0d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a00434.html#ga4b0afc203293acf01fbd8498fc3ab0d5">stse_certificate_simple_parse_attribute</a> (const PLAT_UI8 *p, <a class="el" href="../../d9/dd5/a00432.html#ga867519c680ddb94407b7db75df132d86">stse_cert_attribute_t</a> *<a class="el" href="../../d9/dea/a00478.html">attribute_st</a>, const PLAT_UI8 **next_thing)</td></tr>
+<tr class="separator:ga4b0afc203293acf01fbd8498fc3ab0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gaf1968892eef33e9ee695c234c4d2d4f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf1968892eef33e9ee695c234c4d2d4f3">&#9670;&nbsp;</a></span>stse_frame_insert_strap()</h2>
+<a id="ga063c1612681ac7f214d9a071e613f612"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga063c1612681ac7f214d9a071e613f612">&#9670;&nbsp;</a></span>stse_certificate_print_attribute()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void stse_frame_insert_strap </td>
+          <td class="memname">void stse_certificate_print_attribute </td>
           <td>(</td>
-          <td class="paramtype">stse_frame_element_t *&#160;</td>
-          <td class="paramname"><em>pStrap</em>, </td>
+          <td class="paramtype">PLAT_I32&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the Attribute. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>internal type of Attribute </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d39/a00257_source.html#l00116">116</a> of file <a class="el" href="../../d9/d39/a00257_source.html">stse_certificate_prints.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/d42/a00269_source.html#l00067">ATTR_C</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00065">ATTR_CN</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00073">ATTR_DN</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00068">ATTR_LN</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00070">ATTR_ON</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00071">ATTR_OUN</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00066">ATTR_SN</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00069">ATTR_SOPN</a>, and <a class="el" href="../../d5/d42/a00269_source.html#l00072">ATTR_UID</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d39/a00257_source.html#l00310">stse_certificate_print_name()</a>.</p>
+
+</div>
+</div>
+<a id="ga86003d070297a2bfc09af0aaa88f7be8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga86003d070297a2bfc09af0aaa88f7be8">&#9670;&nbsp;</a></span>stse_certificate_print_signature_algorithm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void stse_certificate_print_signature_algorithm </td>
+          <td>(</td>
+          <td class="paramtype">PLAT_I32&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the Signature Algorithm. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>internal type of SignatureAlgorithm </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d39/a00257_source.html#l00091">91</a> of file <a class="el" href="../../d9/d39/a00257_source.html">stse_certificate_prints.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/d42/a00269_source.html#l00056">SIG_ECDSA_SHA1</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00057">SIG_ECDSA_SHA224</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00058">SIG_ECDSA_SHA256</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00059">SIG_ECDSA_SHA384</a>, and <a class="el" href="../../d5/d42/a00269_source.html#l00060">SIG_ECDSA_SHA512</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d39/a00257_source.html#l00247">stse_certificate_print_parsed_cert()</a>.</p>
+
+</div>
+</div>
+<a id="ga2979adebb2684d9c0886e5199d87523d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2979adebb2684d9c0886e5199d87523d">&#9670;&nbsp;</a></span>stse_certificate_print_tag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void stse_certificate_print_tag </td>
+          <td>(</td>
+          <td class="paramtype">PLAT_I32&#160;</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the TAG. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>tag of ASN.1 TLV (got from <a class="el" href="../../d0/dc5/a00435.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a> ) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d39/a00257_source.html#l00027">27</a> of file <a class="el" href="../../d9/d39/a00257_source.html">stse_certificate_prints.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/d42/a00269_source.html#l00035">TAG_BITSTRING</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00033">TAG_BOOLEAN</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00040">TAG_ENUMERATED</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00051">TAG_extensions</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00045">TAG_GeneralizedTime</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00043">TAG_IA5String</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00034">TAG_INTEGER</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00049">TAG_issuerUniqueID</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00037">TAG_NULL</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00038">TAG_OBJECT_IDENTIFIER</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00039">TAG_ObjectDescriptor</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00036">TAG_OCTETSTRING</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00042">TAG_PrintableString</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00046">TAG_SEQUENCE</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00047">TAG_SET</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00050">TAG_subjectUniqueID</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00044">TAG_UTCTime</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00041">TAG_UTF8String</a>, and <a class="el" href="../../d5/d42/a00269_source.html#l00048">TAG_x509VERSION</a>.</p>
+
+</div>
+</div>
+<a id="ga4f7d62988d0298478547a862bd480a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f7d62988d0298478547a862bd480a3b">&#9670;&nbsp;</a></span>stse_certificate_print_elliptic_curve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void stse_certificate_print_elliptic_curve </td>
+          <td>(</td>
+          <td class="paramtype">PLAT_I32&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the Elliptic Curve Name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>internal type of EllipticCurve </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d39/a00257_source.html#l00153">153</a> of file <a class="el" href="../../d9/d39/a00257_source.html">stse_certificate_prints.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/d42/a00269_source.html#l00081">EC_bp256r1</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00082">EC_bp256t1</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00083">EC_bp384r1</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00084">EC_bp384t1</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00085">EC_bp512r1</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00086">EC_bp512t1</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00078">EC_P256</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00079">EC_P384</a>, and <a class="el" href="../../d5/d42/a00269_source.html#l00080">EC_P521</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d39/a00257_source.html#l00247">stse_certificate_print_parsed_cert()</a>.</p>
+
+</div>
+</div>
+<a id="gae2e0fa9cb026866430d8ef362bb2f56b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2e0fa9cb026866430d8ef362bb2f56b">&#9670;&nbsp;</a></span>stse_certificate_print_integer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PLAT_I32 stse_certificate_print_integer </td>
+          <td>(</td>
+          <td class="paramtype">const PLAT_UI8 *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">stse_frame_element_t *&#160;</td>
-          <td class="paramname"><em>pElement_1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">stse_frame_element_t *&#160;</td>
-          <td class="paramname"><em>pElement_2</em>&#160;</td>
+          <td class="paramtype">PLAT_I32&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -171,150 +283,43 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Attach a strap element that reroute a frame element (Element1) to another (Element2) </p>
-<p>This core function attach a strap element that link Element1 to Element2 until un-strap command is executed </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Print an INTEGER. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pStrap</td><td>Pointer to strap element </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pElement_1</td><td>Pointer to frame element 1 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pElement_2</td><td>Pointer to frame element 2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*value</td><td>pointer to the value of a INTEGER (got from <a class="el" href="../../d0/dc5/a00435.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a> ) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>size (in bytes) of the value field of this INTEGER (got from <a class="el" href="../../d0/dc5/a00435.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a> ) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>Success </td></tr>
+    <tr><td class="paramname">-1</td><td>Failure. The INTEGER is negative, and \ this implementation doesn't support it </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00071">71</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d39/a00257_source.html#l00211">211</a> of file <a class="el" href="../../d9/d39/a00257_source.html">stse_certificate_prints.c</a>.</p>
 
 </div>
 </div>
-<a id="gab022f583b07d463589daabc983621e6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab022f583b07d463589daabc983621e6b">&#9670;&nbsp;</a></span>stse_frame_unstrap()</h2>
+<a id="ga9b2dd8468f24aad0042573e1ef8e919b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b2dd8468f24aad0042573e1ef8e919b">&#9670;&nbsp;</a></span>stse_certificate_print_bit_string()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void stse_frame_unstrap </td>
+          <td class="memname">PLAT_I32 stse_certificate_print_bit_string </td>
           <td>(</td>
-          <td class="paramtype">stse_frame_t *&#160;</td>
-          <td class="paramname"><em>pFrame</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Frame un-strap. </p>
-<p>This core function remove strap element from a frame </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pFrame</td><td>Pointer to a frame </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00082">82</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
-
-</div>
-</div>
-<a id="ga6587494fbc6e1facc1f6ad688c35443f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6587494fbc6e1facc1f6ad688c35443f">&#9670;&nbsp;</a></span>stse_frame_update()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stse_frame_update </td>
-          <td>(</td>
-          <td class="paramtype">stse_frame_t *&#160;</td>
-          <td class="paramname"><em>pFrame</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Update frame meta data. </p>
-<p>This core function update frame structure </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">pFrame</td><td>Pointer to the frame to be updated </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00101">101</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
-
-</div>
-</div>
-<a id="ga06639c197228334d7ed6f673b61fea6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga06639c197228334d7ed6f673b61fea6f">&#9670;&nbsp;</a></span>stse_frame_crc16_compute()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">PLAT_UI16 stse_frame_crc16_compute </td>
-          <td>(</td>
-          <td class="paramtype">stse_frame_t *&#160;</td>
-          <td class="paramname"><em>pFrame</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute Frame CRC. </p>
-<p>This core function compute and return the CRC of a Frame </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pFrame</td><td>Pointer to frame </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>2-byte CRC value </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00022">22</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
-
-</div>
-</div>
-<a id="ga36a4479502f1f5163bf708cb1fb67ed1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga36a4479502f1f5163bf708cb1fb67ed1">&#9670;&nbsp;</a></span>stse_frame_element_swap_byte_order()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stse_frame_element_swap_byte_order </td>
-          <td>(</td>
-          <td class="paramtype">stse_frame_element_t *&#160;</td>
-          <td class="paramname"><em>pElement</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>swap the Data byte order pointed by pData frame element </p>
-<p>This core function swap the Data byte order pointed/defined by pData and length value from frame </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pElement</td><td>Pointer to frame element </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00042">42</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
-
-</div>
-</div>
-<a id="ga18ceec7a1494016e02b4e829a02e360a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga18ceec7a1494016e02b4e829a02e360a">&#9670;&nbsp;</a></span>stse_frame_push_element()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stse_frame_push_element </td>
-          <td>(</td>
-          <td class="paramtype">stse_frame_t *&#160;</td>
-          <td class="paramname"><em>pFrame</em>, </td>
+          <td class="paramtype">const PLAT_UI8 *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">stse_frame_element_t *&#160;</td>
-          <td class="paramname"><em>pElement</em>&#160;</td>
+          <td class="paramtype">PLAT_I32&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -324,92 +329,51 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Push frame element into frame. </p>
-<p>This core function set selected element as the frame last one </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Print a BITSTRING. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pFrame</td><td>Pointer to frame </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pElement</td><td>Pointer to frame element </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*value</td><td>pointer to the value of a BITSTRING (got from <a class="el" href="../../d0/dc5/a00435.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a> ) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>size (in bytes) of the value field of this BITSTRING (got from <a class="el" href="../../d0/dc5/a00435.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a> ) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>Success </td></tr>
+    <tr><td class="paramname">-1</td><td>Failure. The bitstring excludes some of the LSBits of the LSB, which \ this implementation doesn't support </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00123">123</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d39/a00257_source.html#l00190">190</a> of file <a class="el" href="../../d9/d39/a00257_source.html">stse_certificate_prints.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d39/a00257_source.html#l00310">stse_certificate_print_name()</a>.</p>
 
 </div>
 </div>
-<a id="gabad690bb87cf672ee1409ff1b210d44d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabad690bb87cf672ee1409ff1b210d44d">&#9670;&nbsp;</a></span>stse_frame_pop_element()</h2>
+<a id="ga4b0afc203293acf01fbd8498fc3ab0d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4b0afc203293acf01fbd8498fc3ab0d5">&#9670;&nbsp;</a></span>stse_certificate_simple_parse_attribute()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void stse_frame_pop_element </td>
+          <td class="memname">void stse_certificate_simple_parse_attribute </td>
           <td>(</td>
-          <td class="paramtype">stse_frame_t *&#160;</td>
-          <td class="paramname"><em>pFrame</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Pop last element from frame. </p>
-<p>This core function remove the last element from frame </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">pFrame</td><td>Pointer to frame </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00144">144</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
-
-</div>
-</div>
-<a id="gaa44ca8c74a10c80310a9944b6bcb7e8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa44ca8c74a10c80310a9944b6bcb7e8c">&#9670;&nbsp;</a></span>stse_frame_debug_print()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stse_frame_debug_print </td>
-          <td>(</td>
-          <td class="paramtype">stse_frame_t *&#160;</td>
-          <td class="paramname"><em>pFrame</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Frame debug print. </p>
-<p>This core function print the content of a frame </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">pFrame</td><td>Pointer to the frame to be printed </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00169">169</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
-
-</div>
-</div>
-<a id="ga37f6cfe467207b3ec2592c9c012b2191"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga37f6cfe467207b3ec2592c9c012b2191">&#9670;&nbsp;</a></span>stse_frame_transmit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stse_frame_transmit </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
-          <td class="paramname"><em>pSTSE</em>, </td>
+          <td class="paramtype">const PLAT_UI8 *&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">stse_frame_t *&#160;</td>
-          <td class="paramname"><em>pFrame</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/dd5/a00432.html#ga867519c680ddb94407b7db75df132d86">stse_cert_attribute_t</a> *&#160;</td>
+          <td class="paramname"><em>attribute_st</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PLAT_UI8 **&#160;</td>
+          <td class="paramname"><em>next_thing</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -419,111 +383,34 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Transmit frame from target STSAFE-Axxx. </p>
-<p>This core function prepare frame CRC and send frame to target STSAFE-Axxx device </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Parse a Name Attribute. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">pFrame</td><td>Pointer to the frame to be transmitted </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*p</td><td>pointer to the Name Attribute SET to be parsed </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">*attribute_st</td><td>pointer to stse_cert_attribute_t structure that will be filled </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">**next_thing</td><td>output pointer to next TLV </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>partial parse function (for printing only) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00201">201</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d39/a00257_source.html#l00281">281</a> of file <a class="el" href="../../d9/d39/a00257_source.html">stse_certificate_prints.c</a>.</p>
 
+<p class="reference">References <a class="el" href="../../d5/d42/a00269_source.html#l00125">attribute_st::str</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00124">attribute_st::strFormat</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00126">attribute_st::strSize</a>, <a class="el" href="../../df/da9/a00263_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, <a class="el" href="../../df/da9/a00263_source.html#l00256">stse_certificate_identify_attribute()</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00038">TAG_OBJECT_IDENTIFIER</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00046">TAG_SEQUENCE</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00047">TAG_SET</a>, and <a class="el" href="../../d5/d42/a00269_source.html#l00123">attribute_st::type</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d39/a00257_source.html#l00310">stse_certificate_print_name()</a>.</p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d1/d7e/a00434_ga4b0afc203293acf01fbd8498fc3ab0d5_cgraph.png" border="0" usemap="#ad1/d7e/a00434_ga4b0afc203293acf01fbd8498fc3ab0d5_cgraph" alt=""/></div>
+<map name="ad1/d7e/a00434_ga4b0afc203293acf01fbd8498fc3ab0d5_cgraph" id="ad1/d7e/a00434_ga4b0afc203293acf01fbd8498fc3ab0d5_cgraph">
+<area shape="rect" title="Parse a Name Attribute." alt="" coords="5,39,177,80"/>
+<area shape="rect" href="../../d0/dc5/a00435.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="225,5,403,47"/>
+<area shape="rect" href="../../d0/dc5/a00435.html#ga533a1e9389c3a121c03c8fa1260fc18c" title="Identify the Name Attribute from its OID." alt="" coords="225,71,403,112"/>
+</map>
 </div>
-<a id="ga28ff0bbacec0a46eebd3d8ffb8d2211a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga28ff0bbacec0a46eebd3d8ffb8d2211a">&#9670;&nbsp;</a></span>stse_frame_receive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stse_frame_receive </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
-          <td class="paramname"><em>pSTSE</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">stse_frame_t *&#160;</td>
-          <td class="paramname"><em>pFrame</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Receive frame from target STSAFE-Axxx. </p>
-<p>This core function receive frame from target STSAFE-Axxx device and verify its CRC </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">pFrame</td><td>Pointer to the frame to be received </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00278">278</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
-
-</div>
-</div>
-<a id="gaa5cd7a355c4455a473f7c5ba33134454"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa5cd7a355c4455a473f7c5ba33134454">&#9670;&nbsp;</a></span>stse_frame_transfer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stse_frame_transfer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
-          <td class="paramname"><em>pSTSE</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">stse_frame_t *&#160;</td>
-          <td class="paramname"><em>pCmdFrame</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">stse_frame_t *&#160;</td>
-          <td class="paramname"><em>pRspFrame</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>inter_frame_delay</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Transfer Frames to/from target STSAFE-Axx. </p>
-<p>This core function send and receive frame to/from target STSAFE-Axxx device </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pCmdFrame</td><td>Pointer to the command frame </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">pRspFrame</td><td>Pointer to the response frame </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">inter_frame_delay</td><td>Delay between command and response frame (in ms) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/d5e/a00275_source.html#l00386">386</a> of file <a class="el" href="../../d3/d5e/a00275_source.html">stse_frame.c</a>.</p>
 
 </div>
 </div>

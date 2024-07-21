@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['low_20power_20management_1140',['Low power management',['../de/d84/a00447.html',1,'']]]
+  ['return_20codes_20definition_1133',['Return Codes definition',['../de/df8/a00440.html',1,'']]]
 ];

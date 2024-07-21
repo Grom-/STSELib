@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STMicroelectronics Secure Element Library: stsafea_low_power.h Source File</title>
+<title>STMicroelectronics Secure Element Library: stsafea_low_power.c Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -95,12 +95,12 @@ $(document).ready(function(){initNavTree('db/ddc/a00353_source.html','../../'); 
 
 <div class="header">
   <div class="headertitle">
-<div class="title">stsafea_low_power.h</div>  </div>
+<div class="title">stsafea_low_power.c</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*!</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> ******************************************************************************</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * \file    stsafea_low_power.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * \file    stsafea_low_power.c</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * \brief   low-power modes services for STSAFE-A</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * \author  STMicroelectronics - CS application team</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
@@ -116,49 +116,47 @@ $(document).ready(function(){initNavTree('db/ddc/a00353_source.html','../../'); 
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> ******************************************************************************</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifndef STSAFEA_LOW_POWER_H</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#define STSAFEA_LOW_POWER_H</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;services/stsafea/stsafea_low_power.h&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;core/stse_return_codes.h&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;core/stse_device.h&quot;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;core/stse_platform.h&quot;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;core/stse_util.h&quot;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;core/stse_frame.h&quot;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;services/stsafea/stsafea_commands.h&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;services/stsafea/stsafea_timings.h&quot;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">/*! \defgroup stsafea_low_power Low power management</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *  \ingroup stsafea_services</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> *  @{</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../de/df4/a00450.html#gac4a1fd6365d0999f280c5e433f8b0de3">   22</a></span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../de/df4/a00450.html#gac4a1fd6365d0999f280c5e433f8b0de3" title="Put target device in hibernate mode.">stsafea_hibernate</a>(<a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> *pSTSE,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                                     <a class="code" href="../../de/df4/a00450.html#ga40c19d723738a1a89548931046626443">stsafea_hibernate_wake_up_mode_t</a> wake_up_mode)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    (void)wake_up_mode;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> ret;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a5aaf28df1cc6611111c0b0e01b6759f2">STSAFEA_CMD_HIBERNATE</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    PLAT_UI8 rsp_header;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span>(pSTSE == NULL)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../de/df8/a00440.html#gga6e312aa8b8cd38421ce8b85215e4b16fa191768619d20bd447ad8cc0ec2ed29cb">STSE_SERVICE_INVALID_PARAMETER</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../de/d84/a00447.html#ga40c19d723738a1a89548931046626443">   36</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../de/d84/a00447.html#gga40c19d723738a1a89548931046626443a003e474d7248ccebd5b4a93dbfbbf858">   37</a></span>&#160;    <a class="code" href="../../de/d84/a00447.html#gga40c19d723738a1a89548931046626443a003e474d7248ccebd5b4a93dbfbbf858">STSAFEA_HIBERNATE_WAKEUP_I2C_OR_RESET</a>    = 0x01, <span class="comment">/*!&lt; Wake up from hibernate after I2C start condition or after reset. */</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../de/d84/a00447.html#gga40c19d723738a1a89548931046626443a520b1b35e119539601f8e0a60cb7eac0">STSAFEA_HIBERNATE_WAKEUP_RESET_ONLY</a>      = 0x02  <span class="comment">/*!&lt; Wake up from hibernate after reset only. */</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../de/d84/a00447.html#gga40c19d723738a1a89548931046626443a520b1b35e119539601f8e0a60cb7eac0">   39</a></span>&#160;} <a class="code" href="../../de/d84/a00447.html#ga40c19d723738a1a89548931046626443">stsafea_hibernate_wake_up_mode_t</a>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"> * \brief       Put target device in hibernate mode</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"> * \details     This function format and send hibernate command to target device</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment"> * \param[in]   pSTSAFE             Pointer to STSAFE Handler</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"> * \param[in]   wake_up_mode        Event to wake up from,</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"> *                                  listed in enum \ref stsafea_hibernate_wake_up_mode_t</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"> * \return \ref stse_ReturnCode_t : STSAFE_OK on success ; error code otherwise</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<a class="code" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../de/d84/a00447.html#gac4a1fd6365d0999f280c5e433f8b0de3" title="Put target device in hibernate mode.">stsafea_hibernate</a>(<a class="code" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> *pSTSAFE,</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                     <a class="code" href="../../de/d84/a00447.html#ga40c19d723738a1a89548931046626443">stsafea_hibernate_wake_up_mode_t</a> wake_up_mode);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">/** \}*/</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/*STSAFEA_LOW_POWER_H*/</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">/*- Create CMD frame and populate elements */</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    stse_frame_allocate(CmdFrame);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    stse_frame_element_allocate_push(&amp;CmdFrame,eCmd_header,1,&amp;cmd_header);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">/*- Create Rsp frame and populate elements*/</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    stse_frame_allocate(RspFrame);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eRsp_header,1,&amp;rsp_header);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">/*- Perform Transfer*/</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            &amp;CmdFrame,</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            &amp;RspFrame,</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a5aaf28df1cc6611111c0b0e01b6759f2">STSAFEA_CMD_HIBERNATE</a>]</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    );</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span>( ret );</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_056ec8f0377ddc4293192cbc6b19c99c.html">services</a></li><li class="navelem"><a class="el" href="../../dir_c4eb7af8f6e6813fbe926bcd6d5f29af.html">stsafea</a></li><li class="navelem"><b>stsafea_low_power.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_056ec8f0377ddc4293192cbc6b19c99c.html">services</a></li><li class="navelem"><a class="el" href="../../dir_c4eb7af8f6e6813fbe926bcd6d5f29af.html">stsafea</a></li><li class="navelem"><b>stsafea_low_power.c</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

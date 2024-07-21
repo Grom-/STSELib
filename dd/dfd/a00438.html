@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STMicroelectronics Secure Element Library: AES</title>
+<title>STMicroelectronics Secure Element Library: STSE Generic typedefs</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -95,609 +95,176 @@ $(document).ready(function(){initNavTree('dd/dfd/a00438.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">AES<div class="ingroups"><a class="el" href="../../de/d87/a00456.html">STSecureElement Library</a> &raquo; <a class="el" href="../../d2/d91/a00459.html">Services layer</a> &raquo; <a class="el" href="../../de/df8/a00440.html">STSAFE-Axxx</a></div></div>  </div>
+<div class="title">STSE Generic typedefs<div class="ingroups"><a class="el" href="../../de/dcb/a00462.html">Core layer</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for AES:</div>
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for STSE Generic typedefs:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../dd/dfd/a00438.png" border="0" usemap="#add_2dfd_2a00438" alt=""/></div>
 <map name="add_2dfd_2a00438" id="add_2dfd_2a00438">
-<area shape="rect" title=" " alt="" coords="164,5,211,31"/>
-<area shape="rect" href="../../de/df8/a00440.html" title=" " alt="" coords="5,5,116,31"/>
+<area shape="rect" title=" " alt="" coords="143,5,312,31"/>
+<area shape="rect" href="../../de/dcb/a00462.html" title="STSELib core Layer." alt="" coords="5,5,95,31"/>
 </map>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ga877531a10a30a58a9a947bb8b30d5cf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#ga877531a10a30a58a9a947bb8b30d5cf8">stsafea_aes_ecb_encrypt</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, PLAT_UI8 slot_number, PLAT_UI16 message_length, PLAT_UI8 *pPlaintext_message, PLAT_UI8 *pEncrypted_message)</td></tr>
-<tr class="separator:ga877531a10a30a58a9a947bb8b30d5cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaea25d6971618311ff5ae66fccd0f74b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#gaea25d6971618311ff5ae66fccd0f74b6">stsafea_aes_ecb_decrypt</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, PLAT_UI8 slot_number, PLAT_UI16 message_length, PLAT_UI8 *pEncrypted_message, PLAT_UI8 *pPlaintext_message)</td></tr>
-<tr class="separator:gaea25d6971618311ff5ae66fccd0f74b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac08ef3bbbdc85269b28a0e0c64aa4006"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#gac08ef3bbbdc85269b28a0e0c64aa4006">stsafea_aes_ccm_encrypt</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, PLAT_UI8 slot_number, PLAT_UI8 authentication_tag_length, PLAT_UI8 *pNonce, PLAT_UI16 associated_data_length, PLAT_UI8 *pAssociated_data, PLAT_UI16 message_length, PLAT_UI8 *pPlaintext_message, PLAT_UI8 *pEncrypted_message, PLAT_UI8 *pAuthentication_tag, PLAT_UI8 *pCounter_presence, PLAT_UI32 *pCounter)</td></tr>
-<tr class="separator:gac08ef3bbbdc85269b28a0e0c64aa4006"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga81372d20528381fab8198dfcfa6947e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#ga81372d20528381fab8198dfcfa6947e2">stsafea_aes_ccm_decrypt</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, PLAT_UI8 slot_number, PLAT_UI8 authentication_tag_length, PLAT_UI8 *pNonce, PLAT_UI16 associated_data_length, PLAT_UI8 *pAssociated_data, PLAT_UI16 message_length, PLAT_UI8 *pEncrypted_message, PLAT_UI8 *pAuthentication_tag, PLAT_UI8 *pVerification_result, PLAT_UI8 *pPlaintext_message)</td></tr>
-<tr class="separator:ga81372d20528381fab8198dfcfa6947e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7d5bab263e5b44411ac0f95ad826d40a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#ga7d5bab263e5b44411ac0f95ad826d40a">stsafea_aes_gcm_encrypt</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, PLAT_UI8 slot_number, PLAT_UI8 authentication_tag_length, PLAT_UI16 IV_length, PLAT_UI8 *pIV, PLAT_UI16 associated_data_length, PLAT_UI8 *pAssociated_data, PLAT_UI16 message_length, PLAT_UI8 *pPlaintext_message, PLAT_UI8 *pEncrypted_message, PLAT_UI8 *pAuthentication_tag)</td></tr>
-<tr class="separator:ga7d5bab263e5b44411ac0f95ad826d40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabb002a2e1be2750109ae2ed2a9e3a241"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#gabb002a2e1be2750109ae2ed2a9e3a241">stsafea_aes_gcm_decrypt</a> (<a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, PLAT_UI8 slot_number, PLAT_UI8 authentication_tag_length, PLAT_UI16 IV_length, PLAT_UI8 *pIV, PLAT_UI16 associated_data_length, PLAT_UI8 *pAssociated_data, PLAT_UI16 message_length, PLAT_UI8 *pEncrypted_message, PLAT_UI8 *pAuthentication_tag, PLAT_UI8 *pVerification_result, PLAT_UI8 *pPlaintext_message)</td></tr>
-<tr class="separator:gabb002a2e1be2750109ae2ed2a9e3a241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:d0/ddb/a00542"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#d0/ddb/a00542">stse_cmd_authorization_CR_t</a></td></tr>
+<tr class="separator:d0/ddb/a00542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/d2b/a00546"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#dc/d2b/a00546">stse_cmd_authorization_record_t</a></td></tr>
+<tr class="separator:dc/d2b/a00546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga97a8c12b5f250185108af60e717e4a00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#ga97a8c12b5f250185108af60e717e4a00">STSE_SECURE_CHANNEL_Msk</a>&#160;&#160;&#160;0x20U</td></tr>
+<tr class="separator:ga97a8c12b5f250185108af60e717e4a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf27a913160f7c9205895fb04bd2a96c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#gaf27a913160f7c9205895fb04bd2a96c0">STSE_SECURE_CHANNEL_HOST</a>&#160;&#160;&#160;0x20U</td></tr>
+<tr class="separator:gaf27a913160f7c9205895fb04bd2a96c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga848dc30ac5fae2ce1c83203d16b8fa1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/a00438.html#ga848dc30ac5fae2ce1c83203d16b8fa1e">STSE_SECURE_CHANNEL_SESSION</a>&#160;&#160;&#160;0x00U</td></tr>
+<tr class="separator:ga848dc30ac5fae2ce1c83203d16b8fa1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ga877531a10a30a58a9a947bb8b30d5cf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga877531a10a30a58a9a947bb8b30d5cf8">&#9670;&nbsp;</a></span>stsafea_aes_ecb_encrypt()</h2>
+<hr/><h2 class="groupheader">Data Structure Documentation</h2>
+<a name="d0/ddb/a00542" id="d0/ddb/a00542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d0/ddb/a00542">&#9670;&nbsp;</a></span>stse_cmd_authorization_CR_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_aes_ecb_encrypt </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
-          <td class="paramname"><em>pSTSE</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8&#160;</td>
-          <td class="paramname"><em>slot_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pPlaintext_message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pEncrypted_message</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">struct stse_cmd_authorization_CR_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Encrypt payload in AES ECB mode. </p>
-<p>This service format and send encrypt command in AES ECB mode </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">slot_number</td><td>Key slot in symmetric key table to be used </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_length</td><td>Length of the message </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pPlaintext_message</td><td>Plaintext message to encrypt </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pEncrypted_message</td><td>Encrypted message </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d0/d61/a00302_source.html#l00020">20</a> of file <a class="el" href="../../d0/d61/a00302_source.html">stsafea_aes.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/de0/a00317_source.html#l00094">STSAFEA_CMD_ENCRYPT</a>, <a class="el" href="../../de/d25/a00290_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../de/d25/a00290_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d25/a00182_source.html#l00020">stse_aes_ecb_encrypt()</a>.</p>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../db/dc3/a00284_source.html#l00111">111</a> of file <a class="el" href="../../db/dc3/a00284_source.html">stse_generic_typedef.h</a>.</p>
+</div><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for stse_cmd_authorization_CR_t:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d4/d79/a00540.png" border="0" usemap="#astse__cmd__authorization__CR__t_coll__map" alt="Collaboration graph"/></div>
+<map name="astse__cmd__authorization__CR__t_coll__map" id="astse__cmd__authorization__CR__t_coll__map">
+<area shape="rect" title="STSE commands authorization change request type." alt="" coords="5,5,220,112"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="gaea25d6971618311ff5ae66fccd0f74b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaea25d6971618311ff5ae66fccd0f74b6">&#9670;&nbsp;</a></span>stsafea_aes_ecb_decrypt()</h2>
+<a name="dc/d2b/a00546" id="dc/d2b/a00546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dc/d2b/a00546">&#9670;&nbsp;</a></span>stse_cmd_authorization_record_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_aes_ecb_decrypt </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
-          <td class="paramname"><em>pSTSE</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8&#160;</td>
-          <td class="paramname"><em>slot_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pEncrypted_message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pPlaintext_message</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">struct stse_cmd_authorization_record_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Decrypt payload in AES ECB mode. </p>
-<p>This service format and send decrypt command in AES ECB mode </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">slot_number</td><td>Key slot in symmetric key table to be used </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_length</td><td>Length of the message </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pEncrypted_message</td><td>Encrypted message to decrypt </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pPlaintext_message</td><td>Plaintext message </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d0/d61/a00302_source.html#l00107">107</a> of file <a class="el" href="../../d0/d61/a00302_source.html">stsafea_aes.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/de0/a00317_source.html#l00095">STSAFEA_CMD_DECRYPT</a>, <a class="el" href="../../de/d25/a00290_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../de/d25/a00290_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d25/a00182_source.html#l00040">stse_aes_ecb_decrypt()</a>.</p>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../db/dc3/a00284_source.html#l00135">135</a> of file <a class="el" href="../../db/dc3/a00284_source.html">stse_generic_typedef.h</a>.</p>
+</div><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for stse_cmd_authorization_record_t:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d2/ddf/a00544.png" border="0" usemap="#astse__cmd__authorization__record__t_coll__map" alt="Collaboration graph"/></div>
+<map name="astse__cmd__authorization__record__t_coll__map" id="astse__cmd__authorization__record__t_coll__map">
+<area shape="rect" title="STSE commands authorization records type." alt="" coords="5,5,184,141"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="gac08ef3bbbdc85269b28a0e0c64aa4006"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac08ef3bbbdc85269b28a0e0c64aa4006">&#9670;&nbsp;</a></span>stsafea_aes_ccm_encrypt()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga97a8c12b5f250185108af60e717e4a00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga97a8c12b5f250185108af60e717e4a00">&#9670;&nbsp;</a></span>STSE_SECURE_CHANNEL_Msk</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_aes_ccm_encrypt </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
-          <td class="paramname"><em>pSTSE</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8&#160;</td>
-          <td class="paramname"><em>slot_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8&#160;</td>
-          <td class="paramname"><em>authentication_tag_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pNonce</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>associated_data_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pAssociated_data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pPlaintext_message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pEncrypted_message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pAuthentication_tag</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pCounter_presence</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI32 *&#160;</td>
-          <td class="paramname"><em>pCounter</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define STSE_SECURE_CHANNEL_Msk&#160;&#160;&#160;0x20U</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>STSE Secure channel type bit </p>
 
-<p>Encrypt payload in AES CCM* mode. </p>
-<p>This service format and send encrypt command in AES CCM* mode </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">slot_number</td><td>Key slot in symmetric key table to be used </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">authentication_tag_length</td><td>Expected length for the authentication tag </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pNonce</td><td>Buffer containing the nonce </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">associated_data_length</td><td>Length of the associated data </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pAssociated_data</td><td>Buffer containing associated data </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_length</td><td>Length of the message to encrypt </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pPlaintext_message</td><td>Buffer containing the message to encrypt </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pEncrypted_message</td><td>Buffer to store the encrypted message </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pAuthentication_tag</td><td>Buffer to store the authentication tag </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pCounter_presence</td><td>Counter presence flag </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pCounter</td><td>Buffer containing counter value if present </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d0/d61/a00302_source.html#l00190">190</a> of file <a class="el" href="../../d0/d61/a00302_source.html">stsafea_aes.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/de0/a00317_source.html#l00094">STSAFEA_CMD_ENCRYPT</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d25/a00182_source.html#l00060">stse_aes_ccm_encrypt()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dc3/a00284_source.html#l00063">63</a> of file <a class="el" href="../../db/dc3/a00284_source.html">stse_generic_typedef.h</a>.</p>
 
 </div>
 </div>
-<a id="ga81372d20528381fab8198dfcfa6947e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga81372d20528381fab8198dfcfa6947e2">&#9670;&nbsp;</a></span>stsafea_aes_ccm_decrypt()</h2>
+<a id="gaf27a913160f7c9205895fb04bd2a96c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf27a913160f7c9205895fb04bd2a96c0">&#9670;&nbsp;</a></span>STSE_SECURE_CHANNEL_HOST</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_aes_ccm_decrypt </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
-          <td class="paramname"><em>pSTSE</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8&#160;</td>
-          <td class="paramname"><em>slot_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8&#160;</td>
-          <td class="paramname"><em>authentication_tag_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pNonce</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>associated_data_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pAssociated_data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pEncrypted_message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pAuthentication_tag</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pVerification_result</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pPlaintext_message</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define STSE_SECURE_CHANNEL_HOST&#160;&#160;&#160;0x20U</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>STSE Host secure channel </p>
 
-<p>Decrypt payload in AES CCM* mode. </p>
-<p>This service format and send decrypt command in AES CCM* mode </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">slot_number</td><td>Key slot in symmetric key table to be used </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">authentication_tag_length</td><td>Expected length for the authentication tag </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pNonce</td><td>Buffer containing the nonce </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">associated_data_length</td><td>Length of the associated data </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pAssociated_data</td><td>Buffer containing associated data </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_length</td><td>Length of the message to encrypt </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pEncrypted_message</td><td>Buffer containing the message to decrypt </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pAuthentication_tag</td><td>Buffer containing the authentication tag </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pVerification_result</td><td>Verification result flag </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pPlaintext_message</td><td>Buffer to store the decrypted message </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d0/d61/a00302_source.html#l00305">305</a> of file <a class="el" href="../../d0/d61/a00302_source.html">stsafea_aes.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/de0/a00317_source.html#l00095">STSAFEA_CMD_DECRYPT</a>, <a class="el" href="../../de/d25/a00290_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../de/d25/a00290_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d25/a00182_source.html#l00094">stse_aes_ccm_decrypt()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dc3/a00284_source.html#l00064">64</a> of file <a class="el" href="../../db/dc3/a00284_source.html">stse_generic_typedef.h</a>.</p>
 
 </div>
 </div>
-<a id="ga7d5bab263e5b44411ac0f95ad826d40a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7d5bab263e5b44411ac0f95ad826d40a">&#9670;&nbsp;</a></span>stsafea_aes_gcm_encrypt()</h2>
+<a id="ga848dc30ac5fae2ce1c83203d16b8fa1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga848dc30ac5fae2ce1c83203d16b8fa1e">&#9670;&nbsp;</a></span>STSE_SECURE_CHANNEL_SESSION</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_aes_gcm_encrypt </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
-          <td class="paramname"><em>pSTSE</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8&#160;</td>
-          <td class="paramname"><em>slot_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8&#160;</td>
-          <td class="paramname"><em>authentication_tag_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>IV_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pIV</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>associated_data_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pAssociated_data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pPlaintext_message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pEncrypted_message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pAuthentication_tag</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define STSE_SECURE_CHANNEL_SESSION&#160;&#160;&#160;0x00U</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>STSE Session secure channel </p>
 
-<p>Encrypt payload in AES GCM mode. </p>
-<p>This service format and send encrypt command in AES GCM mode </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">slot_number</td><td>Key slot in symmetric key table to be used </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">authentication_tag_length</td><td>Expected length for the authentication tag </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">IV_length</td><td>IV buffer length in bytes </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">IV</td><td>IV buffer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">associated_data_length</td><td>Length of the associated data </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pAssociated_data</td><td>Buffer containing associated data </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_length</td><td>Length of the message to encrypt </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pPlaintext_message</td><td>Buffer containing the message to encrypt </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pEncrypted_message</td><td>Buffer to store the encrypted message </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pAuthentication_tag</td><td>Buffer to store the authentication tag </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d0/d61/a00302_source.html#l00404">404</a> of file <a class="el" href="../../d0/d61/a00302_source.html">stsafea_aes.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/de0/a00317_source.html#l00094">STSAFEA_CMD_ENCRYPT</a>, <a class="el" href="../../de/d25/a00290_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../de/d25/a00290_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d6/de1/a00356_source.html#l00180">stsafea_aes_gmac_compute()</a>, and <a class="el" href="../../d7/d25/a00182_source.html#l00126">stse_aes_gcm_encrypt()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dc3/a00284_source.html#l00065">65</a> of file <a class="el" href="../../db/dc3/a00284_source.html">stse_generic_typedef.h</a>.</p>
 
 </div>
 </div>
-<a id="gabb002a2e1be2750109ae2ed2a9e3a241"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb002a2e1be2750109ae2ed2a9e3a241">&#9670;&nbsp;</a></span>stsafea_aes_gcm_decrypt()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="gad1a8532f8c9a85537fcfc873a2ea1844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1a8532f8c9a85537fcfc873a2ea1844">&#9670;&nbsp;</a></span>stse_cmd_access_conditions_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_aes_gcm_decrypt </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
-          <td class="paramname"><em>pSTSE</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8&#160;</td>
-          <td class="paramname"><em>slot_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8&#160;</td>
-          <td class="paramname"><em>authentication_tag_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>IV_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pIV</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>associated_data_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pAssociated_data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pEncrypted_message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pAuthentication_tag</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pVerification_result</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pPlaintext_message</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">enum <a class="el" href="../../dd/dfd/a00438.html#gad1a8532f8c9a85537fcfc873a2ea1844">stse_cmd_access_conditions_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Decrypt payload in AES GCM mode. </p>
-<p>This service format and send decrypt command in AES GCM mode </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">slot_number</td><td>Key slot in symmetric key table to be used </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">authentication_tag_length</td><td>Expected length for the authentication tag </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">IV_length</td><td>IV buffer length in bytes </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">IV</td><td>IV buffer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">associated_data_length</td><td>Length of the associated data </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pAssociated_data</td><td>Buffer containing associated data </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_length</td><td>Length of the message to encrypt </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pEncrypted_message</td><td>Buffer containing the message to decrypt </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pAuthentication_tag</td><td>Buffer containing the authentication tag </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pVerification_result</td><td>Verification result flag </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pPlaintext_message</td><td>Buffer to store the decrypted message </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+<p>STSE commands access conditions enumeration. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggad1a8532f8c9a85537fcfc873a2ea1844a8af68407717046d9d9a365c79b2b2e3c"></a>STSE_CMD_AC_NEVER&#160;</td><td class="fielddoc"><p>NEVER </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggad1a8532f8c9a85537fcfc873a2ea1844a8d161a9a662ee7a46e1ab063a45a7300"></a>STSE_CMD_AC_FREE&#160;</td><td class="fielddoc"><p>FREE </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggad1a8532f8c9a85537fcfc873a2ea1844a7afb3699061c1f9093eccfd307afc18d"></a>STSE_CMD_AC_ADMIN&#160;</td><td class="fielddoc"><p>ADMIN </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggad1a8532f8c9a85537fcfc873a2ea1844a5c297c8fd61462b144c2ae21ac37fc35"></a>STSE_CMD_AC_HOST&#160;</td><td class="fielddoc"><p>HOST </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggad1a8532f8c9a85537fcfc873a2ea1844a7a4b9a4ec411be7840197bee8106100d"></a>STSE_CMD_AC_ADMIN_OR_PWD&#160;</td><td class="fielddoc"><p>ADMIN or PASSWORD </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggad1a8532f8c9a85537fcfc873a2ea1844a8e13fa709f26da6566d95359420c0142"></a>STSE_CMD_AC_ADMIN_OR_HOST&#160;</td><td class="fielddoc"><p>ADMIN or HOST </p>
+</td></tr>
+</table>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d61/a00302_source.html#l00508">508</a> of file <a class="el" href="../../d0/d61/a00302_source.html">stsafea_aes.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/de0/a00317_source.html#l00095">STSAFEA_CMD_DECRYPT</a>, <a class="el" href="../../de/d25/a00290_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../de/d25/a00290_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d6/de1/a00356_source.html#l00209">stsafea_aes_gmac_verify()</a>, and <a class="el" href="../../d7/d25/a00182_source.html#l00158">stse_aes_gcm_decrypt()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dc3/a00284_source.html#l00121">121</a> of file <a class="el" href="../../db/dc3/a00284_source.html">stse_generic_typedef.h</a>.</p>
 
 </div>
 </div>

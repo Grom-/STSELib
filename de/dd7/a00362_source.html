@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STMicroelectronics Secure Element Library: stsafea_password.c Source File</title>
+<title>STMicroelectronics Secure Element Library: stsafea_mac.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -95,13 +95,13 @@ $(document).ready(function(){initNavTree('de/dd7/a00362_source.html','../../'); 
 
 <div class="header">
   <div class="headertitle">
-<div class="title">stsafea_password.c</div>  </div>
+<div class="title">stsafea_mac.h</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*!</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> ******************************************************************************</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * \file    stsafea_password.c</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * \brief   password services for STSAFE-A</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * \file    stsafea_mac.h</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * \brief   STSAFE Middleware services for Message Authentication Code - MAC (header)</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * \author  STMicroelectronics - CS application team</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> ******************************************************************************</span></div>
@@ -116,84 +116,123 @@ $(document).ready(function(){initNavTree('de/dd7/a00362_source.html','../../'); 
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> ******************************************************************************</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;services/stsafea/stsafea_password.h&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifndef STSAFEA_MAC_H</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#define STSAFEA_MAC_H</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d9/d10/a00449.html#ga3e709e7aff52dac1723a45f59501ecd4">   22</a></span>&#160;<a class="code" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d10/a00449.html#ga3e709e7aff52dac1723a45f59501ecd4" title="STSAFEA verify password service.">stsafea_verify_password</a>(</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        PLAT_UI8 * pPassword_buffer,</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        PLAT_UI8 password_length,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        PLAT_UI8 * pVerification_status,</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        PLAT_UI8 * pRemaining_tries)</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> ret;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d6/d66/a00441.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aad7d9193df273ee0c9b1f491b0846801">STSAFEA_CMD_VERIFY_PASSWORD</a>;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    PLAT_UI8 rsp_header;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span>((pSTSE == NULL) || (password_length != STSAFEA_PASSWORD_LENGTH))</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/da8/a00437.html#gga6e312aa8b8cd38421ce8b85215e4b16fa191768619d20bd447ad8cc0ec2ed29cb">STSE_SERVICE_INVALID_PARAMETER</a>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">/*- Create CMD frame and populate elements */</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    stse_frame_allocate(CmdFrame);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    stse_frame_element_allocate_push(&amp;CmdFrame,eCmd_header,1,&amp;cmd_header);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    stse_frame_element_allocate_push(&amp;CmdFrame,ePassword,password_length,pPassword_buffer);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">/*- Create Rsp frame and populate elements*/</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    stse_frame_allocate(RspFrame);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eRsp_header,1,&amp;rsp_header);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eVerStat,1,pVerification_status);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eRemTri,1,pRemaining_tries);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">/*- Perform Transfer*/</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    ret = <a class="code" href="../../d1/d7e/a00434.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            &amp;CmdFrame,</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d6/d66/a00441.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aad7d9193df273ee0c9b1f491b0846801">STSAFEA_CMD_VERIFY_PASSWORD</a>]</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    );</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span>( ret );</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d9/d10/a00449.html#gaf7047a8c2a586d48b9af5e36c6210812">   61</a></span>&#160;<a class="code" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d10/a00449.html#gaf7047a8c2a586d48b9af5e36c6210812" title="STSAFEA delete password service.">stsafea_delete_password</a>(<a class="code" href="../../dd/d07/a00433.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE)</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../d4/da8/a00437.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> ret;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d6/d66/a00441.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a71ad9d653279ab0aa79ad2c29af50f43">STSAFEA_CMD_DELETE</a>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    PLAT_UI8 tag = STSAFEA_DELETE_TAG_PASSWORD;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    PLAT_UI8 rsp_header;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">if</span>(pSTSE == NULL)</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/da8/a00437.html#gga6e312aa8b8cd38421ce8b85215e4b16fa191768619d20bd447ad8cc0ec2ed29cb">STSE_SERVICE_INVALID_PARAMETER</a>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">/*- Create CMD frame and populate elements */</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    stse_frame_allocate(CmdFrame);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    stse_frame_element_allocate_push(&amp;CmdFrame,eCmd_header,1,&amp;cmd_header);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    stse_frame_element_allocate_push(&amp;CmdFrame,eTag,1,&amp;tag);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">/*- Create Rsp frame and populate elements*/</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    stse_frame_allocate(RspFrame);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eRsp_header,1,&amp;rsp_header);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">/*- Perform Transfer*/</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    ret = <a class="code" href="../../d1/d7e/a00434.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            &amp;CmdFrame,</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d6/d66/a00441.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a71ad9d653279ab0aa79ad2c29af50f43">STSAFEA_CMD_DELETE</a>]</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    );</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">return</span>( ret );</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;core/stse_return_codes.h&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;core/stse_device.h&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;core/stse_platform.h&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;core/stse_util.h&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;core/stse_frame.h&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;services/stsafea/stsafea_commands.h&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;services/stsafea/stsafea_timings.h&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;services/stsafea/stsafea_put_query.h&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;services/stsafea/stsafea_symmetric_key_slots.h&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;services/stsafea/stsafea_sessions.h&quot;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;services/stsafea/stsafea_aes.h&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">/*! \defgroup stsafea_mac MAC</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> *  \ingroup stsafea_services</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> *  @{</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"> * \brief       Generate a CMAC</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment"> * \details     This service format and send Generate CMAC command</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment"> * \param[in]   pSTSE       Pointer to STSAFE Handler</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"> * \param[in]   slot_number     Key slot in symmetric key table to be used</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"> * \param[in]   pMessage        Plaintext message</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment"> * \param[in]   message_length  Plaintext message length</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"> * \param[out]  pMac            Buffer to store the MAC</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"> * \param[out]  mac_length      MAC length (CMAC:2,4,8,16 / HMAC:16-32)</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"> * \return \ref stse_ReturnCode_t : STSE_OK on success ; error code otherwise</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d69/a00451.html#ga44317159bcbc7ab490ac8ba894a3ad5c" title="Generate a CMAC.">stsafea_cmac_hmac_compute</a>(</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        PLAT_UI8 slot_number,</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        PLAT_UI8 * pMessage,</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        PLAT_UI8 message_length,</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        PLAT_UI8 * pMac,</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        PLAT_UI8 mac_length);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment"> * \brief       Verify a CMAC</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment"> * \details     This service format and send Verify CMAC command</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"> * \param[in]   pSTSE               Pointer to STSAFE Handler</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment"> * \param[in]   slot_number             Key slot in symmetric key table to be used</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment"> * \param[in]   pMac                    Buffer containing the MAC</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment"> * \param[in]   mac_length              MAC length (CMAC:2,4,8,16 / HMAC:16-32)</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment"> * \param[in]   pMessage                Plaintext message</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment"> * \param[in]   message_length          Plaintext message length</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment"> * \param[out]  verification_result     Verification result flag</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment"> * \return \ref stse_ReturnCode_t : STSE_OK on success ; error code otherwise</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d69/a00451.html#ga045f6a453cade5c70edca9e49439b026" title="Verify a CMAC.">stsafea_cmac_hmac_verify</a>(</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        PLAT_UI8 slot_number,</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        PLAT_UI8 * pMac,</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        PLAT_UI8 mac_length,</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        PLAT_UI8 * pMessage,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        PLAT_UI8 message_length,</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        PLAT_UI8 * verification_result);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment"> * \brief       Generate a GMAC</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment"> * \details     This service format and send Generate GMAC command</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment"> * \param[in]   pSTSE                       Pointer to STSAFE Handler</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment"> * \param[in]   slot_number                 Key slot in symmetric key table to be used</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment"> * \param[in]   IV_length                   IV buffer length in bytes</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment"> * \param[in]   IV                          IV buffer</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment"> * \param[in]   associated_data_length      Length of the associated data</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment"> * \param[in]   pAssociated_data            Buffer containing associated data</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment"> * \param[in]   authentication_tag_length   Expected length for the authentication tag</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment"> * \param[out]  pAuthentication_tag         Buffer to store the authentication tag</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment"> * \return \ref stse_ReturnCode_t : STSE_OK on success ; error code otherwise</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d69/a00451.html#ga2f34e47a7a1cf282b7956d57ba02c41c" title="Generate a GMAC.">stsafea_aes_gmac_compute</a>(</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        PLAT_UI8 slot_number,</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        PLAT_UI16 IV_length,</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        PLAT_UI8* pIV,</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        PLAT_UI16 associated_data_length,</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        PLAT_UI8 * pAssociated_data,</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        PLAT_UI8 authentication_tag_length,</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        PLAT_UI8 * pAuthentication_tag);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment"> * \brief       Verify a GMAC</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment"> * \details     This service format and send Verify GMAC command</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment"> * \param[in]   pSTSE                       Pointer to STSAFE Handler</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment"> * \param[in]   slot_number                 Key slot in symmetric key table to be used</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment"> * \param[in]   IV_length                   IV buffer length in bytes</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment"> * \param[in]   IV                          IV buffer</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment"> * \param[in]   associated_data_length      Length of the associated data</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment"> * \param[in]   pAssociated_data            Buffer containing associated data</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment"> * \param[in]   authentication_tag_length   Expected length for the authentication tag</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment"> * \param[in]   pAuthentication_tag         Buffer containing the authentication tag</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment"> * \param[out]  pVerification_result        Verification result flag</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment"> * \return \ref stse_ReturnCode_t : STSE_OK on success ; error code otherwise</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d69/a00451.html#gab6681cb3df8be95406d04a1172cfe006" title="Verify a GMAC.">stsafea_aes_gmac_verify</a>(</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        PLAT_UI8 slot_number,</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        PLAT_UI16 IV_length,</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        PLAT_UI8* pIV,</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        PLAT_UI16 associated_data_length,</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        PLAT_UI8 * pAssociated_data,</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        PLAT_UI8 authentication_tag_length,</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        PLAT_UI8 * pAuthentication_tag,</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        PLAT_UI8 * pVerification_result);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">/** \}*/</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STSAFEA_MAC_H */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_056ec8f0377ddc4293192cbc6b19c99c.html">services</a></li><li class="navelem"><a class="el" href="../../dir_c4eb7af8f6e6813fbe926bcd6d5f29af.html">stsafea</a></li><li class="navelem"><b>stsafea_password.c</b></li>
+    <li class="navelem"><a class="el" href="../../dir_056ec8f0377ddc4293192cbc6b19c99c.html">services</a></li><li class="navelem"><a class="el" href="../../dir_c4eb7af8f6e6813fbe926bcd6d5f29af.html">stsafea</a></li><li class="navelem"><b>stsafea_mac.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

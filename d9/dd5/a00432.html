@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STMicroelectronics Secure Element Library: STSE Certificate subparsing routines</title>
+<title>STMicroelectronics Secure Element Library: STSE Certificate parser</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -97,184 +97,289 @@ $(document).ready(function(){initNavTree('d9/dd5/a00432.html','../../'); initRes
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">STSE Certificate subparsing routines<div class="ingroups"><a class="el" href="../../de/d87/a00456.html">STSecureElement Library</a> &raquo; <a class="el" href="../../d1/dbd/a00457.html">STSE Certificate</a></div></div>  </div>
+<div class="title">STSE Certificate parser<div class="ingroups"><a class="el" href="../../d2/d91/a00459.html">STSE Certificate</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for STSE Certificate subparsing routines:</div>
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for STSE Certificate parser:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../d9/dd5/a00432.png" border="0" usemap="#ad9_2dd5_2a00432" alt=""/></div>
 <map name="ad9_2dd5_2a00432" id="ad9_2dd5_2a00432">
-<area shape="rect" title="STSE Certificate subparsing routines." alt="" coords="179,5,379,45"/>
-<area shape="rect" href="../../d1/dbd/a00457.html" title="STSELib Certificate parser." alt="" coords="5,13,131,38"/>
+<area shape="rect" title="STSE Certificate parser." alt="" coords="179,5,349,31"/>
+<area shape="rect" href="../../d2/d91/a00459.html" title="STSELib Certificate parser." alt="" coords="5,5,131,31"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaa88b975c48fd20aca9809945941f7987"><td class="memItemLeft" align="right" valign="top">PLAT_I32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a> (const PLAT_UI8 *asn1, PLAT_I32 *parsed, PLAT_I32 *size, const PLAT_UI8 **value)</td></tr>
-<tr class="separator:gaa88b975c48fd20aca9809945941f7987"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga533a1e9389c3a121c03c8fa1260fc18c"><td class="memItemLeft" align="right" valign="top">PLAT_I32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga533a1e9389c3a121c03c8fa1260fc18c">stse_certificate_identify_attribute</a> (const PLAT_UI8 *oid, PLAT_I32 size)</td></tr>
-<tr class="separator:ga533a1e9389c3a121c03c8fa1260fc18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga05a33685fc72c85d3c46e91d89a2e35d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga05a33685fc72c85d3c46e91d89a2e35d">stse_certificate_parse_ECDSA_signature</a> (const PLAT_UI8 *signature, <a class="el" href="../../d4/d53/a00429.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *stse_certificate, const PLAT_UI8 **next_thing)</td></tr>
-<tr class="separator:ga05a33685fc72c85d3c46e91d89a2e35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf6ac8e5e2fa0c9e1d3ff7ea05f8f474d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#gaf6ac8e5e2fa0c9e1d3ff7ea05f8f474d">stse_certificate_parse_X509_version</a> (const PLAT_UI8 *x509VersionField, <a class="el" href="../../d4/d53/a00429.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *stse_certificate, const PLAT_UI8 **next_thing)</td></tr>
-<tr class="separator:gaf6ac8e5e2fa0c9e1d3ff7ea05f8f474d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e53f7b091ef7996407a230c1179b08d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga3e53f7b091ef7996407a230c1179b08d">stse_certificate_parse_signature_algorithm</a> (const PLAT_UI8 *SA, PLAT_I32 *singatureAlgorithm, const PLAT_UI8 **next_thing)</td></tr>
-<tr class="separator:ga3e53f7b091ef7996407a230c1179b08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga98420b145861bfb869f6fa9f90fcbf61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga98420b145861bfb869f6fa9f90fcbf61">stse_certificate_parse_ECC_public_key</a> (const PLAT_UI8 *EccPK, <a class="el" href="../../d4/d53/a00429.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *stse_certificate, const PLAT_UI8 **next_thing)</td></tr>
-<tr class="separator:ga98420b145861bfb869f6fa9f90fcbf61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad70d0962519b7d9c973c41aed5773920"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#gad70d0962519b7d9c973c41aed5773920">stse_certificate_parse_integer</a> (const PLAT_UI8 *integer, const PLAT_UI8 **outp, PLAT_I32 *outSize, const PLAT_UI8 **next_thing)</td></tr>
-<tr class="separator:gad70d0962519b7d9c973c41aed5773920"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0e43f89e638b9f8d36d2e514ee219be6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga0e43f89e638b9f8d36d2e514ee219be6">stse_certificate_parse_validity</a> (const PLAT_UI8 *p, <a class="el" href="../../d4/d53/a00429.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *notBefore_st, <a class="el" href="../../d4/d53/a00429.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *notAfter_st, const PLAT_UI8 **next_thing)</td></tr>
-<tr class="separator:ga0e43f89e638b9f8d36d2e514ee219be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga03d6b42e074c354999ee22bc0c1fcebb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga03d6b42e074c354999ee22bc0c1fcebb">stse_certificate_parse_relative_distinguished_name</a> (const PLAT_UI8 *p, const PLAT_UI8 **nextRDN, const PLAT_UI8 **attribute)</td></tr>
-<tr class="separator:ga03d6b42e074c354999ee22bc0c1fcebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0aa01204d027c7dc4fcadff5f0a10b0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga0aa01204d027c7dc4fcadff5f0a10b0e">stse_certificate_parse_attribute</a> (const PLAT_UI8 *p, <a class="el" href="../../d4/d53/a00429.html#ga867519c680ddb94407b7db75df132d86">stse_cert_attribute_t</a> *<a class="el" href="../../d9/d34/a00476.html">attribute_st</a>, const PLAT_UI8 **next_thing)</td></tr>
-<tr class="separator:ga0aa01204d027c7dc4fcadff5f0a10b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf085531ad82b27d615cdc33347c99f2f"><td class="memItemLeft" align="right" valign="top">PLAT_I32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#gaf085531ad82b27d615cdc33347c99f2f">stse_certificate_date_compare</a> (const <a class="el" href="../../d4/d53/a00429.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *D1, const <a class="el" href="../../d4/d53/a00429.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *D2)</td></tr>
-<tr class="separator:gaf085531ad82b27d615cdc33347c99f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga635873a1afbdb10f2106703198b57100"><td class="memItemLeft" align="right" valign="top">PLAT_I32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga635873a1afbdb10f2106703198b57100">stse_certificate_count_attributes</a> (const PLAT_UI8 *p)</td></tr>
-<tr class="separator:ga635873a1afbdb10f2106703198b57100"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ce58c9432c1abd52824c33dee991c90"><td class="memItemLeft" align="right" valign="top">PLAT_I32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga1ce58c9432c1abd52824c33dee991c90">stse_certificate_case_insensitive_compare</a> (const PLAT_UI8 *p1, const PLAT_UI8 *p2, PLAT_I32 size)</td></tr>
-<tr class="separator:ga1ce58c9432c1abd52824c33dee991c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaef1ed24cc654d7e7886cc6361fd0b1dc"><td class="memItemLeft" align="right" valign="top">PLAT_I32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#gaef1ed24cc654d7e7886cc6361fd0b1dc">stse_certificate_case_identify_extension</a> (const PLAT_UI8 *oid, PLAT_I32 size)</td></tr>
-<tr class="separator:gaef1ed24cc654d7e7886cc6361fd0b1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4e9d50573f7c74207efdd2363f59d7e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga4e9d50573f7c74207efdd2363f59d7e5">stse_certificate_parse_extension</a> (const PLAT_UI8 *ext, PLAT_UI32 *extFlags, <a class="el" href="../../d4/d53/a00429.html#gad083a8183ae16ca8a4d37b9eb50f5ab6">stse_cert_extension_t</a> *ext_st)</td></tr>
-<tr class="separator:ga4e9d50573f7c74207efdd2363f59d7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad5a08fb4e091c3316e6f030af2838c1b"><td class="memItemLeft" align="right" valign="top">PLAT_I32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#gad5a08fb4e091c3316e6f030af2838c1b">stse_certificate_get_small_integer</a> (const PLAT_UI8 *value, PLAT_I32 size)</td></tr>
-<tr class="separator:gad5a08fb4e091c3316e6f030af2838c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa61ce045058ac7a28013df624861be01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#gaa61ce045058ac7a28013df624861be01">stse_certificate_init</a> (<a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *cert)</td></tr>
+<tr class="separator:gaa61ce045058ac7a28013df624861be01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga83baa2b6c6c6ac34f72cbdcc43968353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga83baa2b6c6c6ac34f72cbdcc43968353">stse_certificate_parse</a> (const PLAT_UI8 *cert, <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *stse_certificate, const PLAT_UI8 **next)</td></tr>
+<tr class="separator:ga83baa2b6c6c6ac34f72cbdcc43968353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34be70ca1945a1fab289ab94d04e66b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga34be70ca1945a1fab289ab94d04e66b3">stse_certificate_is_valid</a> (const <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *stse_certificate, const <a class="el" href="../../d9/dd5/a00432.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *currentTime)</td></tr>
+<tr class="separator:ga34be70ca1945a1fab289ab94d04e66b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf519f5e717a9b168d149d4f1cca6e024"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#gaf519f5e717a9b168d149d4f1cca6e024">stse_certificate_is_CA</a> (const <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *cert)</td></tr>
+<tr class="separator:gaf519f5e717a9b168d149d4f1cca6e024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3bf99d9c012e5d365ef2e52518aa5283"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga3bf99d9c012e5d365ef2e52518aa5283">stse_certificate_is_parent</a> (const <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *parent, const <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *child, const <a class="el" href="../../d9/dd5/a00432.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *currentTime)</td></tr>
+<tr class="separator:ga3bf99d9c012e5d365ef2e52518aa5283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab5311b47824b3503645b34f968d2efe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#gab5311b47824b3503645b34f968d2efe2">stse_certificate_copy</a> (<a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *copiedCert, const <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *originalCert)</td></tr>
+<tr class="separator:gab5311b47824b3503645b34f968d2efe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3e22355b36cc1f58f7a0f844ab702b10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga3e22355b36cc1f58f7a0f844ab702b10">stse_certificate_parse_chain</a> (PLAT_UI8 *rootCA, PLAT_UI8 *certChain, PLAT_UI16 certChainSize, <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *leafCert)</td></tr>
+<tr class="separator:ga3e22355b36cc1f58f7a0f844ab702b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3c4baca631ca6caddbc25ac6c825584c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd5/a00432.html#ga3c4baca631ca6caddbc25ac6c825584c">stse_certificate_set_stse_companion</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE)</td></tr>
+<tr class="separator:ga3c4baca631ca6caddbc25ac6c825584c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga4c01ebf9927142ebafd6749bde931bad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c01ebf9927142ebafd6749bde931bad">&#9670;&nbsp;</a></span>stse_certificate_tag_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d9/dd5/a00432.html#ga4c01ebf9927142ebafd6749bde931bad">stse_certificate_tag_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definitions of X509 TAGs. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada353060b05ff948b6dbbc7fad7cd90988"></a>TAG_BOOLEAN&#160;</td><td class="fielddoc"><p>x509 tag for BOOLEAN </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada2b80ec6962a32a149f228a902870f8d7"></a>TAG_INTEGER&#160;</td><td class="fielddoc"><p>x509 tag for INTEGER </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931badac660be05f068d78ade7aa8756e7e21d5"></a>TAG_BITSTRING&#160;</td><td class="fielddoc"><p>x509 tag for BITSTRING </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931badab4688385612afe7aa9e42b9d32ce0c5d"></a>TAG_OCTETSTRING&#160;</td><td class="fielddoc"><p>x509 tag for OCTETSTRING </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada81938a78b8aefc4200f2827cc5f51573"></a>TAG_NULL&#160;</td><td class="fielddoc"><p>x509 tag for NULL </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada3a5faef46217b8b847901d8954f74a85"></a>TAG_OBJECT_IDENTIFIER&#160;</td><td class="fielddoc"><p>x509 tag for OBJECT_IDENTIFIER </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931badabb85cee90a18e114553138b9f393b892"></a>TAG_ObjectDescriptor&#160;</td><td class="fielddoc"><p>x509 tag for ObjectDescriptor </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada840486dadec2f9ddc9e4e863a5dbf5cd"></a>TAG_ENUMERATED&#160;</td><td class="fielddoc"><p>x509 tag for ENUMERATED </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931badab63c6d2c3f28f550e827996e28c97525"></a>TAG_UTF8String&#160;</td><td class="fielddoc"><p>x509 tag for UTF8String </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada80e6244635a55607a80d136741dcd2f6"></a>TAG_PrintableString&#160;</td><td class="fielddoc"><p>x509 tag for PrintableString </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931badade70021e9112deae6b3c4b932185baa4"></a>TAG_IA5String&#160;</td><td class="fielddoc"><p>x509 tag for IA5String </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada2160e5d666974b11ef28d0a69fed0535"></a>TAG_UTCTime&#160;</td><td class="fielddoc"><p>x509 tag for UTCTime </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931badae1bb091c7305f0afe40f7d233bc1a4ff"></a>TAG_GeneralizedTime&#160;</td><td class="fielddoc"><p>x509 tag for GeneralizedTime </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada3b2075991ffb89661a2f6bd6b2f60c86"></a>TAG_SEQUENCE&#160;</td><td class="fielddoc"><p>x509 tag for SEQUENCE </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931badaa9c9c8a13b371b125bfb7ef1ceeb37f5"></a>TAG_SET&#160;</td><td class="fielddoc"><p>x509 tag for SET </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada7130065df2028bf5abe7b7dfd18c0d09"></a>TAG_x509VERSION&#160;</td><td class="fielddoc"><p>x509 tag for x509VERSION </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada01e887a77fbe2cc00d5110de228aa74d"></a>TAG_issuerUniqueID&#160;</td><td class="fielddoc"><p>x509 tag for issuerUniqueID </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada6a88b8a452a1c21c0b92ce99fb0f84a8"></a>TAG_subjectUniqueID&#160;</td><td class="fielddoc"><p>x509 tag for subjectUniqueID </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4c01ebf9927142ebafd6749bde931bada98f59c2dcaa9e3bbc2d7d7bd92f39b68"></a>TAG_extensions&#160;</td><td class="fielddoc"><p>x509 tag for extensions </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d42/a00269_source.html#l00032">32</a> of file <a class="el" href="../../d5/d42/a00269_source.html">stse_certificate_types.h</a>.</p>
+
+</div>
+</div>
+<a id="ga0d9ce5fc2e1d06cd9dc074d56c41f75c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d9ce5fc2e1d06cd9dc074d56c41f75c">&#9670;&nbsp;</a></span>stse_certificate_signature_algorithms_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d9/dd5/a00432.html#ga0d9ce5fc2e1d06cd9dc074d56c41f75c">stse_certificate_signature_algorithms_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definitions of available signature algorithms. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga0d9ce5fc2e1d06cd9dc074d56c41f75cabf7c6908e9120616f1337677209b40f3"></a>SIG_ECDSA_SHA1&#160;</td><td class="fielddoc"><p>ECDSA with SHA1 algorithm </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga0d9ce5fc2e1d06cd9dc074d56c41f75ca7805029c629fb9d07dfd5cd872119f1d"></a>SIG_ECDSA_SHA224&#160;</td><td class="fielddoc"><p>ECDSA with SHA224 algorithm </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga0d9ce5fc2e1d06cd9dc074d56c41f75ca135ed59d1cb11e6124cbefc7791b51a9"></a>SIG_ECDSA_SHA256&#160;</td><td class="fielddoc"><p>ECDSA with SHA256 algorithm </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga0d9ce5fc2e1d06cd9dc074d56c41f75ca0353be3e1f7b7821332b536ba5a8f323"></a>SIG_ECDSA_SHA384&#160;</td><td class="fielddoc"><p>ECDSA with SHA384 algorithm </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga0d9ce5fc2e1d06cd9dc074d56c41f75ca09d36ac3440b40c9e188924be2a0a75d"></a>SIG_ECDSA_SHA512&#160;</td><td class="fielddoc"><p>ECDSA with SHA512 algorithm </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d42/a00269_source.html#l00055">55</a> of file <a class="el" href="../../d5/d42/a00269_source.html">stse_certificate_types.h</a>.</p>
+
+</div>
+</div>
+<a id="gab84850593c73fe703cb00bee06034bb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab84850593c73fe703cb00bee06034bb8">&#9670;&nbsp;</a></span>stse_certificate_name_attributes_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d9/dd5/a00432.html#gab84850593c73fe703cb00bee06034bb8">stse_certificate_name_attributes_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definitions of supported Name Attributes. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggab84850593c73fe703cb00bee06034bb8a564c90d99ab269b2e04644d1fcd0f393"></a>ATTR_CN&#160;</td><td class="fielddoc"><p>CommonName </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab84850593c73fe703cb00bee06034bb8a3cb419a92427e673fc46450c80f9e32f"></a>ATTR_SN&#160;</td><td class="fielddoc"><p>SerialNumber </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab84850593c73fe703cb00bee06034bb8a88930a07728dccf7e0656f3e640c05da"></a>ATTR_C&#160;</td><td class="fielddoc"><p>Country </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab84850593c73fe703cb00bee06034bb8aee5d31ea5daa33d65dc0460533781415"></a>ATTR_LN&#160;</td><td class="fielddoc"><p>LocalityName </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab84850593c73fe703cb00bee06034bb8a7e2f1482940c01608f497493648fb8b1"></a>ATTR_SOPN&#160;</td><td class="fielddoc"><p>stateOrProvinceName </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab84850593c73fe703cb00bee06034bb8ac89250dab6c648f169d065091deff77b"></a>ATTR_ON&#160;</td><td class="fielddoc"><p>Organization Name </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab84850593c73fe703cb00bee06034bb8a0cf362addaaf45a200aadd98adb33232"></a>ATTR_OUN&#160;</td><td class="fielddoc"><p>Organization Unit Name </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab84850593c73fe703cb00bee06034bb8acc817658e70d0fc9d55fd9883a542035"></a>ATTR_UID&#160;</td><td class="fielddoc"><p>UniqueIdentifier </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab84850593c73fe703cb00bee06034bb8a7927a7c05e3953f3b0aa01a428954460"></a>ATTR_DN&#160;</td><td class="fielddoc"><p>DistinguishedName </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d42/a00269_source.html#l00064">64</a> of file <a class="el" href="../../d5/d42/a00269_source.html">stse_certificate_types.h</a>.</p>
+
+</div>
+</div>
+<a id="gae76759c6cd92a4093a5c1e26b5d60ba2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae76759c6cd92a4093a5c1e26b5d60ba2">&#9670;&nbsp;</a></span>stse_certificate_elliptic_curves_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d9/dd5/a00432.html#gae76759c6cd92a4093a5c1e26b5d60ba2">stse_certificate_elliptic_curves_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definitions of supported Elliptic Curve Names. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggae76759c6cd92a4093a5c1e26b5d60ba2aa652fb24a96647f4f971c3c94f3d62b1"></a>EC_P256&#160;</td><td class="fielddoc"><p>NIST P-256 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggae76759c6cd92a4093a5c1e26b5d60ba2a50f093be9c70d0e2571e050bc14fafd4"></a>EC_P384&#160;</td><td class="fielddoc"><p>NIST P-384 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggae76759c6cd92a4093a5c1e26b5d60ba2af9ef34522b2fafe6df366c6c66dabac0"></a>EC_P521&#160;</td><td class="fielddoc"><p>NIST P-521 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggae76759c6cd92a4093a5c1e26b5d60ba2a6d9dc04f84d640c3e58cf27c9b9acae1"></a>EC_bp256r1&#160;</td><td class="fielddoc"><p>brainpoolP256r1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggae76759c6cd92a4093a5c1e26b5d60ba2a59bbcce12f2e4bcf3085eb206480d5a6"></a>EC_bp256t1&#160;</td><td class="fielddoc"><p>brainpoolP256t1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggae76759c6cd92a4093a5c1e26b5d60ba2ace5c810808d611be491c4c70d2bb21fe"></a>EC_bp384r1&#160;</td><td class="fielddoc"><p>brainpoolP384r1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggae76759c6cd92a4093a5c1e26b5d60ba2a582f6caaa56cbed121bf381c27970b99"></a>EC_bp384t1&#160;</td><td class="fielddoc"><p>brainpoolP384t1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggae76759c6cd92a4093a5c1e26b5d60ba2a9a6b7c55483ef86c5f743f96197f609d"></a>EC_bp512r1&#160;</td><td class="fielddoc"><p>brainpoolP512r1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggae76759c6cd92a4093a5c1e26b5d60ba2acae4e8091dcfc9e2642e8acc44ab6f0d"></a>EC_bp512t1&#160;</td><td class="fielddoc"><p>brainpoolP512t1 </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d42/a00269_source.html#l00077">77</a> of file <a class="el" href="../../d5/d42/a00269_source.html">stse_certificate_types.h</a>.</p>
+
+</div>
+</div>
+<a id="ga651a2e69937d2d74088572fb64453e69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga651a2e69937d2d74088572fb64453e69">&#9670;&nbsp;</a></span>stse_certificate_extensions_type_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d9/dd5/a00432.html#ga651a2e69937d2d74088572fb64453e69">stse_certificate_extensions_type_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definitions of supported Extensions types. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga651a2e69937d2d74088572fb64453e69a3d65ccb5b086a3af8e39635439b3aca1"></a>EXTENSION_KU&#160;</td><td class="fielddoc"><p>KeyUsage </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga651a2e69937d2d74088572fb64453e69a7a63d8a86985c328fba75512f39271bb"></a>EXTENSION_BC&#160;</td><td class="fielddoc"><p>BasicContrains </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga651a2e69937d2d74088572fb64453e69a25326d9326e83db2dd383798b39db25a"></a>EXTENSION_EKU&#160;</td><td class="fielddoc"><p>extKeyUsage </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d42/a00269_source.html#l00090">90</a> of file <a class="el" href="../../d5/d42/a00269_source.html">stse_certificate_types.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gaa88b975c48fd20aca9809945941f7987"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa88b975c48fd20aca9809945941f7987">&#9670;&nbsp;</a></span>stse_certificate_identify_ASN1_TLV()</h2>
+<a id="gaa61ce045058ac7a28013df624861be01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa61ce045058ac7a28013df624861be01">&#9670;&nbsp;</a></span>stse_certificate_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">PLAT_I32 stse_certificate_identify_ASN1_TLV </td>
+          <td class="memname">void stse_certificate_init </td>
           <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>asn1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
+          <td class="paramname"><em>cert</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">PLAT_I32 *&#160;</td>
-          <td class="paramname"><em>parsed</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_I32 *&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Identify the ASN.1 TLV. </p>
+<p>Initialize a certificate (<a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a>) to an empty one. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*asn1</td><td>pointer to the ASN.1 TLV </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*parsed</td><td>will contain the number of processed bytes (rarely used) </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*size</td><td>will contain the size (in bytes) of the value field of this ASN.1 TLV </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">**value</td><td>will contain a pointer to the value field of this ASN.1 TLV </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">cert</td><td>pointer to the stse_certificate_t to be initialized </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The internal TAG identifier of this TLV or -1 if failure </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This functions should be called before parsing a certificate</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00021">21</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d22/a00245_source.html#l00132">132</a> of file <a class="el" href="../../d6/d22/a00245_source.html">stse_certificate.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d35/a00266_source.html#l00223">IS_VALID_TAG</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d42/a00269_source.html#l00188">stse_internal_certificate::EllipticCurve</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00190">stse_internal_certificate::extensions</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00192">stse_internal_certificate::extensionsFlags</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00191">stse_internal_certificate::extensionsSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00161">stse_cert_public_key_t::fsize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00182">stse_internal_certificate::issuer</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00183">stse_internal_certificate::issuerSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00167">ECDSAsign_st::pR</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00169">ECDSAsign_st::pS</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00189">stse_internal_certificate::PubKey</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00159">stse_cert_public_key_t::pX</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00160">stse_cert_public_key_t::pY</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00168">ECDSAsign_st::rSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00179">stse_internal_certificate::serialNumber</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00180">stse_internal_certificate::serialNumberSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00214">stse_internal_certificate::Sign</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00181">stse_internal_certificate::signature</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00213">stse_internal_certificate::SignatureAlgorithm</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00170">ECDSAsign_st::sSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00186">stse_internal_certificate::subject</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00187">stse_internal_certificate::subjectSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00176">stse_internal_certificate::tbs</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00177">stse_internal_certificate::tbsSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00184">stse_internal_certificate::validity</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00185">stse_internal_certificate::validitySize</a>, and <a class="el" href="../../d5/d42/a00269_source.html#l00178">stse_internal_certificate::x509Version</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd7/a00260_source.html#l00370">stse_certificate_count_attributes()</a>, <a class="el" href="../../d2/dc8/a00242_source.html#l00171">stse_certificate_parse()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00345">stse_certificate_parse_attribute()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00182">stse_certificate_parse_ECC_public_key()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00083">stse_certificate_parse_ECDSA_signature()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00514">stse_certificate_parse_extension()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00059">stse_certificate_parse_integer()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00285">stse_certificate_parse_relative_distinguished_name()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00131">stse_certificate_parse_signature_algorithm()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00401">stse_certificate_parse_validity()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00168">stse_certificate_parse_X509_version()</a>, <a class="el" href="../../d7/d03/a00254_source.html#l00310">stse_certificate_print_name()</a>, and <a class="el" href="../../d7/d03/a00254_source.html#l00281">stse_certificate_simple_parse_attribute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d22/a00245_source.html#l00171">stse_certificate_parse()</a>.</p>
 
 </div>
 </div>
-<a id="ga533a1e9389c3a121c03c8fa1260fc18c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga533a1e9389c3a121c03c8fa1260fc18c">&#9670;&nbsp;</a></span>stse_certificate_identify_attribute()</h2>
+<a id="ga83baa2b6c6c6ac34f72cbdcc43968353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga83baa2b6c6c6ac34f72cbdcc43968353">&#9670;&nbsp;</a></span>stse_certificate_parse()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">PLAT_I32 stse_certificate_identify_attribute </td>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stse_certificate_parse </td>
           <td>(</td>
           <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>oid</em>, </td>
+          <td class="paramname"><em>cert</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PLAT_I32&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Identify the Name Attribute from its OID. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*oid</td><td>The value of the OID of the Attribute (got from <a class="el" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a> ) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>size (in bytes) of the value field of this OID (got from <a class="el" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a> ) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>Only a very limited set of Attributes is supported </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>The internal type identifing the Attribute or -1 for failure </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00256">256</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/d35/a00266_source.html#l00067">ATTR_C</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00065">ATTR_CN</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00073">ATTR_DN</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00068">ATTR_LN</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00070">ATTR_ON</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00071">ATTR_OUN</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00066">ATTR_SN</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00069">ATTR_SOPN</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00072">ATTR_UID</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00107">AttributeOID_st::len</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00109">AttributeOID_st::oid</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00108">AttributeOID_st::type</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/dd7/a00260_source.html#l00345">stse_certificate_parse_attribute()</a>, and <a class="el" href="../../d7/d03/a00254_source.html#l00281">stse_certificate_simple_parse_attribute()</a>.</p>
-
-</div>
-</div>
-<a id="ga05a33685fc72c85d3c46e91d89a2e35d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga05a33685fc72c85d3c46e91d89a2e35d">&#9670;&nbsp;</a></span>stse_certificate_parse_ECDSA_signature()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stse_certificate_parse_ECDSA_signature </td>
-          <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>signature</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d53/a00429.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
           <td class="paramname"><em>stse_certificate</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>next_thing</em>&#160;</td>
+          <td class="paramname"><em>next</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -284,57 +389,55 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Parse an ECDSA signature. </p>
+<p>Parse an x509 certificate. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*signature</td><td>pointer to the expected signature field of the x509 certificate </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*stse_certificate</td><td>pointer to the stse_certificate_t that will be filled </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">**next_thing</td><td>will contain a pointer to the next TLV </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cert</td><td>pointer to the x509 certificate to be parsed </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">stse_certificate</td><td>pointer to the stse_certificate_t that will be filled </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">next</td><td>pointer to cert array after the parsed certificate (it can be NULL) </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>The parsed certificated could be empty, it is necessary to call a function which verifies the certificate to be valid before using it. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00083">83</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d22/a00245_source.html#l00171">171</a> of file <a class="el" href="../../d6/d22/a00245_source.html">stse_certificate.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d35/a00266_source.html#l00167">ECDSAsign_st::pR</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00169">ECDSAsign_st::pS</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00168">ECDSAsign_st::rSize</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00214">stse_internal_certificate::Sign</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00170">ECDSAsign_st::sSize</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00059">stse_certificate_parse_integer()</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00035">TAG_BITSTRING</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00046">TAG_SEQUENCE</a>.</p>
+<p class="reference">References <a class="el" href="../../df/da9/a00263_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, <a class="el" href="../../d6/d22/a00245_source.html#l00132">stse_certificate_init()</a>, and <a class="el" href="../../d5/d42/a00269_source.html#l00046">TAG_SEQUENCE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d22/a00245_source.html#l00393">stse_certificate_parse_chain()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dd5/a00432_ga05a33685fc72c85d3c46e91d89a2e35d_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga05a33685fc72c85d3c46e91d89a2e35d_cgraph" alt=""/></div>
-<map name="ad9/dd5/a00432_ga05a33685fc72c85d3c46e91d89a2e35d_cgraph" id="ad9/dd5/a00432_ga05a33685fc72c85d3c46e91d89a2e35d_cgraph">
-<area shape="rect" title="Parse an ECDSA signature." alt="" coords="5,5,169,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="429,5,607,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gad70d0962519b7d9c973c41aed5773920" title="Parse an ASN.1 INTEGER." alt="" coords="217,35,381,76"/>
+<div class="center"><img src="../../d9/dd5/a00432_ga83baa2b6c6c6ac34f72cbdcc43968353_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga83baa2b6c6c6ac34f72cbdcc43968353_cgraph" alt=""/></div>
+<map name="ad9/dd5/a00432_ga83baa2b6c6c6ac34f72cbdcc43968353_cgraph" id="ad9/dd5/a00432_ga83baa2b6c6c6ac34f72cbdcc43968353_cgraph">
+<area shape="rect" title="Parse an x509 certificate." alt="" coords="5,42,169,69"/>
+<area shape="rect" href="../../d0/dc5/a00435.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="217,5,395,47"/>
+<area shape="rect" href="../../d9/dd5/a00432.html#gaa61ce045058ac7a28013df624861be01" title="Initialize a certificate (stse_certificate_t) to an empty one." alt="" coords="231,71,381,98"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="gaf6ac8e5e2fa0c9e1d3ff7ea05f8f474d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf6ac8e5e2fa0c9e1d3ff7ea05f8f474d">&#9670;&nbsp;</a></span>stse_certificate_parse_X509_version()</h2>
+<a id="ga34be70ca1945a1fab289ab94d04e66b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34be70ca1945a1fab289ab94d04e66b3">&#9670;&nbsp;</a></span>stse_certificate_is_valid()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void stse_certificate_parse_X509_version </td>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stse_certificate_is_valid </td>
           <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>x509VersionField</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d53/a00429.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
           <td class="paramname"><em>stse_certificate</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>next_thing</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd5/a00432.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *&#160;</td>
+          <td class="paramname"><em>currentTime</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -344,57 +447,137 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Parse the x509 Version of a certificate. </p>
+<p>Check that an imported x509 certificate is valid. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*x509VersionField</td><td>pointer to the version field of a certificate </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*stse_certificate</td><td>pointer to the stse_certificate_t that will be filled </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">**next_thing</td><td>output pointer to next TLV </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stse_certificate</td><td>pointer to the parsed x509 certificate to be validated </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">currentTime</td><td>pointer to a stse_cert_validity_t with the current DateTime. If NULL no date check is done </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>If currentTime==NULL the check on the validity dates of the certificate will be bypassed. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00168">168</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d22/a00245_source.html#l00216">216</a> of file <a class="el" href="../../d6/d22/a00245_source.html">stse_certificate.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/dd7/a00260_source.html#l00102">stse_certificate_get_small_integer()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00034">TAG_INTEGER</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00178">stse_internal_certificate::x509Version</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d42/a00269_source.html#l00188">stse_internal_certificate::EllipticCurve</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00161">stse_cert_public_key_t::fsize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00182">stse_internal_certificate::issuer</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00183">stse_internal_certificate::issuerSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00175">stse_internal_certificate::pPubKey_point_representation_id</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00167">ECDSAsign_st::pR</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00169">ECDSAsign_st::pS</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00189">stse_internal_certificate::PubKey</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00159">stse_cert_public_key_t::pX</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00160">stse_cert_public_key_t::pY</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00168">ECDSAsign_st::rSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00179">stse_internal_certificate::serialNumber</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00180">stse_internal_certificate::serialNumberSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00214">stse_internal_certificate::Sign</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00181">stse_internal_certificate::signature</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00213">stse_internal_certificate::SignatureAlgorithm</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00170">ECDSAsign_st::sSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00186">stse_internal_certificate::subject</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00187">stse_internal_certificate::subjectSize</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00184">stse_internal_certificate::validity</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00185">stse_internal_certificate::validitySize</a>, and <a class="el" href="../../d5/d42/a00269_source.html#l00178">stse_internal_certificate::x509Version</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d22/a00245_source.html#l00268">stse_certificate_is_parent()</a>.</p>
+
+</div>
+</div>
+<a id="gaf519f5e717a9b168d149d4f1cca6e024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf519f5e717a9b168d149d4f1cca6e024">&#9670;&nbsp;</a></span>stse_certificate_is_CA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stse_certificate_is_CA </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
+          <td class="paramname"><em>cert</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check whether a certificate is marked as belonging to a CA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">*cert</td><td>pointer to the parsed x509 certificate to be checked </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d22/a00245_source.html#l00254">254</a> of file <a class="el" href="../../d6/d22/a00245_source.html">stse_certificate.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/d42/a00269_source.html#l00192">stse_internal_certificate::extensionsFlags</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00034">STSE_OK</a>.</p>
+
+</div>
+</div>
+<a id="ga3bf99d9c012e5d365ef2e52518aa5283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3bf99d9c012e5d365ef2e52518aa5283">&#9670;&nbsp;</a></span>stse_certificate_is_parent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stse_certificate_is_parent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
+          <td class="paramname"><em>child</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd5/a00432.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *&#160;</td>
+          <td class="paramname"><em>currentTime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check whether "parent" issued "child". </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">parent</td><td>pointer to the parsed x509 certificate of the supposed issuer of child </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">child</td><td>pointer to the parsed x509 certificate of the certificated supposedly issued by parent </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">currentTime</td><td>pointer to a stse_cert_validity_t with the current DateTime. If NULL no date check is done. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>RFC 5280 mandates an extremely expensive comparison, which we don't perform. As result of this simplification some legitimate parentship relation could be not acknowledged (the opposite should not occur). </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>This check only a single level parent relashion (i.e. whether parent issued child) </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d22/a00245_source.html#l00268">268</a> of file <a class="el" href="../../d6/d22/a00245_source.html">stse_certificate.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/d42/a00269_source.html#l00182">stse_internal_certificate::issuer</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00183">stse_internal_certificate::issuerSize</a>, <a class="el" href="../../d6/d22/a00245_source.html#l00216">stse_certificate_is_valid()</a>, <a class="el" href="../../d6/d82/a00293_source.html#l00034">STSE_OK</a>, <a class="el" href="../../d5/d42/a00269_source.html#l00186">stse_internal_certificate::subject</a>, and <a class="el" href="../../d5/d42/a00269_source.html#l00187">stse_internal_certificate::subjectSize</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d22/a00245_source.html#l00393">stse_certificate_parse_chain()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dd5/a00432_gaf6ac8e5e2fa0c9e1d3ff7ea05f8f474d_cgraph.png" border="0" usemap="#ad9/dd5/a00432_gaf6ac8e5e2fa0c9e1d3ff7ea05f8f474d_cgraph" alt=""/></div>
-<map name="ad9/dd5/a00432_gaf6ac8e5e2fa0c9e1d3ff7ea05f8f474d_cgraph" id="ad9/dd5/a00432_gaf6ac8e5e2fa0c9e1d3ff7ea05f8f474d_cgraph">
-<area shape="rect" title="Parse the x509 Version of a certificate." alt="" coords="5,39,169,80"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gad5a08fb4e091c3316e6f030af2838c1b" title="Reads the value of an INTEGER and returns it as a PLAT_I32." alt="" coords="231,5,381,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="217,71,395,112"/>
+<div class="center"><img src="../../d9/dd5/a00432_ga3bf99d9c012e5d365ef2e52518aa5283_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga3bf99d9c012e5d365ef2e52518aa5283_cgraph" alt=""/></div>
+<map name="ad9/dd5/a00432_ga3bf99d9c012e5d365ef2e52518aa5283_cgraph" id="ad9/dd5/a00432_ga3bf99d9c012e5d365ef2e52518aa5283_cgraph">
+<area shape="rect" title="Check whether &quot;parent&quot; issued &quot;child&quot;." alt="" coords="5,5,144,47"/>
+<area shape="rect" href="../../d9/dd5/a00432.html#ga34be70ca1945a1fab289ab94d04e66b3" title="Check that an imported x509 certificate is valid." alt="" coords="192,5,331,47"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga3e53f7b091ef7996407a230c1179b08d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3e53f7b091ef7996407a230c1179b08d">&#9670;&nbsp;</a></span>stse_certificate_parse_signature_algorithm()</h2>
+<a id="gab5311b47824b3503645b34f968d2efe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab5311b47824b3503645b34f968d2efe2">&#9670;&nbsp;</a></span>stse_certificate_copy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void stse_certificate_parse_signature_algorithm </td>
+          <td class="memname">void stse_certificate_copy </td>
           <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>SA</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
+          <td class="paramname"><em>copiedCert</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PLAT_I32 *&#160;</td>
-          <td class="paramname"><em>singatureAlgorithm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>next_thing</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
+          <td class="paramname"><em>originalCert</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -404,642 +587,121 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Parse a SignatureAlgorithm (or signature of a tbsCertificate) </p>
+<p>Copy a certificate (<a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a>) into another structure. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*SA</td><td>pointer to the SignatureAlgorithm (or signature of a tbsCertificate) </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*singatureAlgorithm</td><td>integer that will be filled with the internal encoding of signatureAlgorithm </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">**next_thing</td><td>output pointer to next TLV </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">copiedCert</td><td>pointer to the stse_certificate_t that will be written </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">originalCert</td><td>pointer to the stse_certificate_t that will be copied </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>Only a very limited set of SignatureAlgorithm is supported </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00131">131</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d22/a00245_source.html#l00163">163</a> of file <a class="el" href="../../d6/d22/a00245_source.html">stse_certificate.c</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d35/a00266_source.html#l00099">SignatureAlgorithmOID_st::len</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00101">SignatureAlgorithmOID_st::oid</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00056">SIG_ECDSA_SHA1</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00057">SIG_ECDSA_SHA224</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00058">SIG_ECDSA_SHA256</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00059">SIG_ECDSA_SHA384</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00060">SIG_ECDSA_SHA512</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00038">TAG_OBJECT_IDENTIFIER</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00046">TAG_SEQUENCE</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00100">SignatureAlgorithmOID_st::type</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d22/a00245_source.html#l00393">stse_certificate_parse_chain()</a>.</p>
+
+</div>
+</div>
+<a id="ga3e22355b36cc1f58f7a0f844ab702b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e22355b36cc1f58f7a0f844ab702b10">&#9670;&nbsp;</a></span>stse_certificate_parse_chain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stse_certificate_parse_chain </td>
+          <td>(</td>
+          <td class="paramtype">PLAT_UI8 *&#160;</td>
+          <td class="paramname"><em>rootCA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PLAT_UI8 *&#160;</td>
+          <td class="paramname"><em>certChain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PLAT_UI16&#160;</td>
+          <td class="paramname"><em>certChainSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/dd5/a00432.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
+          <td class="paramname"><em>leafCert</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterate over the certificate chain in argument and check each child/parent pairs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rootCA</td><td>Pointer to the root CA certificate buffer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">certChain</td><td>Pointer to the certificate chain buffer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">certChainSize</td><td>Size of the certificate chain buffer </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">leafCert</td><td>Pointer to the leaf certificate structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>PLAT_I32 : 0 on success ; error code otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d22/a00245_source.html#l00393">393</a> of file <a class="el" href="../../d6/d22/a00245_source.html">stse_certificate.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/d22/a00245_source.html#l00163">stse_certificate_copy()</a>, <a class="el" href="../../d6/d22/a00245_source.html#l00268">stse_certificate_is_parent()</a>, <a class="el" href="../../d6/d22/a00245_source.html#l00171">stse_certificate_parse()</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00034">STSE_OK</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d79/a00203_source.html#l00119">stse_device_authenticate()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dd5/a00432_ga3e53f7b091ef7996407a230c1179b08d_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga3e53f7b091ef7996407a230c1179b08d_cgraph" alt=""/></div>
-<map name="ad9/dd5/a00432_ga3e53f7b091ef7996407a230c1179b08d_cgraph" id="ad9/dd5/a00432_ga3e53f7b091ef7996407a230c1179b08d_cgraph">
-<area shape="rect" title="Parse a SignatureAlgorithm (or signature of a tbsCertificate)" alt="" coords="5,5,169,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="217,5,395,47"/>
+<div class="center"><img src="../../d9/dd5/a00432_ga3e22355b36cc1f58f7a0f844ab702b10_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga3e22355b36cc1f58f7a0f844ab702b10_cgraph" alt=""/></div>
+<map name="ad9/dd5/a00432_ga3e22355b36cc1f58f7a0f844ab702b10_cgraph" id="ad9/dd5/a00432_ga3e22355b36cc1f58f7a0f844ab702b10_cgraph">
+<area shape="rect" title="Iterate over the certificate chain in argument and check each child/parent pairs." alt="" coords="5,57,169,98"/>
+<area shape="rect" href="../../d9/dd5/a00432.html#gab5311b47824b3503645b34f968d2efe2" title="Copy a certificate (stse_certificate_t) into another structure." alt="" coords="220,5,379,32"/>
+<area shape="rect" href="../../d9/dd5/a00432.html#ga3bf99d9c012e5d365ef2e52518aa5283" title="Check whether &quot;parent&quot; issued &quot;child&quot;." alt="" coords="230,57,369,98"/>
+<area shape="rect" href="../../d9/dd5/a00432.html#ga83baa2b6c6c6ac34f72cbdcc43968353" title="Parse an x509 certificate." alt="" coords="217,125,381,152"/>
+<area shape="rect" href="../../d9/dd5/a00432.html#ga34be70ca1945a1fab289ab94d04e66b3" title="Check that an imported x509 certificate is valid." alt="" coords="449,53,587,94"/>
+<area shape="rect" href="../../d0/dc5/a00435.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="429,118,607,159"/>
+<area shape="rect" href="../../d9/dd5/a00432.html#gaa61ce045058ac7a28013df624861be01" title="Initialize a certificate (stse_certificate_t) to an empty one." alt="" coords="443,184,593,211"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga98420b145861bfb869f6fa9f90fcbf61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga98420b145861bfb869f6fa9f90fcbf61">&#9670;&nbsp;</a></span>stse_certificate_parse_ECC_public_key()</h2>
+<a id="ga3c4baca631ca6caddbc25ac6c825584c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3c4baca631ca6caddbc25ac6c825584c">&#9670;&nbsp;</a></span>stse_certificate_set_stse_companion()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void stse_certificate_parse_ECC_public_key </td>
+          <td class="memname">void stse_certificate_set_stse_companion </td>
           <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>EccPK</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d53/a00429.html#ga4578dd24da739a4929e7cc156473fe36">stse_certificate_t</a> *&#160;</td>
-          <td class="paramname"><em>stse_certificate</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>next_thing</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Parse an ECC public Key from a certificate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*EccPK</td><td>pointer to the ECC public Key </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*stse_certificate</td><td>pointer to the stse_certificate_t that will be filled </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">**next_thing</td><td>output pointer to next TLV </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00182">182</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/d35/a00266_source.html#l00081">EC_bp256r1</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00082">EC_bp256t1</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00083">EC_bp384r1</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00084">EC_bp384t1</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00085">EC_bp512r1</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00086">EC_bp512t1</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00078">EC_P256</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00079">EC_P384</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00080">EC_P521</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00188">stse_internal_certificate::EllipticCurve</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00161">stse_cert_public_key_t::fsize</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00115">EllipticCurveOID_st::len</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00117">EllipticCurveOID_st::oid</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00175">stse_internal_certificate::pPubKey_point_representation_id</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00189">stse_internal_certificate::PubKey</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00159">stse_cert_public_key_t::pX</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00160">stse_cert_public_key_t::pY</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00035">TAG_BITSTRING</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00038">TAG_OBJECT_IDENTIFIER</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00046">TAG_SEQUENCE</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00116">EllipticCurveOID_st::type</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dd5/a00432_ga98420b145861bfb869f6fa9f90fcbf61_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga98420b145861bfb869f6fa9f90fcbf61_cgraph" alt=""/></div>
-<map name="ad9/dd5/a00432_ga98420b145861bfb869f6fa9f90fcbf61_cgraph" id="ad9/dd5/a00432_ga98420b145861bfb869f6fa9f90fcbf61_cgraph">
-<area shape="rect" title="Parse an ECC public Key from a certificate." alt="" coords="5,5,169,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="217,5,395,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="gad70d0962519b7d9c973c41aed5773920"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad70d0962519b7d9c973c41aed5773920">&#9670;&nbsp;</a></span>stse_certificate_parse_integer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stse_certificate_parse_integer </td>
-          <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>integer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>outp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_I32 *&#160;</td>
-          <td class="paramname"><em>outSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>next_thing</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Parse an ASN.1 INTEGER. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*integer</td><td>pointer to the expected INTEGER TLV </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*outp</td><td>will point to the starting byte of the integer </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*outSize</td><td>will contain the size of the integer in bytes </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">**next_thing</td><td>will contain a pointer to the next TLV </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>This doesn't copy the integer. To keep memory small this just returns a pointer to it. </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>only non-negative integers are supported </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00059">59</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/dd7/a00260_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00034">TAG_INTEGER</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/dd7/a00260_source.html#l00083">stse_certificate_parse_ECDSA_signature()</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dd5/a00432_gad70d0962519b7d9c973c41aed5773920_cgraph.png" border="0" usemap="#ad9/dd5/a00432_gad70d0962519b7d9c973c41aed5773920_cgraph" alt=""/></div>
-<map name="ad9/dd5/a00432_gad70d0962519b7d9c973c41aed5773920_cgraph" id="ad9/dd5/a00432_gad70d0962519b7d9c973c41aed5773920_cgraph">
-<area shape="rect" title="Parse an ASN.1 INTEGER." alt="" coords="5,5,169,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="217,5,395,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ga0e43f89e638b9f8d36d2e514ee219be6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0e43f89e638b9f8d36d2e514ee219be6">&#9670;&nbsp;</a></span>stse_certificate_parse_validity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stse_certificate_parse_validity </td>
-          <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d53/a00429.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *&#160;</td>
-          <td class="paramname"><em>notBefore_st</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d53/a00429.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *&#160;</td>
-          <td class="paramname"><em>notAfter_st</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>next_thing</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Parse the validity of a certificate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*p</td><td>pointer to the Name Attribute SET to be parsed </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*notBefore_st</td><td>pointer to stse_cert_validity_t structure that will be filled with the "not before" date </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*notAfter_st</td><td>pointer to stse_cert_validity_t structure that will be filled with the "not after" date </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">**next_thing</td><td>output pointer to next TLV </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>In this function next_thing can be NULL </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00401">401</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/d35/a00266_source.html#l00151">validity_st::days</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00150">validity_st::hours</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00149">validity_st::minutes</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00152">validity_st::month</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00148">validity_st::seconds</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00045">TAG_GeneralizedTime</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00046">TAG_SEQUENCE</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00044">TAG_UTCTime</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00153">validity_st::year</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d03/a00254_source.html#l00343">stse_certificate_print_validity()</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dd5/a00432_ga0e43f89e638b9f8d36d2e514ee219be6_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga0e43f89e638b9f8d36d2e514ee219be6_cgraph" alt=""/></div>
-<map name="ad9/dd5/a00432_ga0e43f89e638b9f8d36d2e514ee219be6_cgraph" id="ad9/dd5/a00432_ga0e43f89e638b9f8d36d2e514ee219be6_cgraph">
-<area shape="rect" title="Parse the validity of a certificate." alt="" coords="5,5,169,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="217,5,395,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ga03d6b42e074c354999ee22bc0c1fcebb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03d6b42e074c354999ee22bc0c1fcebb">&#9670;&nbsp;</a></span>stse_certificate_parse_relative_distinguished_name()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stse_certificate_parse_relative_distinguished_name </td>
-          <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>nextRDN</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>attribute</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Parse an RelativeDistinguishedName. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*p</td><td>pointer to the RelativeDistinguishedName (expeting a SET) </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">**nextRDN</td><td>output pointer to next RDN </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">**attribute</td><td>output pointer to RDN first attribute </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00285">285</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/dd7/a00260_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dd5/a00432_ga03d6b42e074c354999ee22bc0c1fcebb_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga03d6b42e074c354999ee22bc0c1fcebb_cgraph" alt=""/></div>
-<map name="ad9/dd5/a00432_ga03d6b42e074c354999ee22bc0c1fcebb_cgraph" id="ad9/dd5/a00432_ga03d6b42e074c354999ee22bc0c1fcebb_cgraph">
-<area shape="rect" title="Parse an RelativeDistinguishedName." alt="" coords="5,5,223,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="271,5,448,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ga0aa01204d027c7dc4fcadff5f0a10b0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0aa01204d027c7dc4fcadff5f0a10b0e">&#9670;&nbsp;</a></span>stse_certificate_parse_attribute()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stse_certificate_parse_attribute </td>
-          <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d53/a00429.html#ga867519c680ddb94407b7db75df132d86">stse_cert_attribute_t</a> *&#160;</td>
-          <td class="paramname"><em>attribute_st</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PLAT_UI8 **&#160;</td>
-          <td class="paramname"><em>next_thing</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Parse a Name Attribute. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*p</td><td>pointer to the AttributeTypeAndValue SEQUENCE to be parsed </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*attribute_st</td><td>pointer to stse_cert_attribute_t structure that will be filled </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">**next_thing</td><td>output pointer to next TLV </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00345">345</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/d35/a00266_source.html#l00125">attribute_st::str</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00124">attribute_st::strFormat</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00126">attribute_st::strSize</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00256">stse_certificate_identify_attribute()</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00038">TAG_OBJECT_IDENTIFIER</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00046">TAG_SEQUENCE</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00123">attribute_st::type</a>.</p>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dd5/a00432_ga0aa01204d027c7dc4fcadff5f0a10b0e_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga0aa01204d027c7dc4fcadff5f0a10b0e_cgraph" alt=""/></div>
-<map name="ad9/dd5/a00432_ga0aa01204d027c7dc4fcadff5f0a10b0e_cgraph" id="ad9/dd5/a00432_ga0aa01204d027c7dc4fcadff5f0a10b0e_cgraph">
-<area shape="rect" title="Parse a Name Attribute." alt="" coords="5,39,169,80"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="217,5,395,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#ga533a1e9389c3a121c03c8fa1260fc18c" title="Identify the Name Attribute from its OID." alt="" coords="217,71,395,112"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="gaf085531ad82b27d615cdc33347c99f2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf085531ad82b27d615cdc33347c99f2f">&#9670;&nbsp;</a></span>stse_certificate_date_compare()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">PLAT_I32 stse_certificate_date_compare </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d53/a00429.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *&#160;</td>
-          <td class="paramname"><em>D1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d53/a00429.html#ga01829ca36194d1e2c01be4fde07e147e">stse_cert_validity_t</a> *&#160;</td>
-          <td class="paramname"><em>D2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compare two stse_cert_validity_t structures. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*D1</td><td>pointer to the first stse_cert_validity_t </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">*D2</td><td>pointer to the second stse_cert_validity_t </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Result of Comparison </dd></dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">-1</td><td>D1 &lt; D2 </td></tr>
-    <tr><td class="paramname">0</td><td>D1 = D2 </td></tr>
-    <tr><td class="paramname">1</td><td>D1 &gt; D2 </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00461">461</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/d35/a00266_source.html#l00151">validity_st::days</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00150">validity_st::hours</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00149">validity_st::minutes</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00152">validity_st::month</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00148">validity_st::seconds</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00153">validity_st::year</a>.</p>
-
-</div>
-</div>
-<a id="ga635873a1afbdb10f2106703198b57100"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga635873a1afbdb10f2106703198b57100">&#9670;&nbsp;</a></span>stse_certificate_count_attributes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">PLAT_I32 stse_certificate_count_attributes </td>
-          <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
+          <td class="paramname"><em>pSTSE</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Count the number of Attributes within a NAME. </p>
+<p>Assign the certificate parser STSAFE-A companion. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*p</td><td>pointer to the RDNSequence to be parsed \returun The number of Attributes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSAFE</td><td>Pointer to STSAFE handler </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00370">370</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dd/dd7/a00260_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00046">TAG_SEQUENCE</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00047">TAG_SET</a>.</p>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dd5/a00432_ga635873a1afbdb10f2106703198b57100_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga635873a1afbdb10f2106703198b57100_cgraph" alt=""/></div>
-<map name="ad9/dd5/a00432_ga635873a1afbdb10f2106703198b57100_cgraph" id="ad9/dd5/a00432_ga635873a1afbdb10f2106703198b57100_cgraph">
-<area shape="rect" title="Count the number of Attributes within a NAME." alt="" coords="5,5,169,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="217,5,395,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ga1ce58c9432c1abd52824c33dee991c90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1ce58c9432c1abd52824c33dee991c90">&#9670;&nbsp;</a></span>stse_certificate_case_insensitive_compare()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">PLAT_I32 stse_certificate_case_insensitive_compare </td>
-          <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>p1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>p2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_I32&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>String Comparison (case insensitive and for utf8) </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*p1</td><td>first string to compare </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">*p2</td><td>second string to compare </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>p1/p2 size </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>result of comparison </dd></dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">-1</td><td>strings are different </td></tr>
-    <tr><td class="paramname">0</td><td>strings match </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00315">315</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-</div>
-</div>
-<a id="gaef1ed24cc654d7e7886cc6361fd0b1dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaef1ed24cc654d7e7886cc6361fd0b1dc">&#9670;&nbsp;</a></span>stse_certificate_case_identify_extension()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">PLAT_I32 stse_certificate_case_identify_extension </td>
-          <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>oid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_I32&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Identify the Extension from its OID. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*oid</td><td>The value of the OID of the Extension (got from <a class="el" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a> ) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>size (in bytes) of the value field of this OID (got from <a class="el" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a> ) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>Only a very limited set of Extension is supported </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>The internal type identifing the Extension or -1 for failure </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00292">292</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/d35/a00266_source.html#l00092">EXTENSION_BC</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00093">EXTENSION_EKU</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00091">EXTENSION_KU</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00132">ExtensionOID_st::len</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00134">ExtensionOID_st::oid</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00133">ExtensionOID_st::type</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/dd7/a00260_source.html#l00514">stse_certificate_parse_extension()</a>.</p>
-
-</div>
-</div>
-<a id="ga4e9d50573f7c74207efdd2363f59d7e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4e9d50573f7c74207efdd2363f59d7e5">&#9670;&nbsp;</a></span>stse_certificate_parse_extension()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stse_certificate_parse_extension </td>
-          <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>ext</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI32 *&#160;</td>
-          <td class="paramname"><em>extFlags</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d53/a00429.html#gad083a8183ae16ca8a4d37b9eb50f5ab6">stse_cert_extension_t</a> *&#160;</td>
-          <td class="paramname"><em>ext_st</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Parse an x509 Extension. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*ext</td><td>pointer to the extension </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">extFlags</td><td>pointer to a field extensionsFlags of an stse_certificate_t structure </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*ext_st</td><td>pointer to an stse_cert_extension_t structure </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00514">514</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d5/d35/a00266_source.html#l00141">extension_st::critical</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00092">EXTENSION_BC</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00091">EXTENSION_KU</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00292">stse_certificate_case_identify_extension()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00102">stse_certificate_get_small_integer()</a>, <a class="el" href="../../dd/dd7/a00260_source.html#l00021">stse_certificate_identify_ASN1_TLV()</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00035">TAG_BITSTRING</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00033">TAG_BOOLEAN</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00034">TAG_INTEGER</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00038">TAG_OBJECT_IDENTIFIER</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00036">TAG_OCTETSTRING</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00046">TAG_SEQUENCE</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00140">extension_st::type</a>, <a class="el" href="../../d5/d35/a00266_source.html#l00142">extension_st::value</a>, and <a class="el" href="../../d5/d35/a00266_source.html#l00143">extension_st::valueSize</a>.</p>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dd5/a00432_ga4e9d50573f7c74207efdd2363f59d7e5_cgraph.png" border="0" usemap="#ad9/dd5/a00432_ga4e9d50573f7c74207efdd2363f59d7e5_cgraph" alt=""/></div>
-<map name="ad9/dd5/a00432_ga4e9d50573f7c74207efdd2363f59d7e5_cgraph" id="ad9/dd5/a00432_ga4e9d50573f7c74207efdd2363f59d7e5_cgraph">
-<area shape="rect" title="Parse an x509 Extension." alt="" coords="5,71,169,112"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaef1ed24cc654d7e7886cc6361fd0b1dc" title="Identify the Extension from its OID." alt="" coords="227,5,385,47"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gad5a08fb4e091c3316e6f030af2838c1b" title="Reads the value of an INTEGER and returns it as a PLAT_I32." alt="" coords="231,71,381,112"/>
-<area shape="rect" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987" title="Identify the ASN.1 TLV." alt="" coords="217,136,395,177"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="gad5a08fb4e091c3316e6f030af2838c1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad5a08fb4e091c3316e6f030af2838c1b">&#9670;&nbsp;</a></span>stse_certificate_get_small_integer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">PLAT_I32 stse_certificate_get_small_integer </td>
-          <td>(</td>
-          <td class="paramtype">const PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_I32&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reads the value of an INTEGER and returns it as a PLAT_I32. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">*value</td><td>pointer to the value field of an INTEGER TLV (got from <a class="el" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a>) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>size of the integer (got from <a class="el" href="../../d9/dd5/a00432.html#gaa88b975c48fd20aca9809945941f7987">stse_certificate_identify_ASN1_TLV</a>) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the integer value as an PLAT_I32 </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>only non-negative integers are supported </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/a00260_source.html#l00102">102</a> of file <a class="el" href="../../dd/dd7/a00260_source.html">stse_certificate_subparsing.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/dd7/a00260_source.html#l00514">stse_certificate_parse_extension()</a>, and <a class="el" href="../../dd/dd7/a00260_source.html#l00168">stse_certificate_parse_X509_version()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d22/a00245_source.html#l00453">453</a> of file <a class="el" href="../../d6/d22/a00245_source.html">stse_certificate.c</a>.</p>
 
 </div>
 </div>

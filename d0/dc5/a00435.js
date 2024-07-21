@@ -1,18 +1,19 @@
 var a00435 =
 [
-    [ "stse_cmd_authorization_CR_t", "d0/dc5/a00435.html#d4/d79/a00540", null ],
-    [ "stse_cmd_authorization_record_t", "d0/dc5/a00435.html#d2/ddf/a00544", null ],
-    [ "STSE_SECURE_CHANNEL_Msk", "d0/dc5/a00435.html#ga97a8c12b5f250185108af60e717e4a00", null ],
-    [ "STSE_SECURE_CHANNEL_HOST", "d0/dc5/a00435.html#gaf27a913160f7c9205895fb04bd2a96c0", null ],
-    [ "STSE_SECURE_CHANNEL_SESSION", "d0/dc5/a00435.html#ga848dc30ac5fae2ce1c83203d16b8fa1e", null ],
-    [ "stse_ecc_key_type_t", "d0/dc5/a00435.html#ga6e9a5f04f4c75410f6f4775b889dcf82", null ],
-    [ "stse_hash_algorithm_t", "d0/dc5/a00435.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647", null ],
-    [ "stse_cmd_access_conditions_t", "d0/dc5/a00435.html#gad1a8532f8c9a85537fcfc873a2ea1844", [
-      [ "STSE_CMD_AC_NEVER", "d0/dc5/a00435.html#ggad1a8532f8c9a85537fcfc873a2ea1844a8af68407717046d9d9a365c79b2b2e3c", null ],
-      [ "STSE_CMD_AC_FREE", "d0/dc5/a00435.html#ggad1a8532f8c9a85537fcfc873a2ea1844a8d161a9a662ee7a46e1ab063a45a7300", null ],
-      [ "STSE_CMD_AC_ADMIN", "d0/dc5/a00435.html#ggad1a8532f8c9a85537fcfc873a2ea1844a7afb3699061c1f9093eccfd307afc18d", null ],
-      [ "STSE_CMD_AC_HOST", "d0/dc5/a00435.html#ggad1a8532f8c9a85537fcfc873a2ea1844a5c297c8fd61462b144c2ae21ac37fc35", null ],
-      [ "STSE_CMD_AC_ADMIN_OR_PWD", "d0/dc5/a00435.html#ggad1a8532f8c9a85537fcfc873a2ea1844a7a4b9a4ec411be7840197bee8106100d", null ],
-      [ "STSE_CMD_AC_ADMIN_OR_HOST", "d0/dc5/a00435.html#ggad1a8532f8c9a85537fcfc873a2ea1844a8e13fa709f26da6566d95359420c0142", null ]
-    ] ]
+    [ "stse_certificate_identify_ASN1_TLV", "d0/dc5/a00435.html#gaa88b975c48fd20aca9809945941f7987", null ],
+    [ "stse_certificate_identify_attribute", "d0/dc5/a00435.html#ga533a1e9389c3a121c03c8fa1260fc18c", null ],
+    [ "stse_certificate_parse_ECDSA_signature", "d0/dc5/a00435.html#ga05a33685fc72c85d3c46e91d89a2e35d", null ],
+    [ "stse_certificate_parse_X509_version", "d0/dc5/a00435.html#gaf6ac8e5e2fa0c9e1d3ff7ea05f8f474d", null ],
+    [ "stse_certificate_parse_signature_algorithm", "d0/dc5/a00435.html#ga3e53f7b091ef7996407a230c1179b08d", null ],
+    [ "stse_certificate_parse_ECC_public_key", "d0/dc5/a00435.html#ga98420b145861bfb869f6fa9f90fcbf61", null ],
+    [ "stse_certificate_parse_integer", "d0/dc5/a00435.html#gad70d0962519b7d9c973c41aed5773920", null ],
+    [ "stse_certificate_parse_validity", "d0/dc5/a00435.html#ga0e43f89e638b9f8d36d2e514ee219be6", null ],
+    [ "stse_certificate_parse_relative_distinguished_name", "d0/dc5/a00435.html#ga03d6b42e074c354999ee22bc0c1fcebb", null ],
+    [ "stse_certificate_parse_attribute", "d0/dc5/a00435.html#ga0aa01204d027c7dc4fcadff5f0a10b0e", null ],
+    [ "stse_certificate_date_compare", "d0/dc5/a00435.html#gaf085531ad82b27d615cdc33347c99f2f", null ],
+    [ "stse_certificate_count_attributes", "d0/dc5/a00435.html#ga635873a1afbdb10f2106703198b57100", null ],
+    [ "stse_certificate_case_insensitive_compare", "d0/dc5/a00435.html#ga1ce58c9432c1abd52824c33dee991c90", null ],
+    [ "stse_certificate_case_identify_extension", "d0/dc5/a00435.html#gaef1ed24cc654d7e7886cc6361fd0b1dc", null ],
+    [ "stse_certificate_parse_extension", "d0/dc5/a00435.html#ga4e9d50573f7c74207efdd2363f59d7e5", null ],
+    [ "stse_certificate_get_small_integer", "d0/dc5/a00435.html#gad5a08fb4e091c3316e6f030af2838c1b", null ]
 ];

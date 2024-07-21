@@ -1,4 +1,4 @@
-<map id="STSE Symmetric key management" name="STSE Symmetric key management">
-<area shape="rect" id="node1" href="$da/d65/a00458.html" title="STSELib API Layer." alt="" coords="5,13,85,38"/>
-<area shape="rect" id="node2" title="STSecureElement symmetric cryptography API." alt="" coords="133,5,289,45"/>
+<map id="STSE Hash" name="STSE Hash">
+<area shape="rect" id="node1" href="$db/db1/a00460.html" title="STSELib API Layer." alt="" coords="5,5,85,31"/>
+<area shape="rect" id="node2" title="STSE Hash (SHA2/SHA3) API set." alt="" coords="133,5,224,31"/>
 </map>
