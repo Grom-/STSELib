@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('d6/d7f/a00287_source.html','../../'); 
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                             PLAT_UI8 *pOutput_keying_material, PLAT_UI16 output_keying_material_length)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> retval;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    PLAT_UI8 pPseudorandom_key[<a class="code" href="../../de/dfe/a00448.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>];</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    PLAT_UI8 pPseudorandom_key[<a class="code" href="../../de/d84/a00447.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>];</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">/* Extract pseudo-random key from input keying material */</span></div>
@@ -143,24 +143,24 @@ $(document).ready(function(){initNavTree('d6/d7f/a00287_source.html','../../'); 
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                                 pInput_keying_material,</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                 input_keying_material_length,</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                                 pPseudorandom_key,</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                                 <a class="code" href="../../de/dfe/a00448.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                                 <a class="code" href="../../de/d84/a00447.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span>(retval != 0)</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        memset(pPseudorandom_key, 0, <a class="code" href="../../de/dfe/a00448.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        memset(pPseudorandom_key, 0, <a class="code" href="../../de/d84/a00447.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> retval;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">/* Expand output key from pseudo-random key */</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    retval = <a class="code" href="../../d9/d3a/a00439.html#gae221bac7dece570305cdc24dba670b5e" title="Perform an HMAC expand using SHA256 (cf. RFC 5869)">stse_platform_hmac_sha256_expand</a>(pPseudorandom_key,</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                                    <a class="code" href="../../de/dfe/a00448.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>,</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                                    <a class="code" href="../../de/d84/a00447.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>,</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                                    pInfo,</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                    info_length,</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                                                    pOutput_keying_material,</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                                    output_keying_material_length);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">/* Pseudo-random key no more needed, cleanup */</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    memset(pPseudorandom_key, 0, <a class="code" href="../../de/dfe/a00448.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    memset(pPseudorandom_key, 0, <a class="code" href="../../de/d84/a00447.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span> retval;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>

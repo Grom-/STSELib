@@ -127,8 +127,8 @@ $(document).ready(function(){initNavTree('da/de0/a00317_source.html','../../'); 
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> stsafea_get_command_count(<a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> *pSTSE , PLAT_UI8 *pCommand_count)</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a69a1ebafb1e61d2f345947f446e2bfc0">STSAFEA_CMD_QUERY</a>;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    PLAT_UI8 tag = <a class="code" href="../../d7/d9f/a00454.html#gae5d81191e80a2b3360fab087d06faa53">STSAFEA_SUBJECT_TAG_COMMAND_AUTHORIZATION_CONFIG</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a69a1ebafb1e61d2f345947f446e2bfc0">STSAFEA_CMD_QUERY</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    PLAT_UI8 tag = <a class="code" href="../../da/dc3/a00453.html#gae5d81191e80a2b3360fab087d06faa53">STSAFEA_SUBJECT_TAG_COMMAND_AUTHORIZATION_CONFIG</a>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    PLAT_UI8 rsp_header;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    PLAT_UI8 table_cr;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
@@ -152,20 +152,20 @@ $(document).ready(function(){initNavTree('da/de0/a00317_source.html','../../'); 
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">return</span>  <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a69a1ebafb1e61d2f345947f446e2bfc0">STSAFEA_CMD_QUERY</a>]</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a69a1ebafb1e61d2f345947f446e2bfc0">STSAFEA_CMD_QUERY</a>]</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    );</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> stsafea_get_command_AC_table(<a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> *pSTSE,</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                             PLAT_UI8 total_command_count,</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                             <a class="code" href="../../dd/dfd/a00438.html#d0/ddb/a00542" title="STSE commands authorization change request type.">stse_cmd_authorization_CR_t</a> * pChange_rights,</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                             <a class="code" href="../../dd/dfd/a00438.html#dc/d2b/a00546" title="STSE commands authorization records type.">stse_cmd_authorization_record_t</a> *pRecord_table)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                             <a class="code" href="../../dd/dfd/a00438.html#dd/d72/a00541" title="STSE commands authorization change request type.">stse_cmd_authorization_CR_t</a> * pChange_rights,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                             <a class="code" href="../../dd/dfd/a00438.html#d8/deb/a00545" title="STSE commands authorization records type.">stse_cmd_authorization_record_t</a> *pRecord_table)</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> ret;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a69a1ebafb1e61d2f345947f446e2bfc0">STSAFEA_CMD_QUERY</a>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    PLAT_UI8 tag = <a class="code" href="../../d7/d9f/a00454.html#gae5d81191e80a2b3360fab087d06faa53">STSAFEA_SUBJECT_TAG_COMMAND_AUTHORIZATION_CONFIG</a>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a69a1ebafb1e61d2f345947f446e2bfc0">STSAFEA_CMD_QUERY</a>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    PLAT_UI8 tag = <a class="code" href="../../da/dc3/a00453.html#gae5d81191e80a2b3360fab087d06faa53">STSAFEA_SUBJECT_TAG_COMMAND_AUTHORIZATION_CONFIG</a>;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    PLAT_UI8 rsp_header = 0;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    PLAT_UI8 raw_data[total_command_count * <span class="keyword">sizeof</span>(<a class="code" href="../../dd/dfd/a00438.html#dc/d2b/a00546" title="STSE commands authorization records type.">stse_cmd_authorization_record_t</a>)];</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    PLAT_UI8 raw_data[total_command_count * <span class="keyword">sizeof</span>(<a class="code" href="../../dd/dfd/a00438.html#d8/deb/a00545" title="STSE commands authorization records type.">stse_cmd_authorization_record_t</a>)];</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    PLAT_UI8 record_index = 0;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    PLAT_UI8 record_array_pos = 0;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
@@ -183,15 +183,15 @@ $(document).ready(function(){initNavTree('da/de0/a00317_source.html','../../'); 
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">/*- Create Rsp frame and populate elements*/</span></div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    stse_frame_allocate(RspFrame);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eRsp_header,1,&amp;rsp_header);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eCR,<span class="keyword">sizeof</span>(<a class="code" href="../../dd/dfd/a00438.html#d0/ddb/a00542" title="STSE commands authorization change request type.">stse_cmd_authorization_CR_t</a>),(PLAT_UI8*)pChange_rights);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eCR,<span class="keyword">sizeof</span>(<a class="code" href="../../dd/dfd/a00438.html#dd/d72/a00541" title="STSE commands authorization change request type.">stse_cmd_authorization_CR_t</a>),(PLAT_UI8*)pChange_rights);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eRecordCount,1,&amp;record_index);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eRecordTable,total_command_count * <span class="keyword">sizeof</span>(<a class="code" href="../../dd/dfd/a00438.html#dc/d2b/a00546" title="STSE commands authorization records type.">stse_cmd_authorization_record_t</a>),raw_data);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    stse_frame_element_allocate_push(&amp;RspFrame,eRecordTable,total_command_count * <span class="keyword">sizeof</span>(<a class="code" href="../../dd/dfd/a00438.html#d8/deb/a00545" title="STSE commands authorization records type.">stse_cmd_authorization_record_t</a>),raw_data);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="comment">/*- Perform Transfer*/</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a69a1ebafb1e61d2f345947f446e2bfc0">STSAFEA_CMD_QUERY</a>]</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a69a1ebafb1e61d2f345947f446e2bfc0">STSAFEA_CMD_QUERY</a>]</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    );</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">if</span>(ret != <a class="code" href="../../de/df8/a00440.html#gga6e312aa8b8cd38421ce8b85215e4b16fa0d3996f0849d6b075a5b9a12c147870c">STSE_OK</a>)</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    {</div>
@@ -230,7 +230,7 @@ $(document).ready(function(){initNavTree('da/de0/a00317_source.html','../../'); 
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;{</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> ret ;</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    PLAT_UI8 total_command_count = 0;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <a class="code" href="../../dd/dfd/a00438.html#d0/ddb/a00542" title="STSE commands authorization change request type.">stse_cmd_authorization_CR_t</a> change_rights;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <a class="code" href="../../dd/dfd/a00438.html#dd/d72/a00541" title="STSE commands authorization change request type.">stse_cmd_authorization_CR_t</a> change_rights;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">if</span>(pSTSE == NULL)</div>
@@ -256,7 +256,7 @@ $(document).ready(function(){initNavTree('da/de0/a00317_source.html','../../'); 
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">return</span>(ret);</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="../../dd/dfd/a00438.html#dc/d2b/a00546" title="STSE commands authorization records type.">stse_cmd_authorization_record_t</a> record_table[total_command_count];</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="../../dd/dfd/a00438.html#d8/deb/a00545" title="STSE commands authorization records type.">stse_cmd_authorization_record_t</a> record_table[total_command_count];</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160; </div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    ret = stsafea_get_command_AC_table(pSTSE,</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            total_command_count,</div>

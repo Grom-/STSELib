@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('db/dbc/a00395_source.html','../../'); 
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        stsafea_host_key_slot_v2_t host_key_slot;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        ret =  <a class="code" href="../../d9/d10/a00449.html#ga8b7b3c450a97c29459119988c54ffe74" title="Query host key informations (host key V2)">stsafea_query_host_key_v2</a>(pSTSE, &amp;host_key_slot);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        ret =  <a class="code" href="../../de/dfe/a00448.html#ga8b7b3c450a97c29459119988c54ffe74" title="Query host key informations (host key V2)">stsafea_query_host_key_v2</a>(pSTSE, &amp;host_key_slot);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">if</span>(ret != <a class="code" href="../../de/df8/a00440.html#gga6e312aa8b8cd38421ce8b85215e4b16fa0d3996f0849d6b075a5b9a12c147870c">STSE_OK</a>)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordflow">return</span> ret;</div>
@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('db/dbc/a00395_source.html','../../'); 
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        stsafea_host_key_slot_t host_key_slot;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        ret = <a class="code" href="../../d9/d10/a00449.html#ga5a243541d4e41f74b1fe8492729a9b58" title="Query host key informations (host key V1)">stsafea_query_host_key</a>(pSTSE, &amp;host_key_slot);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        ret = <a class="code" href="../../de/dfe/a00448.html#ga5a243541d4e41f74b1fe8492729a9b58" title="Query host key informations (host key V1)">stsafea_query_host_key</a>(pSTSE, &amp;host_key_slot);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">if</span>(ret != <a class="code" href="../../de/df8/a00440.html#gga6e312aa8b8cd38421ce8b85215e4b16fa0d3996f0849d6b075a5b9a12c147870c">STSE_OK</a>)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keywordflow">return</span> ret;</div>
@@ -511,7 +511,7 @@ $(document).ready(function(){initNavTree('db/dbc/a00395_source.html','../../'); 
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        <span class="keywordflow">return</span> STSE_CORE_SESSION_ERROR;</div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    }</div>
 <div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160; </div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    <span class="keywordflow">if</span> (*(pCmd_frame-&gt;first_element-&gt;pData) &amp; <a class="code" href="../../d3/dea/a00444.html#ga78ad4bf556112c4b3cd27cc7d4d0d84a">STSAFEA_PROT_RSP_Msk</a>)</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    <span class="keywordflow">if</span> (*(pCmd_frame-&gt;first_element-&gt;pData) &amp; <a class="code" href="../../d0/dc4/a00443.html#ga78ad4bf556112c4b3cd27cc7d4d0d84a">STSAFEA_PROT_RSP_Msk</a>)</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    {</div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160; </div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160; </div>

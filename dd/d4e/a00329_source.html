@@ -206,7 +206,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    PLAT_UI8 cmd_header = STSAFEA_EXTENDED_COMMAND_PREFIX;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    PLAT_UI8 ext_cmd_header = <a class="code" href="../../d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4dd28d816036ee94e27cd72c483cee43">STSAFEA_EXTENDED_CMD_START_VOLATILE_KEK_SESSION</a>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    PLAT_UI8 ext_cmd_header = <a class="code" href="../../d0/dc4/a00443.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4dd28d816036ee94e27cd72c483cee43">STSAFEA_EXTENDED_CMD_START_VOLATILE_KEK_SESSION</a>;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    PLAT_UI8 algorithm_id = STSAFEA_ALGORITHM_ID_KEK_UNWRAPPING;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    PLAT_UI8 rsp_header;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
@@ -259,7 +259,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            stsafea_extended_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4dd28d816036ee94e27cd72c483cee43">STSAFEA_EXTENDED_CMD_START_VOLATILE_KEK_SESSION</a>]</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            stsafea_extended_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4dd28d816036ee94e27cd72c483cee43">STSAFEA_EXTENDED_CMD_START_VOLATILE_KEK_SESSION</a>]</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    );</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;}</div>
@@ -290,7 +290,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    }</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    PLAT_UI8 cmd_header = STSAFEA_EXTENDED_COMMAND_PREFIX;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    PLAT_UI8 cmd_extended_header = <a class="code" href="../../d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4dd28d816036ee94e27cd72c483cee43">STSAFEA_EXTENDED_CMD_START_VOLATILE_KEK_SESSION</a>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    PLAT_UI8 cmd_extended_header = <a class="code" href="../../d0/dc4/a00443.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4dd28d816036ee94e27cd72c483cee43">STSAFEA_EXTENDED_CMD_START_VOLATILE_KEK_SESSION</a>;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    PLAT_UI8 point_representation_id = STSAFEA_NIST_BRAINPOOL_POINT_REPRESENTATION_ID;</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    stse_frame_element_allocate(ePoint_representation_id, 1, &amp;point_representation_id);</div>
@@ -383,7 +383,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            stsafea_extended_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4dd28d816036ee94e27cd72c483cee43">STSAFEA_EXTENDED_CMD_START_VOLATILE_KEK_SESSION</a>]</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            stsafea_extended_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4dd28d816036ee94e27cd72c483cee43">STSAFEA_EXTENDED_CMD_START_VOLATILE_KEK_SESSION</a>]</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    );</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;}</div>
@@ -400,7 +400,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160; </div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    PLAT_UI8 cmd_header = STSAFEA_EXTENDED_COMMAND_PREFIX;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    PLAT_UI8 cmd_extended_header = <a class="code" href="../../d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a3ca8cfe7ef5edadcc8704f44615481c3">STSAFEA_EXTENDED_CMD_STOP_VOLATILE_KEK_SESSION</a>;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    PLAT_UI8 cmd_extended_header = <a class="code" href="../../d0/dc4/a00443.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a3ca8cfe7ef5edadcc8704f44615481c3">STSAFEA_EXTENDED_CMD_STOP_VOLATILE_KEK_SESSION</a>;</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    PLAT_UI8 rsp_header;</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160; </div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    stse_frame_allocate(CmdFrame);</div>
@@ -414,7 +414,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            stsafea_extended_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a3ca8cfe7ef5edadcc8704f44615481c3">STSAFEA_EXTENDED_CMD_STOP_VOLATILE_KEK_SESSION</a>]</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            stsafea_extended_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a3ca8cfe7ef5edadcc8704f44615481c3">STSAFEA_EXTENDED_CMD_STOP_VOLATILE_KEK_SESSION</a>]</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    );</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160; </div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="keywordflow">return</span> ret;</div>
@@ -427,7 +427,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="comment"> * NEW FUNCTIONS</span></div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="comment"> *****************************************************************************/</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno"><a class="line" href="../../d3/def/a00446.html#ga84bc185d7506052b1e7cce8e1a71a160">  330</a></span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d3/def/a00446.html#ga84bc185d7506052b1e7cce8e1a71a160">stsafea_ecc_verify_signature</a>(</div>
+<div class="line"><a name="l00330"></a><span class="lineno"><a class="line" href="../../dd/d47/a00445.html#ga84bc185d7506052b1e7cce8e1a71a160">  330</a></span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../dd/d47/a00445.html#ga84bc185d7506052b1e7cce8e1a71a160">stsafea_ecc_verify_signature</a>(</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <a class="code" href="../../dd/dfd/a00438.html#ga6e9a5f04f4c75410f6f4775b889dcf82" title="STSE ECC key type.">stse_ecc_key_type_t</a> key_type,</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        PLAT_UI8 *pPublic_key,</div>
@@ -453,7 +453,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <span class="keywordflow">return</span>( <a class="code" href="../../de/df8/a00440.html#gga6e312aa8b8cd38421ce8b85215e4b16fa191768619d20bd447ad8cc0ec2ed29cb">STSE_SERVICE_INVALID_PARAMETER</a> );</div>
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    }</div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a25ed78865f6163fff73b75bf526141b9">STSAFEA_CMD_VERIFY_SIGNATURE</a>;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a25ed78865f6163fff73b75bf526141b9">STSAFEA_CMD_VERIFY_SIGNATURE</a>;</div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    PLAT_UI8 subject = 0x00;</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160; </div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="comment">/* Public key elements */</span></div>
@@ -532,7 +532,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a25ed78865f6163fff73b75bf526141b9">STSAFEA_CMD_VERIFY_SIGNATURE</a>]</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a25ed78865f6163fff73b75bf526141b9">STSAFEA_CMD_VERIFY_SIGNATURE</a>]</div>
 <div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    );</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160; </div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    <span class="keywordflow">if</span>(ret != <a class="code" href="../../de/df8/a00440.html#gga6e312aa8b8cd38421ce8b85215e4b16fa0d3996f0849d6b075a5b9a12c147870c">STSE_OK</a>)</div>
@@ -565,7 +565,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;        <span class="keywordflow">return</span>( <a class="code" href="../../de/df8/a00440.html#gga6e312aa8b8cd38421ce8b85215e4b16fa191768619d20bd447ad8cc0ec2ed29cb">STSE_SERVICE_INVALID_PARAMETER</a> );</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;    }</div>
 <div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160; </div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aa8b23942986f7d58061c67b8ef8d1ddb">STSAFEA_CMD_GENERATE_SIGNATURE</a>;</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aa8b23942986f7d58061c67b8ef8d1ddb">STSAFEA_CMD_GENERATE_SIGNATURE</a>;</div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160; </div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    PLAT_UI8 rsp_header;</div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;    <span class="comment">/* Signature elements */</span></div>
@@ -592,7 +592,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aa8b23942986f7d58061c67b8ef8d1ddb">STSAFEA_CMD_GENERATE_SIGNATURE</a>]</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aa8b23942986f7d58061c67b8ef8d1ddb">STSAFEA_CMD_GENERATE_SIGNATURE</a>]</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;    );</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160; </div>
 <div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;    <span class="keywordflow">return</span> ret;</div>
@@ -623,7 +623,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;        <span class="keywordflow">return</span>( <a class="code" href="../../de/df8/a00440.html#gga6e312aa8b8cd38421ce8b85215e4b16fa191768619d20bd447ad8cc0ec2ed29cb">STSE_SERVICE_INVALID_PARAMETER</a> );</div>
 <div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    }</div>
 <div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160; </div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aace66926c9538853672a17ff6135b809">STSAFEA_CMD_ESTABLISH_KEY</a>;</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aace66926c9538853672a17ff6135b809">STSAFEA_CMD_ESTABLISH_KEY</a>;</div>
 <div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160; </div>
 <div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    <span class="comment">/* Public key elements */</span></div>
 <div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;    PLAT_UI8 point_representation_id = STSAFEA_NIST_BRAINPOOL_POINT_REPRESENTATION_ID;</div>
@@ -730,7 +730,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    }</div>
 <div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160; </div>
 <div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    PLAT_UI8 cmd_header = STSAFEA_EXTENDED_COMMAND_PREFIX;</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    PLAT_UI8 cmd_ext_header = <a class="code" href="../../d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906abf245af1c6e099f3e462f915842c26e6">STSAFEA_EXTENDED_CMD_DECOMPRESS_PUBLIC_KEY</a>;</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    PLAT_UI8 cmd_ext_header = <a class="code" href="../../d0/dc4/a00443.html#ggaf7b6a32294b71c2eb7d44c2c127e5906abf245af1c6e099f3e462f915842c26e6">STSAFEA_EXTENDED_CMD_DECOMPRESS_PUBLIC_KEY</a>;</div>
 <div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160; </div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    PLAT_UI8 rsp_header;</div>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160; </div>
@@ -750,7 +750,7 @@ $(document).ready(function(){initNavTree('dd/d4e/a00329_source.html','../../'); 
 <div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;            stsafea_extended_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906abf245af1c6e099f3e462f915842c26e6">STSAFEA_EXTENDED_CMD_DECOMPRESS_PUBLIC_KEY</a>]</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;            stsafea_extended_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#ggaf7b6a32294b71c2eb7d44c2c127e5906abf245af1c6e099f3e462f915842c26e6">STSAFEA_EXTENDED_CMD_DECOMPRESS_PUBLIC_KEY</a>]</div>
 <div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    );</div>
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160; </div>
 <div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;    <span class="keywordflow">return</span> ret;</div>

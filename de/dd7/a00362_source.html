@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('de/dd7/a00362_source.html','../../'); 
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;services/stsafea/stsafea_sessions.h&quot;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;services/stsafea/stsafea_aes.h&quot;</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">/*! \defgroup stsafea_mac MAC</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">/*! \defgroup stsafea_mac STSAFE-A Message Authentication Code (MAC)</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> *  \ingroup stsafea_services</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> *  @{</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> */</span></div>
@@ -147,7 +147,7 @@ $(document).ready(function(){initNavTree('de/dd7/a00362_source.html','../../'); 
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"> * \param[out]  mac_length      MAC length (CMAC:2,4,8,16 / HMAC:16-32)</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"> * \return \ref stse_ReturnCode_t : STSE_OK on success ; error code otherwise</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d69/a00451.html#ga44317159bcbc7ab490ac8ba894a3ad5c" title="Generate a CMAC.">stsafea_cmac_hmac_compute</a>(</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../de/df4/a00450.html#ga44317159bcbc7ab490ac8ba894a3ad5c" title="Generate a CMAC.">stsafea_cmac_hmac_compute</a>(</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        PLAT_UI8 slot_number,</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        PLAT_UI8 * pMessage,</div>
@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('de/dd7/a00362_source.html','../../'); 
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment"> * \param[out]  verification_result     Verification result flag</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment"> * \return \ref stse_ReturnCode_t : STSE_OK on success ; error code otherwise</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d69/a00451.html#ga045f6a453cade5c70edca9e49439b026" title="Verify a CMAC.">stsafea_cmac_hmac_verify</a>(</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../de/df4/a00450.html#ga045f6a453cade5c70edca9e49439b026" title="Verify a CMAC.">stsafea_cmac_hmac_verify</a>(</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        PLAT_UI8 slot_number,</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        PLAT_UI8 * pMac,</div>
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('de/dd7/a00362_source.html','../../'); 
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment"> * \param[out]  pAuthentication_tag         Buffer to store the authentication tag</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment"> * \return \ref stse_ReturnCode_t : STSE_OK on success ; error code otherwise</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d69/a00451.html#ga2f34e47a7a1cf282b7956d57ba02c41c" title="Generate a GMAC.">stsafea_aes_gmac_compute</a>(</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../de/df4/a00450.html#ga2f34e47a7a1cf282b7956d57ba02c41c" title="Generate a GMAC.">stsafea_aes_gmac_compute</a>(</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        PLAT_UI8 slot_number,</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        PLAT_UI16 IV_length,</div>
@@ -213,7 +213,7 @@ $(document).ready(function(){initNavTree('de/dd7/a00362_source.html','../../'); 
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment"> * \param[out]  pVerification_result        Verification result flag</span></div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment"> * \return \ref stse_ReturnCode_t : STSE_OK on success ; error code otherwise</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d69/a00451.html#gab6681cb3df8be95406d04a1172cfe006" title="Verify a GMAC.">stsafea_aes_gmac_verify</a>(</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../de/df4/a00450.html#gab6681cb3df8be95406d04a1172cfe006" title="Verify a GMAC.">stsafea_aes_gmac_verify</a>(</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        PLAT_UI8 slot_number,</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        PLAT_UI16 IV_length,</div>

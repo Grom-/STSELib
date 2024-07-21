@@ -1,7 +1,7 @@
 var a00438 =
 [
-    [ "stse_cmd_authorization_CR_t", "dd/dfd/a00438.html#d0/ddb/a00542", null ],
-    [ "stse_cmd_authorization_record_t", "dd/dfd/a00438.html#dc/d2b/a00546", null ],
+    [ "stse_cmd_authorization_CR_t", "dd/dfd/a00438.html#dd/d72/a00541", null ],
+    [ "stse_cmd_authorization_record_t", "dd/dfd/a00438.html#d8/deb/a00545", null ],
     [ "STSE_SECURE_CHANNEL_Msk", "dd/dfd/a00438.html#ga97a8c12b5f250185108af60e717e4a00", null ],
     [ "STSE_SECURE_CHANNEL_HOST", "dd/dfd/a00438.html#gaf27a913160f7c9205895fb04bd2a96c0", null ],
     [ "STSE_SECURE_CHANNEL_SESSION", "dd/dfd/a00438.html#ga848dc30ac5fae2ce1c83203d16b8fa1e", null ],

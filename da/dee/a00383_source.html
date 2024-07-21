@@ -120,14 +120,14 @@ $(document).ready(function(){initNavTree('da/dee/a00383_source.html','../../'); 
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;services/stsafea/stsafea_random.h&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../dd/d63/a00455.html#gabe1deb3840c69d2321e86e6e04161b7c">   23</a></span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../dd/d63/a00455.html#gabe1deb3840c69d2321e86e6e04161b7c" title="STSAFEA generate random service.">stsafea_generate_random</a>(</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d7/d9f/a00454.html#gabe1deb3840c69d2321e86e6e04161b7c">   23</a></span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d7/d9f/a00454.html#gabe1deb3840c69d2321e86e6e04161b7c" title="STSAFEA generate random service.">stsafea_generate_random</a>(</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE ,</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        PLAT_UI8 * pRandom,</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        PLAT_UI8 random_size</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> ret;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a3551e461836c24f7a11e0f8f0e9ef95f">STSAFEA_CMD_GENERATE_RANDOM</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a3551e461836c24f7a11e0f8f0e9ef95f">STSAFEA_CMD_GENERATE_RANDOM</a>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    PLAT_UI8 subject = 0x00;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    PLAT_UI8 rsp_header;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
@@ -151,7 +151,7 @@ $(document).ready(function(){initNavTree('da/dee/a00383_source.html','../../'); 
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a3551e461836c24f7a11e0f8f0e9ef95f">STSAFEA_CMD_GENERATE_RANDOM</a>]</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a3551e461836c24f7a11e0f8f0e9ef95f">STSAFEA_CMD_GENERATE_RANDOM</a>]</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    );</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">return</span>( ret );</div>

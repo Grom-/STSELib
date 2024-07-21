@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STMicroelectronics Secure Element Library: STSAFE-A Hash</title>
+<title>STMicroelectronics Secure Element Library: STSAFE-A Host key slot management</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -95,242 +95,39 @@ $(document).ready(function(){initNavTree('de/dfe/a00448.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">STSAFE-A Hash<div class="ingroups"><a class="el" href="../../d5/d5f/a00461.html">Services layer</a> &raquo; <a class="el" href="../../d0/dc4/a00443.html">STSAFE-Axxx</a></div></div>  </div>
+<div class="title">STSAFE-A Host key slot management</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for STSAFE-A Hash:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../de/dfe/a00448.png" border="0" usemap="#ade_2dfe_2a00448" alt=""/></div>
-<map name="ade_2dfe_2a00448" id="ade_2dfe_2a00448">
-<area shape="rect" title=" " alt="" coords="164,5,287,31"/>
-<area shape="rect" href="../../d0/dc4/a00443.html" title=" " alt="" coords="5,5,116,31"/>
-</map>
-</div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:d7/db1/a00590"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#d7/db1/a00590">stsafea_hash_algorithm_identifier_t</a></td></tr>
-<tr class="separator:d7/db1/a00590"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:da/de4/a00594"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#da/de4/a00594">stsafea_hash_info_t</a></td></tr>
-<tr class="separator:da/de4/a00594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ga91eedf22a40ee1006ee766392a235a97"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#ga91eedf22a40ee1006ee766392a235a97">STSAFEA_SHA_1_HASH_SIZE</a>&#160;&#160;&#160;20U</td></tr>
-<tr class="separator:ga91eedf22a40ee1006ee766392a235a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadfd66db524e4c8e6de8a31e080c661f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#gadfd66db524e4c8e6de8a31e080c661f8">STSAFEA_SHA_224_HASH_SIZE</a>&#160;&#160;&#160;28U</td></tr>
-<tr class="separator:gadfd66db524e4c8e6de8a31e080c661f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2a52300d461530f2484b5a4220789576"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#ga2a52300d461530f2484b5a4220789576">STSAFEA_SHA_256_HASH_SIZE</a>&#160;&#160;&#160;32U</td></tr>
-<tr class="separator:ga2a52300d461530f2484b5a4220789576"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf823826f959f73f2d4dcda4a74a567f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#gaf823826f959f73f2d4dcda4a74a567f8">STSAFEA_SHA_384_HASH_SIZE</a>&#160;&#160;&#160;48U</td></tr>
-<tr class="separator:gaf823826f959f73f2d4dcda4a74a567f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2e5f27b13ec0f7fc2f0c26c0288803a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#ga2e5f27b13ec0f7fc2f0c26c0288803a7">STSAFEA_SHA_512_HASH_SIZE</a>&#160;&#160;&#160;64U</td></tr>
-<tr class="separator:ga2e5f27b13ec0f7fc2f0c26c0288803a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd147b63e2f22dcbb3cdca60a2407be4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#gabd147b63e2f22dcbb3cdca60a2407be4">STSAFEA_HASH_ALGO_ID_VALUE_SIZE</a>&#160;&#160;&#160;9U</td></tr>
-<tr class="separator:gabd147b63e2f22dcbb3cdca60a2407be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8f348978565e0ef6a0cc373bcf4dfd65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#ga8f348978565e0ef6a0cc373bcf4dfd65">STSAFEA_HASH_ALGO_ID_LENGTH_SIZE</a>&#160;&#160;&#160;2U</td></tr>
-<tr class="separator:ga8f348978565e0ef6a0cc373bcf4dfd65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gac3505ae6f5b4709d7ee8ffd44cf03914"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#gac3505ae6f5b4709d7ee8ffd44cf03914">stsafea_start_hash</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, <a class="el" href="../../dd/dfd/a00438.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a> sha_algorithm, PLAT_UI8 *pMessage, PLAT_UI16 message_size)</td></tr>
-<tr class="separator:gac3505ae6f5b4709d7ee8ffd44cf03914"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae0509bd520501b8c1bf234c45884a9d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#gae0509bd520501b8c1bf234c45884a9d2">stsafea_process_hash</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, PLAT_UI8 *pMessage, PLAT_UI16 message_size)</td></tr>
-<tr class="separator:gae0509bd520501b8c1bf234c45884a9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga88b1eda6150d16cc4ce0f9ddcb0ea001"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#ga88b1eda6150d16cc4ce0f9ddcb0ea001">stsafea_finish_hash</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, <a class="el" href="../../dd/dfd/a00438.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a> sha_algorithm, PLAT_UI8 *pMessage, PLAT_UI16 message_size, PLAT_UI8 *pDigest, PLAT_UI16 *pDigest_size)</td></tr>
-<tr class="separator:ga88b1eda6150d16cc4ce0f9ddcb0ea001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44fb5eb6d424309e8eeb2c144feeef55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#ga44fb5eb6d424309e8eeb2c144feeef55">stsafea_query_host_key_provisioning_ctrl_fields</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, stsafea_host_key_provisioning_ctrl_fields_t *pCtrl_fields)</td></tr>
+<tr class="separator:ga44fb5eb6d424309e8eeb2c144feeef55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad04e256e46e715d2131ad0b6ae5ffa4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#gad04e256e46e715d2131ad0b6ae5ffa4a">stsafea_put_host_key_provisioning_ctrl_fields</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, stsafea_host_key_provisioning_ctrl_fields_t *pCtrl_fields)</td></tr>
+<tr class="separator:gad04e256e46e715d2131ad0b6ae5ffa4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a243541d4e41f74b1fe8492729a9b58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#ga5a243541d4e41f74b1fe8492729a9b58">stsafea_query_host_key</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, stsafea_host_key_slot_t *pHostKeySlot)</td></tr>
+<tr class="separator:ga5a243541d4e41f74b1fe8492729a9b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b7b3c450a97c29459119988c54ffe74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#ga8b7b3c450a97c29459119988c54ffe74">stsafea_query_host_key_v2</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, stsafea_host_key_slot_v2_t *pHostKeySlotV2)</td></tr>
+<tr class="separator:ga8b7b3c450a97c29459119988c54ffe74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga67d00682ec009adab16e9c32aa503ac2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#ga67d00682ec009adab16e9c32aa503ac2">stsafea_put_attribute_host_key</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, stsafea_aes_128_host_keys_t *host_keys)</td></tr>
+<tr class="separator:ga67d00682ec009adab16e9c32aa503ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae4c0590567a9b512ca43e51be84b3c3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#gae4c0590567a9b512ca43e51be84b3c3e">stsafea_host_key_provisioning</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, stsafea_host_key_type_t key_type, stsafea_host_keys_t *host_keys)</td></tr>
+<tr class="separator:gae4c0590567a9b512ca43e51be84b3c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac651d275858ce7c75e902a45d95b3b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/a00448.html#gac651d275858ce7c75e902a45d95b3b0a">stsafea_host_key_provisioning_wrapped</a> (<a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *pSTSE, stsafea_host_key_type_t key_type, PLAT_UI8 *pHost_key_envelope)</td></tr>
+<tr class="separator:gac651d275858ce7c75e902a45d95b3b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<hr/><h2 class="groupheader">Data Structure Documentation</h2>
-<a name="d7/db1/a00590" id="d7/db1/a00590"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d7/db1/a00590">&#9670;&nbsp;</a></span>stsafea_hash_algorithm_identifier_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct stsafea_hash_algorithm_identifier_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/d8e/a00344_source.html#l00069">69</a> of file <a class="el" href="../../d8/d8e/a00344_source.html">stsafea_hash.h</a>.</p>
-</div><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for stsafea_hash_algorithm_identifier_t:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d8/d2e/a00588.png" border="0" usemap="#astsafea__hash__algorithm__identifier__t_coll__map" alt="Collaboration graph"/></div>
-<map name="astsafea__hash__algorithm__identifier__t_coll__map" id="astsafea__hash__algorithm__identifier__t_coll__map">
-<area shape="rect" title="STSAFEA Hash identifier structure." alt="" coords="5,5,184,112"/>
-</map>
-</div>
-
-</div>
-</div>
-<a name="da/de4/a00594" id="da/de4/a00594"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#da/de4/a00594">&#9670;&nbsp;</a></span>stsafea_hash_info_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct stsafea_hash_info_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/d8e/a00344_source.html#l00078">78</a> of file <a class="el" href="../../d8/d8e/a00344_source.html">stsafea_hash.h</a>.</p>
-</div><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for stsafea_hash_info_t:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d0/dec/a00592.png" border="0" usemap="#astsafea__hash__info__t_coll__map" alt="Collaboration graph"/></div>
-<map name="astsafea__hash__info__t_coll__map" id="astsafea__hash__info__t_coll__map">
-<area shape="rect" title="STSAFEA Hash informations structure." alt="" coords="19,175,171,252"/>
-<area shape="rect" href="../../de/dfe/a00448.html#d7/db1/a00590" title="STSAFEA Hash identifier structure." alt="" coords="5,5,184,112"/>
-</map>
-</div>
-
-</div>
-</div>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ga91eedf22a40ee1006ee766392a235a97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga91eedf22a40ee1006ee766392a235a97">&#9670;&nbsp;</a></span>STSAFEA_SHA_1_HASH_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STSAFEA_SHA_1_HASH_SIZE&#160;&#160;&#160;20U</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Size in bytes of a SHA1 digest </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d8e/a00344_source.html#l00043">43</a> of file <a class="el" href="../../d8/d8e/a00344_source.html">stsafea_hash.h</a>.</p>
-
-</div>
-</div>
-<a id="gadfd66db524e4c8e6de8a31e080c661f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadfd66db524e4c8e6de8a31e080c661f8">&#9670;&nbsp;</a></span>STSAFEA_SHA_224_HASH_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STSAFEA_SHA_224_HASH_SIZE&#160;&#160;&#160;28U</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Size in bytes of a SHA224 digest </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d8e/a00344_source.html#l00044">44</a> of file <a class="el" href="../../d8/d8e/a00344_source.html">stsafea_hash.h</a>.</p>
-
-</div>
-</div>
-<a id="ga2a52300d461530f2484b5a4220789576"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2a52300d461530f2484b5a4220789576">&#9670;&nbsp;</a></span>STSAFEA_SHA_256_HASH_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STSAFEA_SHA_256_HASH_SIZE&#160;&#160;&#160;32U</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Size in bytes of a SHA256 digest </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d8e/a00344_source.html#l00045">45</a> of file <a class="el" href="../../d8/d8e/a00344_source.html">stsafea_hash.h</a>.</p>
-
-</div>
-</div>
-<a id="gaf823826f959f73f2d4dcda4a74a567f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf823826f959f73f2d4dcda4a74a567f8">&#9670;&nbsp;</a></span>STSAFEA_SHA_384_HASH_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STSAFEA_SHA_384_HASH_SIZE&#160;&#160;&#160;48U</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Size in bytes of a SHA384 digest </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d8e/a00344_source.html#l00046">46</a> of file <a class="el" href="../../d8/d8e/a00344_source.html">stsafea_hash.h</a>.</p>
-
-</div>
-</div>
-<a id="ga2e5f27b13ec0f7fc2f0c26c0288803a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2e5f27b13ec0f7fc2f0c26c0288803a7">&#9670;&nbsp;</a></span>STSAFEA_SHA_512_HASH_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STSAFEA_SHA_512_HASH_SIZE&#160;&#160;&#160;64U</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Size in bytes of a SHA512 digest </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d8e/a00344_source.html#l00047">47</a> of file <a class="el" href="../../d8/d8e/a00344_source.html">stsafea_hash.h</a>.</p>
-
-</div>
-</div>
-<a id="gabd147b63e2f22dcbb3cdca60a2407be4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabd147b63e2f22dcbb3cdca60a2407be4">&#9670;&nbsp;</a></span>STSAFEA_HASH_ALGO_ID_VALUE_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STSAFEA_HASH_ALGO_ID_VALUE_SIZE&#160;&#160;&#160;9U</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Max size in bytes of a hash algo ID </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d8e/a00344_source.html#l00049">49</a> of file <a class="el" href="../../d8/d8e/a00344_source.html">stsafea_hash.h</a>.</p>
-
-</div>
-</div>
-<a id="ga8f348978565e0ef6a0cc373bcf4dfd65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8f348978565e0ef6a0cc373bcf4dfd65">&#9670;&nbsp;</a></span>STSAFEA_HASH_ALGO_ID_LENGTH_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STSAFEA_HASH_ALGO_ID_LENGTH_SIZE&#160;&#160;&#160;2U</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Size in bytes of a hash algo ID length field </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d8e/a00344_source.html#l00050">50</a> of file <a class="el" href="../../d8/d8e/a00344_source.html">stsafea_hash.h</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gac3505ae6f5b4709d7ee8ffd44cf03914"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac3505ae6f5b4709d7ee8ffd44cf03914">&#9670;&nbsp;</a></span>stsafea_start_hash()</h2>
+<a id="ga44fb5eb6d424309e8eeb2c144feeef55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44fb5eb6d424309e8eeb2c144feeef55">&#9670;&nbsp;</a></span>stsafea_query_host_key_provisioning_ctrl_fields()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_start_hash </td>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_query_host_key_provisioning_ctrl_fields </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
           <td class="paramname"><em>pSTSE</em>, </td>
@@ -338,20 +135,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dfd/a00438.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a>&#160;</td>
-          <td class="paramname"><em>sha_algorithm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pMessage</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_size</em>&#160;</td>
+          <td class="paramtype">stsafea_host_key_provisioning_ctrl_fields_t *&#160;</td>
+          <td class="paramname"><em>pCtrl_fields</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -361,30 +146,30 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>STSAFEA start hash service. </p>
-<p>This service format and send/receive STSAFE-Axxx start hash command/response </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Query host key provisioning control fields. </p>
+<p>This service format and send query host key provisioning control fields command </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to target SE handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">sha_algorithm</td><td><a class="el" href="../../dd/dfd/a00438.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a> SHA algorithm </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pMessage</td><td>Pointer to message buffer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_size</td><td>Input message length in bytes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">pCtrl_fields</td><td>Pointer to the provisioning control fields </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSAFEA_OK on success ; error code otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00058">58</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc6/a00347_source.html#l00024">24</a> of file <a class="el" href="../../d1/dc6/a00347_source.html">stsafea_host_key_slot.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/de2/a00320_source.html#l00087">STSAFEA_CMD_QUERY</a>, <a class="el" href="../../d8/ddd/a00380_source.html#l00074">STSAFEA_SUBJECT_TAG_HOST_KEY_SLOT_PROVISIONING_CONTROL_FIELDS</a>, <a class="el" href="../../d6/d82/a00293_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
 
 </div>
 </div>
-<a id="gae0509bd520501b8c1bf234c45884a9d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae0509bd520501b8c1bf234c45884a9d2">&#9670;&nbsp;</a></span>stsafea_process_hash()</h2>
+<a id="gad04e256e46e715d2131ad0b6ae5ffa4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad04e256e46e715d2131ad0b6ae5ffa4a">&#9670;&nbsp;</a></span>stsafea_put_host_key_provisioning_ctrl_fields()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_process_hash </td>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_put_host_key_provisioning_ctrl_fields </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
           <td class="paramname"><em>pSTSE</em>, </td>
@@ -392,14 +177,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pMessage</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_size</em>&#160;</td>
+          <td class="paramtype">stsafea_host_key_provisioning_ctrl_fields_t *&#160;</td>
+          <td class="paramname"><em>pCtrl_fields</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -409,29 +188,30 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>STSAFEA process hash service. </p>
-<p>This service format and send/receive STSAFE-Axxx process hash command/response </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Put host key provisioning control fields. </p>
+<p>This service format and send put host key provisioning control fields command </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to target SE handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pMessage</td><td>Pointer to message buffer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_size</td><td>Input message length in bytes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">pCtrl_fields</td><td>Pointer to the provisioning control fields </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSAFEA_OK on success ; error code otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00095">95</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc6/a00347_source.html#l00063">63</a> of file <a class="el" href="../../d1/dc6/a00347_source.html">stsafea_host_key_slot.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/de2/a00320_source.html#l00083">STSAFEA_CMD_PUT_ATTRIBUTE</a>, <a class="el" href="../../d8/ddd/a00380_source.html#l00074">STSAFEA_SUBJECT_TAG_HOST_KEY_SLOT_PROVISIONING_CONTROL_FIELDS</a>, <a class="el" href="../../d6/d82/a00293_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
 
 </div>
 </div>
-<a id="ga88b1eda6150d16cc4ce0f9ddcb0ea001"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga88b1eda6150d16cc4ce0f9ddcb0ea001">&#9670;&nbsp;</a></span>stsafea_finish_hash()</h2>
+<a id="ga5a243541d4e41f74b1fe8492729a9b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a243541d4e41f74b1fe8492729a9b58">&#9670;&nbsp;</a></span>stsafea_query_host_key()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_finish_hash </td>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_query_host_key </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
           <td class="paramname"><em>pSTSE</em>, </td>
@@ -439,32 +219,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dfd/a00438.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a>&#160;</td>
-          <td class="paramname"><em>sha_algorithm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pMessage</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16&#160;</td>
-          <td class="paramname"><em>message_size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI8 *&#160;</td>
-          <td class="paramname"><em>pDigest</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PLAT_UI16 *&#160;</td>
-          <td class="paramname"><em>pDigest_size</em>&#160;</td>
+          <td class="paramtype">stsafea_host_key_slot_t *&#160;</td>
+          <td class="paramname"><em>pHostKeySlot</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -474,21 +230,203 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>STSAFEA start hash service. </p>
-<p>This service format and send/receive STSAFE-Axxx process hash command/response </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Query host key informations (host key V1) </p>
+<p>This service format and send query host key informations command </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to target SE handler </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">sha_algorithm</td><td><a class="el" href="../../dd/dfd/a00438.html#ga0f8aa78e88ffc3b7e23f7f2cf43c1647">stse_hash_algorithm_t</a> sha_algorithm </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pMessage</td><td>Pointer to message buffer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">message_size</td><td>Input message length in bytes </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pDigest</td><td>Pointer to digest buffer </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">pDigest_size</td><td>Digest buffer length in bytes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">pHostKeySlot</td><td>Pointer to the structure to output key informations </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSE_OK on success ; error code otherwise </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSAFEA_OK on success ; error code otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d93/a00341_source.html#l00129">129</a> of file <a class="el" href="../../d3/d93/a00341_source.html">stsafea_hash.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc6/a00347_source.html#l00100">100</a> of file <a class="el" href="../../d1/dc6/a00347_source.html">stsafea_host_key_slot.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/de2/a00320_source.html#l00087">STSAFEA_CMD_QUERY</a>, <a class="el" href="../../d8/ddd/a00380_source.html#l00055">STSAFEA_SUBJECT_TAG_HOST_KEY_SLOT_V1</a>, <a class="el" href="../../d6/d82/a00293_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
+
+</div>
+</div>
+<a id="ga8b7b3c450a97c29459119988c54ffe74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8b7b3c450a97c29459119988c54ffe74">&#9670;&nbsp;</a></span>stsafea_query_host_key_v2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_query_host_key_v2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
+          <td class="paramname"><em>pSTSE</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">stsafea_host_key_slot_v2_t *&#160;</td>
+          <td class="paramname"><em>pHostKeySlotV2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Query host key informations (host key V2) </p>
+<p>This service format and send query host key informations command </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">pHostKeySlotV2</td><td>Pointer to the structure to output key informations </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSAFEA_OK on success ; error code otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dc6/a00347_source.html#l00140">140</a> of file <a class="el" href="../../d1/dc6/a00347_source.html">stsafea_host_key_slot.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/de2/a00320_source.html#l00087">STSAFEA_CMD_QUERY</a>, <a class="el" href="../../d8/ddd/a00380_source.html#l00072">STSAFEA_SUBJECT_TAG_HOST_KEY_SLOT_V2</a>, <a class="el" href="../../d6/d82/a00293_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
+
+</div>
+</div>
+<a id="ga67d00682ec009adab16e9c32aa503ac2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67d00682ec009adab16e9c32aa503ac2">&#9670;&nbsp;</a></span>stsafea_put_attribute_host_key()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_put_attribute_host_key </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
+          <td class="paramname"><em>pSTSE</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">stsafea_aes_128_host_keys_t *&#160;</td>
+          <td class="paramname"><em>host_keys</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Provision host key V1. </p>
+<p>Provision host key using the put attributes command </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">host_keys</td><td>Host key structure to be provisionned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSAFEA_OK on success ; error code otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dc6/a00347_source.html#l00179">179</a> of file <a class="el" href="../../d1/dc6/a00347_source.html">stsafea_host_key_slot.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/de2/a00320_source.html#l00083">STSAFEA_CMD_PUT_ATTRIBUTE</a>, <a class="el" href="../../d8/ddd/a00380_source.html#l00055">STSAFEA_SUBJECT_TAG_HOST_KEY_SLOT_V1</a>, <a class="el" href="../../d6/d82/a00293_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
+
+</div>
+</div>
+<a id="gae4c0590567a9b512ca43e51be84b3c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae4c0590567a9b512ca43e51be84b3c3e">&#9670;&nbsp;</a></span>stsafea_host_key_provisioning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_host_key_provisioning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
+          <td class="paramname"><em>pSTSE</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">stsafea_host_key_type_t&#160;</td>
+          <td class="paramname"><em>key_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">stsafea_host_keys_t *&#160;</td>
+          <td class="paramname"><em>host_keys</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Provision host key V2. </p>
+<p>Provision host key using the write host key command </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key_type</td><td>Host key type </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">host_keys</td><td>Host key structure to be provisionned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSAFEA_OK on success ; error code otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dc6/a00347_source.html#l00216">216</a> of file <a class="el" href="../../d1/dc6/a00347_source.html">stsafea_host_key_slot.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/d82/a00293_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/d27/a00239_source.html#l00487">stse_host_key_provisioning()</a>.</p>
+
+</div>
+</div>
+<a id="gac651d275858ce7c75e902a45d95b3b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac651d275858ce7c75e902a45d95b3b0a">&#9670;&nbsp;</a></span>stsafea_host_key_provisioning_wrapped()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> stsafea_host_key_provisioning_wrapped </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b">stse_Handler_t</a> *&#160;</td>
+          <td class="paramname"><em>pSTSE</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">stsafea_host_key_type_t&#160;</td>
+          <td class="paramname"><em>key_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PLAT_UI8 *&#160;</td>
+          <td class="paramname"><em>pHost_key_envelope</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Provision host key V2 wrapped. </p>
+<p>Provision host key using the write host key command </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pSTSE</td><td>Pointer to STSAFE Handler </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">key_type</td><td>Host key type </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pHost_key_envelope</td><td>Envelope containing host key to be provisionned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f">stse_ReturnCode_t</a> : STSAFEA_OK on success ; error code otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/dc6/a00347_source.html#l00260">260</a> of file <a class="el" href="../../d1/dc6/a00347_source.html">stsafea_host_key_slot.c</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/d82/a00293_source.html#l00099">STSE_SERVICE_HANDLER_NOT_INITIALISED</a>, and <a class="el" href="../../d6/d82/a00293_source.html#l00098">STSE_SERVICE_INVALID_PARAMETER</a>.</p>
 
 </div>
 </div>

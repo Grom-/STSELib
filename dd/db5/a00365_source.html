@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('dd/db5/a00365_source.html','../../'); 
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;services/stsafea/stsafea_password.h&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d1/d0b/a00452.html#ga3e709e7aff52dac1723a45f59501ecd4">   22</a></span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d1/d0b/a00452.html#ga3e709e7aff52dac1723a45f59501ecd4" title="STSAFEA verify password service.">stsafea_verify_password</a>(</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d9/d69/a00451.html#ga3e709e7aff52dac1723a45f59501ecd4">   22</a></span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d69/a00451.html#ga3e709e7aff52dac1723a45f59501ecd4" title="STSAFEA verify password service.">stsafea_verify_password</a>(</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE,</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        PLAT_UI8 * pPassword_buffer,</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        PLAT_UI8 password_length,</div>
@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('dd/db5/a00365_source.html','../../'); 
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        PLAT_UI8 * pRemaining_tries)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> ret;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aad7d9193df273ee0c9b1f491b0846801">STSAFEA_CMD_VERIFY_PASSWORD</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aad7d9193df273ee0c9b1f491b0846801">STSAFEA_CMD_VERIFY_PASSWORD</a>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    PLAT_UI8 rsp_header;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span>((pSTSE == NULL) || (password_length != STSAFEA_PASSWORD_LENGTH))</div>
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('dd/db5/a00365_source.html','../../'); 
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aad7d9193df273ee0c9b1f491b0846801">STSAFEA_CMD_VERIFY_PASSWORD</a>]</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aad7d9193df273ee0c9b1f491b0846801">STSAFEA_CMD_VERIFY_PASSWORD</a>]</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    );</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span>( ret );</div>
@@ -158,10 +158,10 @@ $(document).ready(function(){initNavTree('dd/db5/a00365_source.html','../../'); 
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d1/d0b/a00452.html#gaf7047a8c2a586d48b9af5e36c6210812">   61</a></span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d1/d0b/a00452.html#gaf7047a8c2a586d48b9af5e36c6210812" title="STSAFEA delete password service.">stsafea_delete_password</a>(<a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE)</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d9/d69/a00451.html#gaf7047a8c2a586d48b9af5e36c6210812">   61</a></span>&#160;<a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> <a class="code" href="../../d9/d69/a00451.html#gaf7047a8c2a586d48b9af5e36c6210812" title="STSAFEA delete password service.">stsafea_delete_password</a>(<a class="code" href="../../d4/d82/a00436.html#gaabe4b6e7682072e3e7798bbff6c0b77b" title="STSE Handler This handler stores all the context and working data related to a specific STSE target....">stse_Handler_t</a> * pSTSE)</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../de/df8/a00440.html#ga6e312aa8b8cd38421ce8b85215e4b16f" title="STSE response codes enumeration.">stse_ReturnCode_t</a> ret;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a71ad9d653279ab0aa79ad2c29af50f43">STSAFEA_CMD_DELETE</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    PLAT_UI8 cmd_header = <a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a71ad9d653279ab0aa79ad2c29af50f43">STSAFEA_CMD_DELETE</a>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    PLAT_UI8 tag = STSAFEA_DELETE_TAG_PASSWORD;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    PLAT_UI8 rsp_header;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
@@ -183,7 +183,7 @@ $(document).ready(function(){initNavTree('dd/db5/a00365_source.html','../../'); 
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    ret = <a class="code" href="../../d4/da8/a00437.html#gaa5cd7a355c4455a473f7c5ba33134454" title="Transfer Frames to/from target STSAFE-Axx.">stse_frame_transfer</a>(pSTSE,</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            &amp;CmdFrame,</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            &amp;RspFrame,</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a71ad9d653279ab0aa79ad2c29af50f43">STSAFEA_CMD_DELETE</a>]</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            stsafea_cmd_timings[pSTSE-&gt;device_type][<a class="code" href="../../d0/dc4/a00443.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a71ad9d653279ab0aa79ad2c29af50f43">STSAFEA_CMD_DELETE</a>]</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    );</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">return</span>( ret );</div>

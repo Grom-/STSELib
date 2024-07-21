@@ -5,14 +5,14 @@
       <Name>md_doc_Markdown_01_License_01_License</Name>
       <APILanguage>markdown</APILanguage>
     </TokenIdentifier>
-    <Path>df/dbc/a00931.html</Path>
+    <Path>d7/d16/a00930.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>md_doc_Markdown_02_Release_note_02_Release_Note</Name>
       <APILanguage>markdown</APILanguage>
     </TokenIdentifier>
-    <Path>d8/dbb/a00932.html</Path>
+    <Path>df/dbc/a00931.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2746,35 +2746,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>stsafea_asymmetric_key_slots</Name>
-      <APILanguage>c</APILanguage>
-    </TokenIdentifier>
-    <Path>db/d34/a00442.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>stsafea_query_private_key_slots_count</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>db/d34/a00442.html</Path>
-    <Anchor>ga98dc85f17d38830f4cee48f10f64c180</Anchor>
-    <Abstract>Encrypt a message.</Abstract>
-    <DeclaredIn>stsafea_asymmetric_key_slots.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>stsafea_services</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>d0/dc4/a00443.html</Path>
+    <Path>db/d34/a00442.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>stsafea_cmd_set</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2782,7 +2764,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ga9b45aac6ea2d912d87c2ee75a62caa4f</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2792,7 +2774,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ga32140548c863a0f650855de6510be1dc</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2802,7 +2784,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gaefdcdf839c24ae86a460bb6d3d51831e</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2812,7 +2794,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ga78ad4bf556112c4b3cd27cc7d4d0d84a</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2822,7 +2804,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a67be3acc960d28a7b3a0b06991614ed7</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2832,7 +2814,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aeea8aeac22e3b78e94b899f19167971c</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2842,7 +2824,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a3551e461836c24f7a11e0f8f0e9ef95f</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2852,7 +2834,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a9c183c7a13166b603b89ae43d03e6cef</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2862,7 +2844,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8ad5eab74f12d772d6d59abd850743e1a9</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2872,7 +2854,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a2a93615473b2862b5d1aca181d8829b0</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2882,7 +2864,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a385a193772be4bfab06ca95171ee8f85</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2892,7 +2874,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a7263db01c49df24e4e46355c0fc12a7c</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2902,7 +2884,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8acd1a30ac78cfdf13b1e1f5dccb36e073</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2912,7 +2894,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a558f49b582b9236023a61b270fcc95df</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2922,7 +2904,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a02c2432941cc0bb5d94366f724d7be9b</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2932,7 +2914,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a3c11c5e4c72bdb0e8452e29c5692de8f</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2942,7 +2924,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a71ad9d653279ab0aa79ad2c29af50f43</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2952,7 +2934,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a5aaf28df1cc6611111c0b0e01b6759f2</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2962,7 +2944,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8adf39001d88987eb5141f8ca19e606022</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2972,7 +2954,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a1a8155d2adc10947e10f2df5e8243089</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2982,7 +2964,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8ab19d77b57a09bee74a9f7729dcba0a1e</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -2992,7 +2974,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a1a830f313b501ee5cddbefbf09e87b50</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3002,7 +2984,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8af121aad19f8b69bf531af6f6d71874e5</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3012,7 +2994,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a14774c587765724e06d013863e467acc</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3022,7 +3004,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a69a1ebafb1e61d2f345947f446e2bfc0</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3032,7 +3014,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a4d3057d0d803bac04cf73b4b3650f469</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3042,7 +3024,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aa8b23942986f7d58061c67b8ef8d1ddb</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3052,7 +3034,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a25ed78865f6163fff73b75bf526141b9</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3062,7 +3044,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aace66926c9538853672a17ff6135b809</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3072,7 +3054,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8ac7e6a1fd4ded67fc4b45e6f585b1e829</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3082,7 +3064,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aad7d9193df273ee0c9b1f491b0846801</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3092,7 +3074,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a6590f67bef15e70651b773dc12854b80</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3102,7 +3084,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aec5791e46f853657b44a8b42d4900ac4</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3112,7 +3094,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906addca6821f3dd8fe0cd36b68b84a7540e</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3122,7 +3104,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a76f94221c2672bc7a43fdef0b54c2582</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3132,7 +3114,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a6c1a244c6c7393145aaa1a00eb99ad37</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3142,7 +3124,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a4dd28d816036ee94e27cd72c483cee43</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3152,7 +3134,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a290ed6a8d24ec7a0b825444566789380</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3162,7 +3144,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a3579b85c2fb9c6283f83730342977e51</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3172,7 +3154,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a3ca8cfe7ef5edadcc8704f44615481c3</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3182,7 +3164,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906ab0e8698c030dd6f21d31bd4662af12ae</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3192,7 +3174,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a7cca310ca94dc02a2bd89b7a970d3794</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3202,7 +3184,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a4b26c55bd469b9ffdac16b4e80f2a298</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3212,7 +3194,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a2c5310e6beaf4dd82d3e6224fdfcb587</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3222,7 +3204,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a1229bed4c069eb65bf66352960340497</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3232,7 +3214,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906ab4a1718329af13b8c5b815f0be3a7b97</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3242,7 +3224,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906ad1a4cb124e6b3f5de1cbd824a7ae669f</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3252,7 +3234,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a70bf8229c8cb24c00f2b00d0b546ec97</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3262,7 +3244,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a86ff26f648e8e11c2bf37ba9873c1c9e</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3272,7 +3254,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a9d1cd1500dc4ca9a2c251de6785e00ba</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3282,7 +3264,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a88b4d5e866c53be348fc5fd3454e4a90</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3292,7 +3274,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a116950f61f242dd19b8b78a6c22f29eb</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3302,7 +3284,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906afdf6bbd3014f746dcce9d44601d432bd</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3312,7 +3294,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a08a5a5ea2e2b3066f800aa14517be098</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3322,7 +3304,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a4cff7adf1684a7d57e94c147fc234a99</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3332,7 +3314,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906ac5106c1992cfb48342af458a34043b26</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3342,7 +3324,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906a54fd751449c2b1f8f54b87254e156662</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3352,7 +3334,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaf7b6a32294b71c2eb7d44c2c127e5906abf245af1c6e099f3e462f915842c26e6</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3362,7 +3344,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaad289cc303fe75567e2dc24d5d169762a7f4fa48f14398babd7b4da1e33117c01</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3372,7 +3354,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaad289cc303fe75567e2dc24d5d169762a3889dca423cfd933ed5f68e7430c0539</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3382,7 +3364,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaad289cc303fe75567e2dc24d5d169762a0c48e690bbc45cf75a282cddaacc1df9</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3392,7 +3374,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaad289cc303fe75567e2dc24d5d169762a06597e71f68444cb171c20b5059beed0</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3402,7 +3384,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaad289cc303fe75567e2dc24d5d169762ab29ba6457cd646245715df0284cbcd36</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3412,7 +3394,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaad289cc303fe75567e2dc24d5d169762a576d8fc627e5753f56dcc45ed5f4d5a7</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3422,7 +3404,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d3/dea/a00444.html</Path>
+    <Path>d0/dc4/a00443.html</Path>
     <Anchor>ggaad289cc303fe75567e2dc24d5d169762a5171462c59cf1bbfc4d3e7183cdae2ff</Anchor>
     <DeclaredIn>stsafea_commands.h</DeclaredIn>
   </Token>
@@ -3431,7 +3413,7 @@
       <Name>stsafe_data_partition</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3439,7 +3421,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>ga118abd5d0b3c5b830f8d0bf8966ec7e7</Anchor>
     <Abstract>STSAFEA get total partition count service.</Abstract>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
@@ -3450,7 +3432,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>gaa944fab8627716fb4128f1b3650dbe91</Anchor>
     <Abstract>STSAFEA get data partition configuration service.</Abstract>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
@@ -3461,7 +3443,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>gga96053c8fd1ab8baaa7835b3e72a66c64a8dbef28f142b3c5afe38d4fc570942f4</Anchor>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
   </Token>
@@ -3471,7 +3453,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>gga96053c8fd1ab8baaa7835b3e72a66c64a21d345c749163277a6d44b5474796a92</Anchor>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
   </Token>
@@ -3481,7 +3463,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>gga5280a54d31070a1813a3248bd29c0248af63d91d59a54fc8ae831f2c0aad171bc</Anchor>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
   </Token>
@@ -3491,7 +3473,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>gga5280a54d31070a1813a3248bd29c0248aa7732521604e20c43f252f1e41b5dd6d</Anchor>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
   </Token>
@@ -3501,7 +3483,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>gga5280a54d31070a1813a3248bd29c0248a83c8e858f1196bc5a71469faa53869ca</Anchor>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
   </Token>
@@ -3511,7 +3493,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>gga5280a54d31070a1813a3248bd29c0248a16b759d45b74744baf005816358d921b</Anchor>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
   </Token>
@@ -3521,7 +3503,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>ggad11b4246b350193d3d6f70a4b9fbe697a2a114b40b4f35323efa986ee633f52da</Anchor>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
   </Token>
@@ -3531,7 +3513,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>ggad11b4246b350193d3d6f70a4b9fbe697a22509491dabcd6c2fc7e153733334dfa</Anchor>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
   </Token>
@@ -3541,7 +3523,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>gga087c61de64f4953e40782d5a24522365aff8c658445fae1b59f550a9ebfcd1a17</Anchor>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
   </Token>
@@ -3551,7 +3533,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>dd/d47/a00445.html</Path>
+    <Path>d3/dea/a00444.html</Path>
     <Anchor>gga087c61de64f4953e40782d5a24522365aecf6db95616c3974b8def84b9d3b76f0</Anchor>
     <DeclaredIn>stsafea_data_partition.h</DeclaredIn>
   </Token>
@@ -3560,7 +3542,7 @@
       <Name>stsafea_ecc</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>d3/def/a00446.html</Path>
+    <Path>dd/d47/a00445.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3568,7 +3550,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d3/def/a00446.html</Path>
+    <Path>dd/d47/a00445.html</Path>
     <Anchor>ga84bc185d7506052b1e7cce8e1a71a160</Anchor>
     <DeclaredIn>stsafea_ecc.h</DeclaredIn>
   </Token>
@@ -3577,7 +3559,7 @@
       <Name>stsafea_echo</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>de/d84/a00447.html</Path>
+    <Path>d3/def/a00446.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3585,7 +3567,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>de/d84/a00447.html</Path>
+    <Path>d3/def/a00446.html</Path>
     <Anchor>ga7d48371ab87838e6192a408add3d8685</Anchor>
     <Abstract>Send an echo to target device.</Abstract>
     <DeclaredIn>stsafea_echo.h</DeclaredIn>
@@ -3595,7 +3577,7 @@
       <Name>stsafea_hash</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3603,7 +3585,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
     <Anchor>ga91eedf22a40ee1006ee766392a235a97</Anchor>
     <DeclaredIn>stsafea_hash.h</DeclaredIn>
   </Token>
@@ -3613,7 +3595,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
     <Anchor>gadfd66db524e4c8e6de8a31e080c661f8</Anchor>
     <DeclaredIn>stsafea_hash.h</DeclaredIn>
   </Token>
@@ -3623,7 +3605,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
     <Anchor>ga2a52300d461530f2484b5a4220789576</Anchor>
     <DeclaredIn>stsafea_hash.h</DeclaredIn>
   </Token>
@@ -3633,7 +3615,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
     <Anchor>gaf823826f959f73f2d4dcda4a74a567f8</Anchor>
     <DeclaredIn>stsafea_hash.h</DeclaredIn>
   </Token>
@@ -3643,7 +3625,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
     <Anchor>ga2e5f27b13ec0f7fc2f0c26c0288803a7</Anchor>
     <DeclaredIn>stsafea_hash.h</DeclaredIn>
   </Token>
@@ -3653,7 +3635,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
     <Anchor>gabd147b63e2f22dcbb3cdca60a2407be4</Anchor>
     <DeclaredIn>stsafea_hash.h</DeclaredIn>
   </Token>
@@ -3663,7 +3645,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
     <Anchor>ga8f348978565e0ef6a0cc373bcf4dfd65</Anchor>
     <DeclaredIn>stsafea_hash.h</DeclaredIn>
   </Token>
@@ -3673,7 +3655,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
     <Anchor>gac3505ae6f5b4709d7ee8ffd44cf03914</Anchor>
     <Abstract>STSAFEA start hash service.</Abstract>
     <DeclaredIn>stsafea_hash.h</DeclaredIn>
@@ -3684,7 +3666,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
     <Anchor>gae0509bd520501b8c1bf234c45884a9d2</Anchor>
     <Abstract>STSAFEA process hash service.</Abstract>
     <DeclaredIn>stsafea_hash.h</DeclaredIn>
@@ -3695,7 +3677,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>de/dfe/a00448.html</Path>
+    <Path>de/d84/a00447.html</Path>
     <Anchor>ga88b1eda6150d16cc4ce0f9ddcb0ea001</Anchor>
     <Abstract>STSAFEA start hash service.</Abstract>
     <DeclaredIn>stsafea_hash.h</DeclaredIn>
@@ -3705,7 +3687,7 @@
       <Name>stsafea_host_key_slot</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>d9/d10/a00449.html</Path>
+    <Path>de/dfe/a00448.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3713,7 +3695,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d10/a00449.html</Path>
+    <Path>de/dfe/a00448.html</Path>
     <Anchor>ga44fb5eb6d424309e8eeb2c144feeef55</Anchor>
     <Abstract>Query host key provisioning control fields.</Abstract>
     <DeclaredIn>stsafea_host_key_slot.h</DeclaredIn>
@@ -3724,7 +3706,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d10/a00449.html</Path>
+    <Path>de/dfe/a00448.html</Path>
     <Anchor>gad04e256e46e715d2131ad0b6ae5ffa4a</Anchor>
     <Abstract>Put host key provisioning control fields.</Abstract>
     <DeclaredIn>stsafea_host_key_slot.h</DeclaredIn>
@@ -3735,7 +3717,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d10/a00449.html</Path>
+    <Path>de/dfe/a00448.html</Path>
     <Anchor>ga5a243541d4e41f74b1fe8492729a9b58</Anchor>
     <Abstract>Query host key informations (host key V1)</Abstract>
     <DeclaredIn>stsafea_host_key_slot.h</DeclaredIn>
@@ -3746,7 +3728,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d10/a00449.html</Path>
+    <Path>de/dfe/a00448.html</Path>
     <Anchor>ga8b7b3c450a97c29459119988c54ffe74</Anchor>
     <Abstract>Query host key informations (host key V2)</Abstract>
     <DeclaredIn>stsafea_host_key_slot.h</DeclaredIn>
@@ -3757,7 +3739,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d10/a00449.html</Path>
+    <Path>de/dfe/a00448.html</Path>
     <Anchor>ga67d00682ec009adab16e9c32aa503ac2</Anchor>
     <Abstract>Provision host key V1.</Abstract>
     <DeclaredIn>stsafea_host_key_slot.h</DeclaredIn>
@@ -3768,7 +3750,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d10/a00449.html</Path>
+    <Path>de/dfe/a00448.html</Path>
     <Anchor>gae4c0590567a9b512ca43e51be84b3c3e</Anchor>
     <Abstract>Provision host key V2.</Abstract>
     <DeclaredIn>stsafea_host_key_slot.h</DeclaredIn>
@@ -3779,7 +3761,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d10/a00449.html</Path>
+    <Path>de/dfe/a00448.html</Path>
     <Anchor>gac651d275858ce7c75e902a45d95b3b0a</Anchor>
     <Abstract>Provision host key V2 wrapped.</Abstract>
     <DeclaredIn>stsafea_host_key_slot.h</DeclaredIn>
@@ -3789,7 +3771,7 @@
       <Name>stsafea_low_power</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>de/df4/a00450.html</Path>
+    <Path>d9/d10/a00449.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3797,7 +3779,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>de/df4/a00450.html</Path>
+    <Path>d9/d10/a00449.html</Path>
     <Anchor>gac4a1fd6365d0999f280c5e433f8b0de3</Anchor>
     <Abstract>Put target device in hibernate mode.</Abstract>
     <DeclaredIn>stsafea_low_power.h</DeclaredIn>
@@ -3808,7 +3790,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>de/df4/a00450.html</Path>
+    <Path>d9/d10/a00449.html</Path>
     <Anchor>gga40c19d723738a1a89548931046626443a003e474d7248ccebd5b4a93dbfbbf858</Anchor>
     <DeclaredIn>stsafea_low_power.h</DeclaredIn>
   </Token>
@@ -3818,7 +3800,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>de/df4/a00450.html</Path>
+    <Path>d9/d10/a00449.html</Path>
     <Anchor>gga40c19d723738a1a89548931046626443a520b1b35e119539601f8e0a60cb7eac0</Anchor>
     <DeclaredIn>stsafea_low_power.h</DeclaredIn>
   </Token>
@@ -3827,7 +3809,7 @@
       <Name>stsafea_mac</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>d9/d69/a00451.html</Path>
+    <Path>de/df4/a00450.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3835,7 +3817,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d69/a00451.html</Path>
+    <Path>de/df4/a00450.html</Path>
     <Anchor>ga44317159bcbc7ab490ac8ba894a3ad5c</Anchor>
     <Abstract>Generate a CMAC.</Abstract>
     <DeclaredIn>stsafea_mac.h</DeclaredIn>
@@ -3846,7 +3828,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d69/a00451.html</Path>
+    <Path>de/df4/a00450.html</Path>
     <Anchor>ga045f6a453cade5c70edca9e49439b026</Anchor>
     <Abstract>Verify a CMAC.</Abstract>
     <DeclaredIn>stsafea_mac.h</DeclaredIn>
@@ -3857,7 +3839,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d69/a00451.html</Path>
+    <Path>de/df4/a00450.html</Path>
     <Anchor>ga2f34e47a7a1cf282b7956d57ba02c41c</Anchor>
     <Abstract>Generate a GMAC.</Abstract>
     <DeclaredIn>stsafea_mac.h</DeclaredIn>
@@ -3868,7 +3850,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d69/a00451.html</Path>
+    <Path>de/df4/a00450.html</Path>
     <Anchor>gab6681cb3df8be95406d04a1172cfe006</Anchor>
     <Abstract>Verify a GMAC.</Abstract>
     <DeclaredIn>stsafea_mac.h</DeclaredIn>
@@ -3878,7 +3860,7 @@
       <Name>stsafea_password</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>d1/d0b/a00452.html</Path>
+    <Path>d9/d69/a00451.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3886,7 +3868,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/d0b/a00452.html</Path>
+    <Path>d9/d69/a00451.html</Path>
     <Anchor>ga3e709e7aff52dac1723a45f59501ecd4</Anchor>
     <Abstract>STSAFEA verify password service.</Abstract>
     <DeclaredIn>stsafea_password.h</DeclaredIn>
@@ -3897,7 +3879,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/d0b/a00452.html</Path>
+    <Path>d9/d69/a00451.html</Path>
     <Anchor>gaf7047a8c2a586d48b9af5e36c6210812</Anchor>
     <Abstract>STSAFEA delete password service.</Abstract>
     <DeclaredIn>stsafea_password.h</DeclaredIn>
@@ -3907,7 +3889,7 @@
       <Name>stsafea_patch</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>da/dc3/a00453.html</Path>
+    <Path>d1/d0b/a00452.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3915,7 +3897,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>da/dc3/a00453.html</Path>
+    <Path>d1/d0b/a00452.html</Path>
     <Anchor>gabd0d3bbd8b571db04aa5139a134fb056</Anchor>
     <Abstract>STSAFEA Get patch update command counter service.</Abstract>
     <DeclaredIn>stsafea_patch.h</DeclaredIn>
@@ -3926,7 +3908,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>da/dc3/a00453.html</Path>
+    <Path>d1/d0b/a00452.html</Path>
     <Anchor>ga32fccfa7e4bcc8b361907911219b20b0</Anchor>
     <Abstract>STSAFEA Start patch service.</Abstract>
     <DeclaredIn>stsafea_patch.h</DeclaredIn>
@@ -3937,7 +3919,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>da/dc3/a00453.html</Path>
+    <Path>d1/d0b/a00452.html</Path>
     <Anchor>ga7d9d8750f341aa4504336fde7ac0be3b</Anchor>
     <Abstract>STSAFEA Update Patch service.</Abstract>
     <DeclaredIn>stsafea_patch.h</DeclaredIn>
@@ -3948,7 +3930,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>da/dc3/a00453.html</Path>
+    <Path>d1/d0b/a00452.html</Path>
     <Anchor>gacb849f3ebfaa21a390b2bf5a846ba3f5</Anchor>
     <Abstract>STSAFEA Finalize Patch service.</Abstract>
     <DeclaredIn>stsafea_patch.h</DeclaredIn>
@@ -3958,7 +3940,7 @@
       <Name>stsafea_put_query</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3966,7 +3948,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga20e32bde607f7d76f2e5618102865f9a</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -3976,7 +3958,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga1b3932f4c4b8a93c0feaecfd40ec6d07</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -3986,7 +3968,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga9e897c48016d2e98ba18891157392d24</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -3996,7 +3978,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gaf4ca23309144682734c8af881bd1e298</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4006,7 +3988,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gab0b1310179723028ccee36977a13e075</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4016,7 +3998,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gac785fa1674fed4bb8fba5aa705243c59</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4026,7 +4008,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gaa74f548cec85a7b231f747fc381156d5</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4036,7 +4018,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga828f7c65bad92403e76499d6b419c49d</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4046,7 +4028,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga934123f6c1145fc698b6119896fbb23e</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4056,7 +4038,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gad04cfec6c6433726fc7fb765d1906c13</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4066,7 +4048,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gae3d7abf397ab0e6f98082926b77d2d6f</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4076,7 +4058,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga64437a443764863cbfa2428cfff2752f</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4086,7 +4068,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga9bec039a60e500bc6cb3032b5a43ca43</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4096,7 +4078,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gacf22a0ce51377cc7c9471ba6a3d83888</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4106,7 +4088,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gae5d81191e80a2b3360fab087d06faa53</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4116,7 +4098,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga8860244eaca2de4ed117272ffcfd839f</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4126,7 +4108,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga55cdf4d6341d1cbbbf4a99b630e65e9d</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4136,7 +4118,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gadba17548d4207f1b47bb5a705fdf8c2f</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4146,7 +4128,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga31ed8b37b51920027055649ef388d0c0</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4156,7 +4138,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga76f8c4b5bf72b9eccba0cd109a873fb0</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4166,7 +4148,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gae687c020ba876f77d39931429ce68e3a</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4176,7 +4158,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga490ef709e23dfcd58b10b0ac589a72be</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4186,7 +4168,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga60feca90b19516fd33ea15239acef13e</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4196,7 +4178,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga8d198a3e2f8957d47d97be5004b9d0fc</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4206,7 +4188,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gae70cc14579bd57fcc49a41137010eae4</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4216,7 +4198,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga1b936a36b708be3ac06a2e0bab7e280f</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4226,7 +4208,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga8239fd878a5820d70a4a050cb1c897e4</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4236,7 +4218,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga6340852406cb7b481d4770ae668599c0</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4246,7 +4228,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga168d1e6ca0fd6a3aa967e9d74f92709f</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4256,7 +4238,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga60416bcd44c0c55a48c90bb2dc7028a8</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4266,7 +4248,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga67f06c24e018b6a13c761d1ffe6ed730</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4276,7 +4258,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga399c983bded435132b5981a18f8c67d8</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4286,7 +4268,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga8400d44c1735e09f920f56306367838c</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4296,7 +4278,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gafae74ad8508b81ceb55ec2e00e307d3f</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4306,7 +4288,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga6e932c7e9d46b66d541c13eb3664abbf</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4316,7 +4298,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ga574a746e5236721b2b98cb3ab5fbd133</Anchor>
     <Abstract>STSAFEA put life cycle service.</Abstract>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
@@ -4327,7 +4309,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>gab80b01a6f0b9d3482fe31af6216ede1c</Anchor>
     <Abstract>STSAFEA put life cycle service.</Abstract>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
@@ -4338,7 +4320,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ggac76f72dd630e7e5ba394f41ec712310ea2711eb62a971504bd3606bb5f57d9b6d</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4348,7 +4330,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ggac76f72dd630e7e5ba394f41ec712310ea7c5c1fa58cf7ff758bcf58b01435f850</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4358,7 +4340,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ggac76f72dd630e7e5ba394f41ec712310eae2b8e6680bd65ab52718cb1455ba43d1</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4368,7 +4350,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ggac76f72dd630e7e5ba394f41ec712310ea14111a6a058a7fd8c83805265a8de5cb</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4378,7 +4360,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ggac76f72dd630e7e5ba394f41ec712310ea4e03c6e6aa00e5e54ea6bb32e807b868</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4388,7 +4370,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d7/d9f/a00454.html</Path>
+    <Path>da/dc3/a00453.html</Path>
     <Anchor>ggac76f72dd630e7e5ba394f41ec712310ea9bde6e1175c9ec8d02b6b8c03766968c</Anchor>
     <DeclaredIn>stsafea_put_query.h</DeclaredIn>
   </Token>
@@ -4397,7 +4379,7 @@
       <Name>stsafea_random</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>dd/d63/a00455.html</Path>
+    <Path>d7/d9f/a00454.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4405,7 +4387,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>dd/d63/a00455.html</Path>
+    <Path>d7/d9f/a00454.html</Path>
     <Anchor>gab8af760f240dd442515f4c1ce98be068</Anchor>
     <DeclaredIn>stsafea_random.h</DeclaredIn>
   </Token>
@@ -4415,7 +4397,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dd/d63/a00455.html</Path>
+    <Path>d7/d9f/a00454.html</Path>
     <Anchor>gabe1deb3840c69d2321e86e6e04161b7c</Anchor>
     <Abstract>STSAFEA generate random service.</Abstract>
     <DeclaredIn>stsafea_random.h</DeclaredIn>
@@ -4425,7 +4407,7 @@
       <Name>stsafea_reset</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>de/d87/a00456.html</Path>
+    <Path>dd/d63/a00455.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4433,7 +4415,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>de/d87/a00456.html</Path>
+    <Path>dd/d63/a00455.html</Path>
     <Anchor>gaec5ab6bc6b4c5e0e49e24df4f85e59b2</Anchor>
     <Abstract>Reset target device.</Abstract>
     <DeclaredIn>stsafea_reset.h</DeclaredIn>
@@ -4443,7 +4425,7 @@
       <Name>stsafea_symmetric_key_slots</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4451,7 +4433,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga82325680af576861c268b9be9a2e651e</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4461,7 +4443,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga6011cd548312d3c67bcf826edf3b1e15</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4471,7 +4453,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga4c6af8a1526695abe5224f558cb7333f</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4481,7 +4463,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga902e1cef0630787ee29be729ff5a88a9</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4491,7 +4473,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gadfcbc6447c6372e4e6b6d53a77bea89c</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4501,7 +4483,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga60f20b7d1ac64ddea420b168598fcf95</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4511,7 +4493,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga9de2c82c5fb72d8f52a4f5e85f524b30</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4521,7 +4503,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga3c47308475c1e85811f6a91e2b6ad943</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4531,7 +4513,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga9666dc868c5feec290dc861de1ea156d</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4541,7 +4523,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gac8627c2244f49cb6ee2d2030351b4171</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4551,7 +4533,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gadcabff60241da0ebc938475c7a144601</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4561,7 +4543,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gae4d292f3fd87be4994a494e89d45488b</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4571,7 +4553,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gaa56e15f47d07d0535a2c5d6dd8418466</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4581,7 +4563,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga7777fef0c53d43a1b7f9a57046a0a5a5</Anchor>
     <Abstract>Put symmetric key slot provisioning control fields.</Abstract>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
@@ -4592,7 +4574,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gadcc89084a0cf4cfd57859abe541c6d9c</Anchor>
     <Abstract>Query symmetric key slot count.</Abstract>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
@@ -4603,7 +4585,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga7a2aea5788a48fb1e0e79cc2b115f7c6</Anchor>
     <Abstract>Query symmetric key table informations.</Abstract>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
@@ -4614,7 +4596,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gab9aff381395f86ae31fa93105c4b704e</Anchor>
     <Abstract>Establish symmetric key in stsafe symmetric key table.</Abstract>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
@@ -4625,7 +4607,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga5d648a40bb7b55fa58b0865339983af7</Anchor>
     <Abstract>Authenticate establish symmetric key in stsafe symmetric key table.</Abstract>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
@@ -4636,7 +4618,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga4b31939a87010cfb43654431cc397937</Anchor>
     <Abstract>Confirm symmetric key establishment in stsafe symmetric key table.</Abstract>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
@@ -4647,7 +4629,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga0b1e1bf723f984033adef743795c03be</Anchor>
     <Abstract>Write symmetric key envelope in stsafe symmetric key table.</Abstract>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
@@ -4658,7 +4640,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga828f3ae48180d9d972574b3c6f214cf7</Anchor>
     <Abstract>Write symmetric key plaintext in stsafe symmetric key table.</Abstract>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
@@ -4669,7 +4651,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gad134587e7c67639c7ef4319b7c98c7d4</Anchor>
     <Abstract>Generate wrap/unwrap key.</Abstract>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
@@ -4680,7 +4662,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>ga5243e5bc149e6a3ccfa0e0ef4662262a</Anchor>
     <Abstract>Erase symmetric key.</Abstract>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
@@ -4691,7 +4673,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga1bc89734c63ba7a059905b84609a4f0aad0e0ae4ce021eb68137a89ce1aaca4b3</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4701,7 +4683,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga1bc89734c63ba7a059905b84609a4f0aa9e05020f040261f9f2fc17e1f80c57e3</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4711,7 +4693,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga1bc89734c63ba7a059905b84609a4f0aa3a139250ab3c7a45596c9963d4b47959</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4721,7 +4703,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga1bc89734c63ba7a059905b84609a4f0aae4324b6895892ceb52476ce400e01fad</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4731,7 +4713,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga1bc89734c63ba7a059905b84609a4f0aa6021ea9a9ee9a9b3876e31f63886d74a</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4741,7 +4723,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga1bc89734c63ba7a059905b84609a4f0aa8b1a7ad57d9924551d9e0e2eb21f788a</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4751,7 +4733,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga1bc89734c63ba7a059905b84609a4f0aa04aa7d1a94d1884130b9968c213cfa80</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4761,7 +4743,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga1bc89734c63ba7a059905b84609a4f0aa919553399399f5a857be3a817f6855cb</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4771,7 +4753,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga1bc89734c63ba7a059905b84609a4f0aae5a32ef70d27b627fc474638acb1cc9b</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4781,7 +4763,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga622c5153212735bf8a708680bdc13ef0af66d331dbb9620077656a9a0d8dea755</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4791,7 +4773,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga622c5153212735bf8a708680bdc13ef0aaf47833875f187ba3dbf6b68cc17dee0</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4801,7 +4783,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga622c5153212735bf8a708680bdc13ef0a993856ed095516961d0bad1de3d0e466</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4811,7 +4793,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga742545b74ab0c9c0b939da27501f00bda4f15d32f1ec8ee92f27b165b5493862c</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4821,7 +4803,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga742545b74ab0c9c0b939da27501f00bda83f0f57d0b9282b578dcedd032f10aa8</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4831,7 +4813,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga742545b74ab0c9c0b939da27501f00bda8a76d5e7eaec60e4cd6debf4dbb51085</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4841,7 +4823,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga742545b74ab0c9c0b939da27501f00bda9d64b322501c362d72c152b0b048123f</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4851,7 +4833,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga742545b74ab0c9c0b939da27501f00bda620ffac2f043cb8cf6be1cd71f8ba2e7</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4861,7 +4843,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga742545b74ab0c9c0b939da27501f00bda6f804e0aa9d4af296fbaa3de29290d8c</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4871,7 +4853,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga46eaf1d46095ce806582ae2cf9ae7270a3d7926473d8dd2fdd8f7999e5383de52</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4881,7 +4863,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga46eaf1d46095ce806582ae2cf9ae7270a19bb659c4abdb0cbca8653a95c409e8d</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4891,7 +4873,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d1/dbd/a00457.html</Path>
+    <Path>de/d87/a00456.html</Path>
     <Anchor>gga46eaf1d46095ce806582ae2cf9ae7270aaaca10dc1f2ad010b802508856db292f</Anchor>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
@@ -4900,7 +4882,7 @@
       <Name>stsafea_wrap</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>da/d65/a00458.html</Path>
+    <Path>d1/dbd/a00457.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4908,7 +4890,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>da/d65/a00458.html</Path>
+    <Path>d1/dbd/a00457.html</Path>
     <Anchor>gaf2407d961d0afe4c3e85165f117a2f54</Anchor>
     <Abstract>STSAFEA wrap service.</Abstract>
     <DeclaredIn>stsafea_wrap_unwrap.h</DeclaredIn>
@@ -4919,7 +4901,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>da/d65/a00458.html</Path>
+    <Path>d1/dbd/a00457.html</Path>
     <Anchor>gac0a48647f2326cdb6555527f50631965</Anchor>
     <Abstract>STSAFEA un-wrap service.</Abstract>
     <DeclaredIn>stsafea_wrap_unwrap.h</DeclaredIn>
@@ -4929,7 +4911,7 @@
       <Name>stse_certificate</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>d2/d91/a00459.html</Path>
+    <Path>da/d65/a00458.html</Path>
     <Abstract>STSELib Certificate parser.</Abstract>
   </Token>
   <Token>
@@ -4937,7 +4919,7 @@
       <Name>stse_api</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>db/db1/a00460.html</Path>
+    <Path>d2/d91/a00459.html</Path>
     <Abstract>STSELib API Layer.</Abstract>
   </Token>
   <Token>
@@ -4945,7 +4927,7 @@
       <Name>stse_services</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>d5/d5f/a00461.html</Path>
+    <Path>db/db1/a00460.html</Path>
     <Abstract>STSELib service Layer.</Abstract>
   </Token>
   <Token>
@@ -4953,7 +4935,7 @@
       <Name>stse_core</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
-    <Path>de/dcb/a00462.html</Path>
+    <Path>d5/d5f/a00461.html</Path>
     <Abstract>STSELib core Layer.</Abstract>
   </Token>
   <Token>
@@ -4963,7 +4945,7 @@
       <Type>cl</Type>
       <Scope>attribute_st</Scope>
     </TokenIdentifier>
-    <Path>d9/dea/a00478.html</Path>
+    <Path>d9/dca/a00477.html</Path>
     <Abstract>typedef for the attribute</Abstract>
     <DeclaredIn>stse_certificate_types.h</DeclaredIn>
   </Token>
@@ -4974,7 +4956,7 @@
       <Type>data</Type>
       <Scope>attribute_st</Scope>
     </TokenIdentifier>
-    <Path>d9/dea/a00478.html</Path>
+    <Path>d9/dca/a00477.html</Path>
     <Anchor>a6585b3d925e385ad68e8bc6c5df803e9</Anchor>
   </Token>
   <Token>
@@ -4984,7 +4966,7 @@
       <Type>data</Type>
       <Scope>attribute_st</Scope>
     </TokenIdentifier>
-    <Path>d9/dea/a00478.html</Path>
+    <Path>d9/dca/a00477.html</Path>
     <Anchor>a3d0e49e7aa0fab3f484e1801e9070697</Anchor>
   </Token>
   <Token>
@@ -4994,7 +4976,7 @@
       <Type>data</Type>
       <Scope>attribute_st</Scope>
     </TokenIdentifier>
-    <Path>d9/dea/a00478.html</Path>
+    <Path>d9/dca/a00477.html</Path>
     <Anchor>a691439e4be2091e2b92b607360e4cad9</Anchor>
   </Token>
   <Token>
@@ -5004,7 +4986,7 @@
       <Type>data</Type>
       <Scope>attribute_st</Scope>
     </TokenIdentifier>
-    <Path>d9/dea/a00478.html</Path>
+    <Path>d9/dca/a00477.html</Path>
     <Anchor>a978d6f4b184b671d3a361a811fff651a</Anchor>
   </Token>
   <Token>
@@ -5014,7 +4996,7 @@
       <Type>cl</Type>
       <Scope>AttributeOID_st</Scope>
     </TokenIdentifier>
-    <Path>d0/d29/a00470.html</Path>
+    <Path>dc/ddf/a00469.html</Path>
     <Abstract>Structure used to keep Name Attribute OIDs.</Abstract>
     <DeclaredIn>stse_certificate_types.h</DeclaredIn>
   </Token>
@@ -5025,7 +5007,7 @@
       <Type>data</Type>
       <Scope>AttributeOID_st</Scope>
     </TokenIdentifier>
-    <Path>d0/d29/a00470.html</Path>
+    <Path>dc/ddf/a00469.html</Path>
     <Anchor>ad90ede1298999113d5914bb70ca37def</Anchor>
   </Token>
   <Token>
@@ -5035,7 +5017,7 @@
       <Type>data</Type>
       <Scope>AttributeOID_st</Scope>
     </TokenIdentifier>
-    <Path>d0/d29/a00470.html</Path>
+    <Path>dc/ddf/a00469.html</Path>
     <Anchor>ac7c6f244908d19a2c0da8ec5f5db3005</Anchor>
   </Token>
   <Token>
@@ -5045,7 +5027,7 @@
       <Type>data</Type>
       <Scope>AttributeOID_st</Scope>
     </TokenIdentifier>
-    <Path>d0/d29/a00470.html</Path>
+    <Path>dc/ddf/a00469.html</Path>
     <Anchor>a92db771ca28f7d07aae003e7a3233721</Anchor>
   </Token>
   <Token>
@@ -5055,7 +5037,7 @@
       <Type>cl</Type>
       <Scope>ECDSAsign_st</Scope>
     </TokenIdentifier>
-    <Path>d8/d57/a00498.html</Path>
+    <Path>d4/d1e/a00497.html</Path>
     <Abstract>typedef for the structure keeping the ECDSA Signature</Abstract>
     <DeclaredIn>stse_certificate_types.h</DeclaredIn>
   </Token>
@@ -5066,7 +5048,7 @@
       <Type>data</Type>
       <Scope>ECDSAsign_st</Scope>
     </TokenIdentifier>
-    <Path>d8/d57/a00498.html</Path>
+    <Path>d4/d1e/a00497.html</Path>
     <Anchor>abc037f880be0a93876d10a76a3ae27e6</Anchor>
   </Token>
   <Token>
@@ -5076,7 +5058,7 @@
       <Type>data</Type>
       <Scope>ECDSAsign_st</Scope>
     </TokenIdentifier>
-    <Path>d8/d57/a00498.html</Path>
+    <Path>d4/d1e/a00497.html</Path>
     <Anchor>a8e6ef2ffc7aa71075245b60e5c25cc6a</Anchor>
   </Token>
   <Token>
@@ -5086,7 +5068,7 @@
       <Type>data</Type>
       <Scope>ECDSAsign_st</Scope>
     </TokenIdentifier>
-    <Path>d8/d57/a00498.html</Path>
+    <Path>d4/d1e/a00497.html</Path>
     <Anchor>a3da63209a6775e59b48377a59f49bf59</Anchor>
   </Token>
   <Token>
@@ -5096,7 +5078,7 @@
       <Type>data</Type>
       <Scope>ECDSAsign_st</Scope>
     </TokenIdentifier>
-    <Path>d8/d57/a00498.html</Path>
+    <Path>d4/d1e/a00497.html</Path>
     <Anchor>a4d0389b4876ca1b5f349f425ca793210</Anchor>
   </Token>
   <Token>
@@ -5106,7 +5088,7 @@
       <Type>cl</Type>
       <Scope>EllipticCurveOID_st</Scope>
     </TokenIdentifier>
-    <Path>d5/d26/a00474.html</Path>
+    <Path>dc/d8e/a00473.html</Path>
     <Abstract>Structure used to keep named Elliptic Curve OIDs.</Abstract>
     <DeclaredIn>stse_certificate_types.h</DeclaredIn>
   </Token>
@@ -5117,7 +5099,7 @@
       <Type>data</Type>
       <Scope>EllipticCurveOID_st</Scope>
     </TokenIdentifier>
-    <Path>d5/d26/a00474.html</Path>
+    <Path>dc/d8e/a00473.html</Path>
     <Anchor>a89aa21e2416a9c02ebb0f605c656d857</Anchor>
   </Token>
   <Token>
@@ -5127,7 +5109,7 @@
       <Type>data</Type>
       <Scope>EllipticCurveOID_st</Scope>
     </TokenIdentifier>
-    <Path>d5/d26/a00474.html</Path>
+    <Path>dc/d8e/a00473.html</Path>
     <Anchor>a3909aa2e0c6255247ab392ff3cba76a6</Anchor>
   </Token>
   <Token>
@@ -5137,7 +5119,7 @@
       <Type>data</Type>
       <Scope>EllipticCurveOID_st</Scope>
     </TokenIdentifier>
-    <Path>d5/d26/a00474.html</Path>
+    <Path>dc/d8e/a00473.html</Path>
     <Anchor>ab674f15482a3f35b5f7229359c214930</Anchor>
   </Token>
   <Token>
@@ -5147,7 +5129,7 @@
       <Type>cl</Type>
       <Scope>extension_st</Scope>
     </TokenIdentifier>
-    <Path>db/df1/a00486.html</Path>
+    <Path>d6/d1a/a00485.html</Path>
     <Abstract>typedef for the extension</Abstract>
     <DeclaredIn>stse_certificate_types.h</DeclaredIn>
   </Token>
@@ -5158,7 +5140,7 @@
       <Type>data</Type>
       <Scope>extension_st</Scope>
     </TokenIdentifier>
-    <Path>db/df1/a00486.html</Path>
+    <Path>d6/d1a/a00485.html</Path>
     <Anchor>a87180cec0f3401044c9fd898286d8604</Anchor>
   </Token>
   <Token>
@@ -5168,7 +5150,7 @@
       <Type>data</Type>
       <Scope>extension_st</Scope>
     </TokenIdentifier>
-    <Path>db/df1/a00486.html</Path>
+    <Path>d6/d1a/a00485.html</Path>
     <Anchor>a35989115326fb8f34072007d075cee23</Anchor>
   </Token>
   <Token>
@@ -5178,7 +5160,7 @@
       <Type>data</Type>
       <Scope>extension_st</Scope>
     </TokenIdentifier>
-    <Path>db/df1/a00486.html</Path>
+    <Path>d6/d1a/a00485.html</Path>
     <Anchor>aa1279d319edae48c3b1283fbbb177787</Anchor>
   </Token>
   <Token>
@@ -5188,7 +5170,7 @@
       <Type>data</Type>
       <Scope>extension_st</Scope>
     </TokenIdentifier>
-    <Path>db/df1/a00486.html</Path>
+    <Path>d6/d1a/a00485.html</Path>
     <Anchor>ac4a0c8ed0e0809562e5551ca19a4aed3</Anchor>
   </Token>
   <Token>
@@ -5198,7 +5180,7 @@
       <Type>cl</Type>
       <Scope>ExtensionOID_st</Scope>
     </TokenIdentifier>
-    <Path>db/d8e/a00482.html</Path>
+    <Path>d3/d58/a00481.html</Path>
     <Abstract>Structure used to keep Name Attribute OIDs.</Abstract>
     <DeclaredIn>stse_certificate_types.h</DeclaredIn>
   </Token>
@@ -5209,7 +5191,7 @@
       <Type>data</Type>
       <Scope>ExtensionOID_st</Scope>
     </TokenIdentifier>
-    <Path>db/d8e/a00482.html</Path>
+    <Path>d3/d58/a00481.html</Path>
     <Anchor>a298ac3db15bebf2cb0c56fc8fc71ea2e</Anchor>
   </Token>
   <Token>
@@ -5219,7 +5201,7 @@
       <Type>data</Type>
       <Scope>ExtensionOID_st</Scope>
     </TokenIdentifier>
-    <Path>db/d8e/a00482.html</Path>
+    <Path>d3/d58/a00481.html</Path>
     <Anchor>aa13ada5db850675eb01c05aae4f113f6</Anchor>
   </Token>
   <Token>
@@ -5229,7 +5211,7 @@
       <Type>data</Type>
       <Scope>ExtensionOID_st</Scope>
     </TokenIdentifier>
-    <Path>db/d8e/a00482.html</Path>
+    <Path>d3/d58/a00481.html</Path>
     <Anchor>ad12adc93ed8630df775c91d80c12c867</Anchor>
   </Token>
   <Token>
@@ -5239,7 +5221,7 @@
       <Type>cl</Type>
       <Scope>SignatureAlgorithmOID_st</Scope>
     </TokenIdentifier>
-    <Path>db/d2c/a00466.html</Path>
+    <Path>db/de0/a00465.html</Path>
     <Abstract>Structure used to keep SignatureAlgorithm OIDs.</Abstract>
     <DeclaredIn>stse_certificate_types.h</DeclaredIn>
   </Token>
@@ -5250,7 +5232,7 @@
       <Type>data</Type>
       <Scope>SignatureAlgorithmOID_st</Scope>
     </TokenIdentifier>
-    <Path>db/d2c/a00466.html</Path>
+    <Path>db/de0/a00465.html</Path>
     <Anchor>a747dd95b322b69d79212c76080c427c5</Anchor>
   </Token>
   <Token>
@@ -5260,7 +5242,7 @@
       <Type>data</Type>
       <Scope>SignatureAlgorithmOID_st</Scope>
     </TokenIdentifier>
-    <Path>db/d2c/a00466.html</Path>
+    <Path>db/de0/a00465.html</Path>
     <Anchor>ada0712031351fb3f640c9b01a6cb5e31</Anchor>
   </Token>
   <Token>
@@ -5270,7 +5252,7 @@
       <Type>data</Type>
       <Scope>SignatureAlgorithmOID_st</Scope>
     </TokenIdentifier>
-    <Path>db/d2c/a00466.html</Path>
+    <Path>db/de0/a00465.html</Path>
     <Anchor>a459899e1a9383e597421d2eb53f008e9</Anchor>
   </Token>
   <Token>
@@ -5280,7 +5262,7 @@
       <Type>cl</Type>
       <Scope>stsafe_generic_key_information_t</Scope>
     </TokenIdentifier>
-    <Path>dc/df1/a00662.html</Path>
+    <Path>d0/d50/a00661.html</Path>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
   <Token>
@@ -5290,7 +5272,7 @@
       <Type>data</Type>
       <Scope>stsafe_generic_key_information_t</Scope>
     </TokenIdentifier>
-    <Path>dc/df1/a00662.html</Path>
+    <Path>d0/d50/a00661.html</Path>
     <Anchor>a2aca2578dabaa1f7846987431d000b5f</Anchor>
   </Token>
   <Token>
@@ -5300,7 +5282,7 @@
       <Type>data</Type>
       <Scope>stsafe_generic_key_information_t</Scope>
     </TokenIdentifier>
-    <Path>dc/df1/a00662.html</Path>
+    <Path>d0/d50/a00661.html</Path>
     <Anchor>a737ff1d19f09bb6e533dc1c46e7ff224</Anchor>
   </Token>
   <Token>
@@ -5310,7 +5292,7 @@
       <Type>data</Type>
       <Scope>stsafe_generic_key_information_t</Scope>
     </TokenIdentifier>
-    <Path>dc/df1/a00662.html</Path>
+    <Path>d0/d50/a00661.html</Path>
     <Anchor>a39f21609b5687420fb520b027af78295</Anchor>
   </Token>
   <Token>
@@ -5320,7 +5302,7 @@
       <Type>data</Type>
       <Scope>stsafe_generic_key_information_t</Scope>
     </TokenIdentifier>
-    <Path>dc/df1/a00662.html</Path>
+    <Path>d0/d50/a00661.html</Path>
     <Anchor>a6914271b1126bce1a070942def8a6906</Anchor>
   </Token>
   <Token>
@@ -5330,7 +5312,7 @@
       <Type>data</Type>
       <Scope>stsafe_generic_key_information_t</Scope>
     </TokenIdentifier>
-    <Path>dc/df1/a00662.html</Path>
+    <Path>d0/d50/a00661.html</Path>
     <Anchor>a4535fe49b320dc347a59f34de8809312</Anchor>
   </Token>
   <Token>
@@ -5340,8 +5322,131 @@
       <Type>data</Type>
       <Scope>stsafe_generic_key_information_t</Scope>
     </TokenIdentifier>
-    <Path>dc/df1/a00662.html</Path>
+    <Path>d0/d50/a00661.html</Path>
     <Anchor>a567e1ced7090faf3dac258dec9b0a186</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stsafea_generic_public_key_configuration_flags_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>stsafea_generic_public_key_configuration_flags_t</Scope>
+    </TokenIdentifier>
+    <Path>d2/d50/a00561.html</Path>
+    <Abstract>stsafea generic public key configuration flags type</Abstract>
+    <DeclaredIn>stsafea_asymmetric_key_slots.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stsafea_private_key_operation_mode_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>stsafea_private_key_operation_mode_t</Scope>
+    </TokenIdentifier>
+    <Path>d0/d79/a00553.html</Path>
+    <Abstract>stsafea private key operation mode type</Abstract>
+    <DeclaredIn>stsafea_asymmetric_key_slots.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ephemeral_private_key_gen_method</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>stsafea_private_key_operation_mode_t</Scope>
+    </TokenIdentifier>
+    <Path>d0/d79/a00553.html</Path>
+    <Anchor>a61dd0e2398bd67f90810c913c24000f1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>filler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>stsafea_private_key_operation_mode_t</Scope>
+    </TokenIdentifier>
+    <Path>d0/d79/a00553.html</Path>
+    <Anchor>a50b4d44487aa36fe741a2f6065ff0cb6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>change_right</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>stsafea_private_key_operation_mode_t</Scope>
+    </TokenIdentifier>
+    <Path>d0/d79/a00553.html</Path>
+    <Anchor>a7f0da7c55e623e5bb2d411ad0dd1170a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>key_establishment</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>stsafea_private_key_operation_mode_t</Scope>
+    </TokenIdentifier>
+    <Path>d0/d79/a00553.html</Path>
+    <Anchor>ace45e6edb9782ec9322be4a872b5efc7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reserved</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>stsafea_private_key_operation_mode_t</Scope>
+    </TokenIdentifier>
+    <Path>d0/d79/a00553.html</Path>
+    <Anchor>aa9d0886926dff5a4f73c33aae242f7b6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sig_gen_over_external_data</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>stsafea_private_key_operation_mode_t</Scope>
+    </TokenIdentifier>
+    <Path>d0/d79/a00553.html</Path>
+    <Anchor>a7e98db6adf03cf66bcdab6c79656b154</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sig_gen_over_internal_external_data</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>stsafea_private_key_operation_mode_t</Scope>
+    </TokenIdentifier>
+    <Path>d0/d79/a00553.html</Path>
+    <Anchor>a854366343683efaf6ac64c4095659b55</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>generate_key_AC</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>stsafea_private_key_operation_mode_t</Scope>
+    </TokenIdentifier>
+    <Path>d0/d79/a00553.html</Path>
+    <Anchor>a08dfc15a14a054c146794fa370db696e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EdDSA_variant</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>stsafea_private_key_operation_mode_t</Scope>
+    </TokenIdentifier>
+    <Path>d0/d79/a00553.html</Path>
+    <Anchor>ac87ded67cfee5c7f41cf613841588c50</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stsafea_private_key_slot_information_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>stsafea_private_key_slot_information_t</Scope>
+    </TokenIdentifier>
+    <Path>d8/df0/a00557.html</Path>
+    <Abstract>stsafea private key slot information type</Abstract>
+    <DeclaredIn>stsafea_asymmetric_key_slots.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -5350,7 +5455,7 @@
       <Type>cl</Type>
       <Scope>stsafea_symmetric_key_slot_provisioning_ctrl_fields_t</Scope>
     </TokenIdentifier>
-    <Path>d0/db1/a00622.html</Path>
+    <Path>dc/db1/a00621.html</Path>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
   <Token>
@@ -5360,7 +5465,7 @@
       <Type>cl</Type>
       <Scope>stsafea_symmetric_key_usage_t</Scope>
     </TokenIdentifier>
-    <Path>d6/dfa/a00626.html</Path>
+    <Path>d2/d34/a00625.html</Path>
     <DeclaredIn>stsafea_symmetric_key_slots.h</DeclaredIn>
   </Token>
   <Token>
@@ -5370,7 +5475,7 @@
       <Type>cl</Type>
       <Scope>stse_cert_public_key_t</Scope>
     </TokenIdentifier>
-    <Path>d5/d0f/a00494.html</Path>
+    <Path>d9/da5/a00493.html</Path>
     <Abstract>typedef for the structure keeping the Ellipitc Curve Public Key</Abstract>
     <DeclaredIn>stse_certificate_types.h</DeclaredIn>
   </Token>
@@ -5381,7 +5486,7 @@
       <Type>data</Type>
       <Scope>stse_cert_public_key_t</Scope>
     </TokenIdentifier>
-    <Path>d5/d0f/a00494.html</Path>
+    <Path>d9/da5/a00493.html</Path>
     <Anchor>a4c1a23eda630ed04467d466d580c0cc9</Anchor>
   </Token>
   <Token>
@@ -5391,7 +5496,7 @@
       <Type>data</Type>
       <Scope>stse_cert_public_key_t</Scope>
     </TokenIdentifier>
-    <Path>d5/d0f/a00494.html</Path>
+    <Path>d9/da5/a00493.html</Path>
     <Anchor>a0fabf3a4d40d3ea25e1be273e83c3338</Anchor>
   </Token>
   <Token>
@@ -5401,7 +5506,7 @@
       <Type>data</Type>
       <Scope>stse_cert_public_key_t</Scope>
     </TokenIdentifier>
-    <Path>d5/d0f/a00494.html</Path>
+    <Path>d9/da5/a00493.html</Path>
     <Anchor>a922832db8079d2e192d04c4b7bd75f00</Anchor>
   </Token>
   <Token>
@@ -5411,7 +5516,7 @@
       <Type>cl</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Abstract>internal structure used to keep the values parsed from the x509</Abstract>
     <DeclaredIn>stse_certificate_types.h</DeclaredIn>
   </Token>
@@ -5422,7 +5527,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a213679615ae95a68a08b1e0e319f2582</Anchor>
   </Token>
   <Token>
@@ -5432,7 +5537,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a27d8b09f4095c2e5cdbe0f91227acb0a</Anchor>
   </Token>
   <Token>
@@ -5442,7 +5547,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>ac74dba0bd0b5d5ef65b9358d6f3c91c3</Anchor>
   </Token>
   <Token>
@@ -5452,7 +5557,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a72eaec51e874acab8fd8516deae52fb6</Anchor>
   </Token>
   <Token>
@@ -5462,7 +5567,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>aa03c259bea7fa4f2447486e5a9dac105</Anchor>
   </Token>
   <Token>
@@ -5472,7 +5577,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>ad5a7748ec1c9b1232f5f2b2fdc6a9015</Anchor>
   </Token>
   <Token>
@@ -5482,7 +5587,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>ac8fec8a32511d88d5509de81e34d5c0f</Anchor>
   </Token>
   <Token>
@@ -5492,7 +5597,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a02046cd3bfa3cbbe4da80cd15d6f1de5</Anchor>
   </Token>
   <Token>
@@ -5502,7 +5607,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>aed8d7dde7d11cb3834e91f02dc2168e1</Anchor>
   </Token>
   <Token>
@@ -5512,7 +5617,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>af1c6daac8fd24c25f0fdd3acea0db384</Anchor>
   </Token>
   <Token>
@@ -5522,7 +5627,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a482187ee80fd76c9575648fe74fb1eea</Anchor>
   </Token>
   <Token>
@@ -5532,7 +5637,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a12115001047f384a55d3c845ea9ad3e6</Anchor>
   </Token>
   <Token>
@@ -5542,7 +5647,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a5d221baa7dec2d9515450a8bcc5b499a</Anchor>
   </Token>
   <Token>
@@ -5552,7 +5657,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a4ed4c25808450e0ad101d33c98190058</Anchor>
   </Token>
   <Token>
@@ -5562,7 +5667,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a572bccfe79aac0c60405b7c054698778</Anchor>
   </Token>
   <Token>
@@ -5572,7 +5677,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>ac9e40198d1728b25346af569ab3d620e</Anchor>
   </Token>
   <Token>
@@ -5582,7 +5687,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a1274787e22755b2d46a7fe86c00fa182</Anchor>
   </Token>
   <Token>
@@ -5592,7 +5697,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>ab5c3f9a2de7c7a82257cd8349504162d</Anchor>
   </Token>
   <Token>
@@ -5602,7 +5707,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>a3327b077285b0a25f256cf93c2b094da</Anchor>
   </Token>
   <Token>
@@ -5612,7 +5717,7 @@
       <Type>data</Type>
       <Scope>stse_internal_certificate</Scope>
     </TokenIdentifier>
-    <Path>d0/da2/a00502.html</Path>
+    <Path>d8/db6/a00501.html</Path>
     <Anchor>abbe16a8b0dfe3842bb6910080431dc9d</Anchor>
   </Token>
   <Token>
@@ -5622,7 +5727,7 @@
       <Type>cl</Type>
       <Scope>validity_st</Scope>
     </TokenIdentifier>
-    <Path>d7/daa/a00490.html</Path>
+    <Path>da/d05/a00489.html</Path>
     <Abstract>typedef for the structure keeping the validity</Abstract>
     <DeclaredIn>stse_certificate_types.h</DeclaredIn>
   </Token>
@@ -5633,7 +5738,7 @@
       <Type>data</Type>
       <Scope>validity_st</Scope>
     </TokenIdentifier>
-    <Path>d7/daa/a00490.html</Path>
+    <Path>da/d05/a00489.html</Path>
     <Anchor>ac9092ef06d3e88db018a9ec9e7311973</Anchor>
   </Token>
   <Token>
@@ -5643,7 +5748,7 @@
       <Type>data</Type>
       <Scope>validity_st</Scope>
     </TokenIdentifier>
-    <Path>d7/daa/a00490.html</Path>
+    <Path>da/d05/a00489.html</Path>
     <Anchor>aeaea69e915a0d350079f43cf39ac5d5d</Anchor>
   </Token>
   <Token>
@@ -5653,7 +5758,7 @@
       <Type>data</Type>
       <Scope>validity_st</Scope>
     </TokenIdentifier>
-    <Path>d7/daa/a00490.html</Path>
+    <Path>da/d05/a00489.html</Path>
     <Anchor>a66c410ff538527d9af04a81758ce2e97</Anchor>
   </Token>
   <Token>
@@ -5663,7 +5768,7 @@
       <Type>data</Type>
       <Scope>validity_st</Scope>
     </TokenIdentifier>
-    <Path>d7/daa/a00490.html</Path>
+    <Path>da/d05/a00489.html</Path>
     <Anchor>a0f7873a8958ba5426207f1dd7af63446</Anchor>
   </Token>
   <Token>
@@ -5673,7 +5778,7 @@
       <Type>data</Type>
       <Scope>validity_st</Scope>
     </TokenIdentifier>
-    <Path>d7/daa/a00490.html</Path>
+    <Path>da/d05/a00489.html</Path>
     <Anchor>abbc8e5e5efccd6083de3c4de44aa4a1b</Anchor>
   </Token>
   <Token>
@@ -5683,7 +5788,7 @@
       <Type>data</Type>
       <Scope>validity_st</Scope>
     </TokenIdentifier>
-    <Path>d7/daa/a00490.html</Path>
+    <Path>da/d05/a00489.html</Path>
     <Anchor>a717657d20560003bfc630ec218d14994</Anchor>
   </Token>
 </Tokens>

@@ -1,74 +1,43 @@
 var a00444 =
 [
-    [ "STSAFEA_PROT_Pos", "d3/dea/a00444.html#ga9b45aac6ea2d912d87c2ee75a62caa4f", null ],
-    [ "STSAFEA_PROT_Msk", "d3/dea/a00444.html#ga32140548c863a0f650855de6510be1dc", null ],
-    [ "STSAFEA_PROT_CMD_Msk", "d3/dea/a00444.html#gaefdcdf839c24ae86a460bb6d3d51831e", null ],
-    [ "STSAFEA_PROT_RSP_Msk", "d3/dea/a00444.html#ga78ad4bf556112c4b3cd27cc7d4d0d84a", null ],
-    [ "stsafea_cmd_code_t", "d3/dea/a00444.html#ga5ddcdd8afdc40f246d5f9e8c9ea5dce8", [
-      [ "STSAFEA_CMD_ECHO", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a67be3acc960d28a7b3a0b06991614ed7", null ],
-      [ "STSAFEA_CMD_RESET", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aeea8aeac22e3b78e94b899f19167971c", null ],
-      [ "STSAFEA_CMD_GENERATE_RANDOM", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a3551e461836c24f7a11e0f8f0e9ef95f", null ],
-      [ "STSAFEA_CMD_START_SESSION", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a9c183c7a13166b603b89ae43d03e6cef", null ],
-      [ "STSAFEA_CMD_DECREMENT", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8ad5eab74f12d772d6d59abd850743e1a9", null ],
-      [ "STSAFEA_CMD_READ", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a2a93615473b2862b5d1aca181d8829b0", null ],
-      [ "STSAFEA_CMD_UPDATE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a385a193772be4bfab06ca95171ee8f85", null ],
-      [ "STSAFEA_CMD_INCREMENT", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a7263db01c49df24e4e46355c0fc12a7c", null ],
-      [ "STSAFEA_CMD_DERIVE_LORA_KEY", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8acd1a30ac78cfdf13b1e1f5dccb36e073", null ],
-      [ "STSAFEA_CMD_GENERATE_MAC", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a558f49b582b9236023a61b270fcc95df", null ],
-      [ "STSAFEA_CMD_VERIFY_MAC", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a02c2432941cc0bb5d94366f724d7be9b", null ],
-      [ "STSAFEA_CMD_UNWRAP_ISSUER_ENVELOPE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a3c11c5e4c72bdb0e8452e29c5692de8f", null ],
-      [ "STSAFEA_CMD_DELETE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a71ad9d653279ab0aa79ad2c29af50f43", null ],
-      [ "STSAFEA_CMD_HIBERNATE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a5aaf28df1cc6611111c0b0e01b6759f2", null ],
-      [ "STSAFEA_CMD_WRAP_LOCAL_ENVELOPE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8adf39001d88987eb5141f8ca19e606022", null ],
-      [ "STSAFEA_CMD_UNWRAP_LOCAL_ENVELOPE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a1a8155d2adc10947e10f2df5e8243089", null ],
-      [ "STSAFEA_CMD_PUT_ATTRIBUTE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8ab19d77b57a09bee74a9f7729dcba0a1e", null ],
-      [ "STSAFEA_CMD_GENERATE_KEY", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a1a830f313b501ee5cddbefbf09e87b50", null ],
-      [ "STSAFEA_CMD_PUT_KEY", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8af121aad19f8b69bf531af6f6d71874e5", null ],
-      [ "STSAFEA_CMD_CONFIGURE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a14774c587765724e06d013863e467acc", null ],
-      [ "STSAFEA_CMD_QUERY", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a69a1ebafb1e61d2f345947f446e2bfc0", null ],
-      [ "STSAFEA_CMD_GET_SIGNATURE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a4d3057d0d803bac04cf73b4b3650f469", null ],
-      [ "STSAFEA_CMD_GENERATE_SIGNATURE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aa8b23942986f7d58061c67b8ef8d1ddb", null ],
-      [ "STSAFEA_CMD_VERIFY_SIGNATURE", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a25ed78865f6163fff73b75bf526141b9", null ],
-      [ "STSAFEA_CMD_ESTABLISH_KEY", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aace66926c9538853672a17ff6135b809", null ],
-      [ "STSAFEA_CMD_STANDBY", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8ac7e6a1fd4ded67fc4b45e6f585b1e829", null ],
-      [ "STSAFEA_CMD_VERIFY_PASSWORD", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aad7d9193df273ee0c9b1f491b0846801", null ],
-      [ "STSAFEA_CMD_ENCRYPT", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8a6590f67bef15e70651b773dc12854b80", null ],
-      [ "STSAFEA_CMD_DECRYPT", "d3/dea/a00444.html#gga5ddcdd8afdc40f246d5f9e8c9ea5dce8aec5791e46f853657b44a8b42d4900ac4", null ]
+    [ "stsafea_read_option_t", "d3/dea/a00444.html#d8/dd2/a00565", [
+      [ "new_read_ac", "d3/dea/a00444.html#a990ecd64be66e0a02f3dc97afd997b42", null ],
+      [ "new_read_ac_change_right", "d3/dea/a00444.html#a3fbb59be4e1113ac4856dcca4a5d2172", null ],
+      [ "change_ac_indicator", "d3/dea/a00444.html#a3beb2767e821ef19ad4b4270716ae3cd", null ],
+      [ "filler", "d3/dea/a00444.html#a7f02f7ec7571bc8e10cde1df43c9ef1a", null ]
     ] ],
-    [ "stsafea_extended_cmd_code_t", "d3/dea/a00444.html#gaf7b6a32294b71c2eb7d44c2c127e5906", [
-      [ "STSAFEA_EXTENDED_CMD_START_HASH", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906addca6821f3dd8fe0cd36b68b84a7540e", null ],
-      [ "STSAFEA_EXTENDED_CMD_PROCESS_HASH", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a76f94221c2672bc7a43fdef0b54c2582", null ],
-      [ "STSAFEA_EXTENDED_CMD_FINISH_HASH", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a6c1a244c6c7393145aaa1a00eb99ad37", null ],
-      [ "STSAFEA_EXTENDED_CMD_START_VOLATILE_KEK_SESSION", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4dd28d816036ee94e27cd72c483cee43", null ],
-      [ "STSAFEA_EXTENDED_CMD_ESTABLISH_SYMMETRIC_KEYS", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a290ed6a8d24ec7a0b825444566789380", null ],
-      [ "STSAFEA_EXTENDED_CMD_CONFIRM_SYMMETRIC_KEYS", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a3579b85c2fb9c6283f83730342977e51", null ],
-      [ "STSAFEA_EXTENDED_CMD_STOP_VOLATILE_KEK_SESSION", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a3ca8cfe7ef5edadcc8704f44615481c3", null ],
-      [ "STSAFEA_EXTENDED_CMD_WRITE_HOST_KEY_V2_PLAINTEXT", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906ab0e8698c030dd6f21d31bd4662af12ae", null ],
-      [ "STSAFEA_EXTENDED_CMD_WRITE_HOST_KEY_V2_WRAPPED", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a7cca310ca94dc02a2bd89b7a970d3794", null ],
-      [ "STSAFEA_EXTENDED_CMD_WRITE_SYMMETRIC_KEY_WRAPPED", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4b26c55bd469b9ffdac16b4e80f2a298", null ],
-      [ "STSAFEA_EXTENDED_CMD_WRITE_PUBLIC_KEY", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a2c5310e6beaf4dd82d3e6224fdfcb587", null ],
-      [ "STSAFEA_EXTENDED_CMD_GENERATE_ECDHE", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a1229bed4c069eb65bf66352960340497", null ],
-      [ "STSAFEA_EXTENDED_CMD_GENERATE_CHALLENGE", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906ab4a1718329af13b8c5b815f0be3a7b97", null ],
-      [ "STSAFEA_EXTENDED_CMD_VERIFY_ENTITY_SIGNATURE", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906ad1a4cb124e6b3f5de1cbd824a7ae669f", null ],
-      [ "STSAFEA_EXTENDED_CMD_DERIVE_KEYS", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a70bf8229c8cb24c00f2b00d0b546ec97", null ],
-      [ "STSAFEA_EXTENDED_CMD_START_ENCRYPT", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a86ff26f648e8e11c2bf37ba9873c1c9e", null ],
-      [ "STSAFEA_EXTENDED_CMD_PROCESS_ENCRYPT", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a9d1cd1500dc4ca9a2c251de6785e00ba", null ],
-      [ "STSAFEA_EXTENDED_CMD_FINISH_ENCRYPT", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a88b4d5e866c53be348fc5fd3454e4a90", null ],
-      [ "STSAFEA_EXTENDED_CMD_START_DECRYPT", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a116950f61f242dd19b8b78a6c22f29eb", null ],
-      [ "STSAFEA_EXTENDED_CMD_PROCESS_DECRYPT", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906afdf6bbd3014f746dcce9d44601d432bd", null ],
-      [ "STSAFEA_EXTENDED_CMD_FINISH_DECRYPT", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a08a5a5ea2e2b3066f800aa14517be098", null ],
-      [ "STSAFEA_EXTENDED_CMD_WRITE_SYMMETRIC_KEY_PLAINTEXT", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a4cff7adf1684a7d57e94c147fc234a99", null ],
-      [ "STSAFEA_EXTENDED_CMD_ESTABLISH_HOST_KEY_V2", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906ac5106c1992cfb48342af458a34043b26", null ],
-      [ "STSAFEA_EXTENDED_CMD_ERASE_SYMMETRIC_KEY_SLOT", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906a54fd751449c2b1f8f54b87254e156662", null ],
-      [ "STSAFEA_EXTENDED_CMD_DECOMPRESS_PUBLIC_KEY", "d3/dea/a00444.html#ggaf7b6a32294b71c2eb7d44c2c127e5906abf245af1c6e099f3e462f915842c26e6", null ]
+    [ "stsafea_update_option_t", "d3/dea/a00444.html#d4/d9e/a00569", [
+      [ "new_update_ac", "d3/dea/a00444.html#ad888840ad0bae8f5a9d8f753cdfb25cf", null ],
+      [ "new_update_ac_change_right", "d3/dea/a00444.html#ac65af5f6b0f4674de32ae40bcaf03891", null ],
+      [ "change_ac_indicator", "d3/dea/a00444.html#a10ef86ac6f5402dcf1fffcb8a0762a36", null ],
+      [ "filler", "d3/dea/a00444.html#ab502041515f6c5552f161893d29a66f6", null ],
+      [ "atomicity", "d3/dea/a00444.html#a28266f7ca6378c8066256614845a95b4", null ]
     ] ],
-    [ "stsafea_cmd_protection_t", "d3/dea/a00444.html#gaad289cc303fe75567e2dc24d5d169762", [
-      [ "STSAFEA_NO_PROT", "d3/dea/a00444.html#ggaad289cc303fe75567e2dc24d5d169762a7f4fa48f14398babd7b4da1e33117c01", null ],
-      [ "STSAFEA_OTHER_SESSION_RMAC_PROTECTED", "d3/dea/a00444.html#ggaad289cc303fe75567e2dc24d5d169762a3889dca423cfd933ed5f68e7430c0539", null ],
-      [ "STSAFEA_HOST_SESSION_RMAC_PROTECTED", "d3/dea/a00444.html#ggaad289cc303fe75567e2dc24d5d169762a0c48e690bbc45cf75a282cddaacc1df9", null ],
-      [ "STSAFEA_OTHER_SESSION_CMAC_PROTECTED", "d3/dea/a00444.html#ggaad289cc303fe75567e2dc24d5d169762a06597e71f68444cb171c20b5059beed0", null ],
-      [ "STSAFEA_HOST_SESSION_CMAC_PROTECTED", "d3/dea/a00444.html#ggaad289cc303fe75567e2dc24d5d169762ab29ba6457cd646245715df0284cbcd36", null ],
-      [ "STSAFEA_OTHER_SESSION_CMAC_RMAC_PROTECTED", "d3/dea/a00444.html#ggaad289cc303fe75567e2dc24d5d169762a576d8fc627e5753f56dcc45ed5f4d5a7", null ],
-      [ "STSAFEA_HOST_SESSION_CMAC_RMAC_PROTECTED", "d3/dea/a00444.html#ggaad289cc303fe75567e2dc24d5d169762a5171462c59cf1bbfc4d3e7183cdae2ff", null ]
-    ] ]
+    [ "stsafea_decrement_option_t", "d3/dea/a00444.html#d6/d21/a00573", [
+      [ "new_decrement_ac", "d3/dea/a00444.html#a5feff4cbf64b16a97b8fbf3ff0e64fe4", null ],
+      [ "new_decrement_ac_change_right", "d3/dea/a00444.html#aebf4667fb58d6b68fb8ff7eea9bbdb64", null ],
+      [ "change_ac_indicator", "d3/dea/a00444.html#a7d39e7f8c4bc1a89f4681b2042ce9ad1", null ],
+      [ "filler", "d3/dea/a00444.html#a0bdbed6adc6f76ed128c719e216a5d30", null ]
+    ] ],
+    [ "stsafea_data_partition_record_t", "d3/dea/a00444.html#d8/d9b/a00577", null ],
+    [ "stsafea_atomicity_t", "d3/dea/a00444.html#ga96053c8fd1ab8baaa7835b3e72a66c64", [
+      [ "STSAFEA_NON_ATOMIC_ACCESS", "d3/dea/a00444.html#gga96053c8fd1ab8baaa7835b3e72a66c64a8dbef28f142b3c5afe38d4fc570942f4", null ],
+      [ "STSAFEA_ATOMIC_ACCESS", "d3/dea/a00444.html#gga96053c8fd1ab8baaa7835b3e72a66c64a21d345c749163277a6d44b5474796a92", null ]
+    ] ],
+    [ "stsafea_ac_t", "d3/dea/a00444.html#ga5280a54d31070a1813a3248bd29c0248", [
+      [ "STSAFEA_AC_ALWAYS", "d3/dea/a00444.html#gga5280a54d31070a1813a3248bd29c0248af63d91d59a54fc8ae831f2c0aad171bc", null ],
+      [ "STSAFEA_AC_HOST", "d3/dea/a00444.html#gga5280a54d31070a1813a3248bd29c0248aa7732521604e20c43f252f1e41b5dd6d", null ],
+      [ "STSAFEA_AC_AUTH", "d3/dea/a00444.html#gga5280a54d31070a1813a3248bd29c0248a83c8e858f1196bc5a71469faa53869ca", null ],
+      [ "STSAFEA_AC_NEVER", "d3/dea/a00444.html#gga5280a54d31070a1813a3248bd29c0248a16b759d45b74744baf005816358d921b", null ]
+    ] ],
+    [ "stsafea_zone_ac_change_indicator_t", "d3/dea/a00444.html#gad11b4246b350193d3d6f70a4b9fbe697", [
+      [ "STSAFEA_AC_CHANGE", "d3/dea/a00444.html#ggad11b4246b350193d3d6f70a4b9fbe697a2a114b40b4f35323efa986ee633f52da", null ],
+      [ "STSAFEA_AC_IGNORE", "d3/dea/a00444.html#ggad11b4246b350193d3d6f70a4b9fbe697a22509491dabcd6c2fc7e153733334dfa", null ]
+    ] ],
+    [ "stsafea_ac_change_right_t", "d3/dea/a00444.html#ga087c61de64f4953e40782d5a24522365", [
+      [ "STSAFE_ACCR_DISABLED", "d3/dea/a00444.html#gga087c61de64f4953e40782d5a24522365aff8c658445fae1b59f550a9ebfcd1a17", null ],
+      [ "STSAFE_ACCR_ENABLE", "d3/dea/a00444.html#gga087c61de64f4953e40782d5a24522365aecf6db95616c3974b8def84b9d3b76f0", null ]
+    ] ],
+    [ "stsafea_get_total_partition_count", "d3/dea/a00444.html#ga118abd5d0b3c5b830f8d0bf8966ec7e7", null ],
+    [ "stsafea_get_data_partitions_configuration", "d3/dea/a00444.html#gaa944fab8627716fb4128f1b3650dbe91", null ]
 ];

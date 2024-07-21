@@ -136,17 +136,17 @@ $(document).ready(function(){initNavTree('d6/de1/a00233_source.html','../../'); 
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">for</span>(PLAT_UI16 index = 0; index &lt; random_size; )</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        ret = <a class="code" href="../../dd/d63/a00455.html#gabe1deb3840c69d2321e86e6e04161b7c" title="STSAFEA generate random service.">stsafea_generate_random</a>(</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        ret = <a class="code" href="../../d7/d9f/a00454.html#gabe1deb3840c69d2321e86e6e04161b7c" title="STSAFEA generate random service.">stsafea_generate_random</a>(</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                pSTSE,</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                &amp;pRandom[index],</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                ((random_size - index) &lt; <a class="code" href="../../dd/d63/a00455.html#gab8af760f240dd442515f4c1ce98be068">STSAFEA_MAXIMUM_RNG_SIZE</a>) ? (random_size - index) : <a class="code" href="../../dd/d63/a00455.html#gab8af760f240dd442515f4c1ce98be068">STSAFEA_MAXIMUM_RNG_SIZE</a>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                ((random_size - index) &lt; <a class="code" href="../../d7/d9f/a00454.html#gab8af760f240dd442515f4c1ce98be068">STSAFEA_MAXIMUM_RNG_SIZE</a>) ? (random_size - index) : <a class="code" href="../../d7/d9f/a00454.html#gab8af760f240dd442515f4c1ce98be068">STSAFEA_MAXIMUM_RNG_SIZE</a>);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">if</span>(ret != <a class="code" href="../../de/df8/a00440.html#gga6e312aa8b8cd38421ce8b85215e4b16fa0d3996f0849d6b075a5b9a12c147870c">STSE_OK</a>)</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        {</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        index += <a class="code" href="../../dd/d63/a00455.html#gab8af760f240dd442515f4c1ce98be068">STSAFEA_MAXIMUM_RNG_SIZE</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        index += <a class="code" href="../../d7/d9f/a00454.html#gab8af760f240dd442515f4c1ce98be068">STSAFEA_MAXIMUM_RNG_SIZE</a>;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">return</span> ret;</div>
