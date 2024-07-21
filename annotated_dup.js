@@ -1,0 +1,27 @@
+var annotated_dup =
+[
+    [ "attribute_st", "d9/d34/a00476.html", "d9/d34/a00476" ],
+    [ "AttributeOID_st", "df/d38/a00468.html", "df/d38/a00468" ],
+    [ "ECDSAsign_st", "d3/dad/a00496.html", "d3/dad/a00496" ],
+    [ "EllipticCurveOID_st", "d7/db5/a00472.html", "d7/db5/a00472" ],
+    [ "extension_st", "d8/d89/a00484.html", "d8/d89/a00484" ],
+    [ "ExtensionOID_st", "d9/dc5/a00480.html", "d9/dc5/a00480" ],
+    [ "SignatureAlgorithmOID_st", "d2/d9d/a00464.html", "d2/d9d/a00464" ],
+    [ "stsafe_generic_key_information_t", "d5/d4e/a00660.html", "d5/d4e/a00660" ],
+    [ "stsafea_data_partition_record_t", "db/d34/a00442.html#de/d7c/a00576", null ],
+    [ "stsafea_decrement_option_t", "db/d34/a00442.html#d6/d06/a00572", "db/d34/a00442_d6/d06/a00572" ],
+    [ "stsafea_generic_public_key_configuration_flags_t", "d9/d3a/a00439.html#d9/d19/a00560", null ],
+    [ "stsafea_hash_algorithm_identifier_t", "dd/d47/a00445.html#d8/d2e/a00588", null ],
+    [ "stsafea_hash_info_t", "dd/d47/a00445.html#d0/dec/a00592", null ],
+    [ "stsafea_private_key_operation_mode_t", "d9/d3a/a00439.html#dd/de9/a00552", "d9/d3a/a00439_dd/de9/a00552" ],
+    [ "stsafea_private_key_slot_information_t", "d9/d3a/a00439.html#d6/d95/a00556", null ],
+    [ "stsafea_read_option_t", "db/d34/a00442.html#d0/dc2/a00564", "db/d34/a00442_d0/dc2/a00564" ],
+    [ "stsafea_symmetric_key_slot_provisioning_ctrl_fields_t", "dc/d4d/a00620.html", null ],
+    [ "stsafea_symmetric_key_usage_t", "d3/dd6/a00624.html", null ],
+    [ "stsafea_update_option_t", "db/d34/a00442.html#dc/d40/a00568", "db/d34/a00442_dc/d40/a00568" ],
+    [ "stse_cert_public_key_t", "da/d7e/a00492.html", "da/d7e/a00492" ],
+    [ "stse_cmd_authorization_CR_t", "d0/dc5/a00435.html#d4/d79/a00540", null ],
+    [ "stse_cmd_authorization_record_t", "d0/dc5/a00435.html#d2/ddf/a00544", null ],
+    [ "stse_internal_certificate", "de/d4e/a00500.html", "de/d4e/a00500" ],
+    [ "validity_st", "d4/ddf/a00488.html", "d4/ddf/a00488" ]
+];
