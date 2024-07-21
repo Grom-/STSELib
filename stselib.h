@@ -19,7 +19,7 @@
 
 
  /*! 
- *  \defgroup 	stse_certificate STSE Certificate
+ *  \defgroup 	stse_certificate STSE Certificate parser
  *  \brief		STSELib Certificate parser
  *  \details  	The STSE Certificate parser is the entry point for the upper system application layer. \n
  *  			It provides high level certificate parsing functions to the application layer.
